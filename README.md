@@ -10,7 +10,7 @@ Usful Source Link:
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for AOPM Dimentions of the VPCS Humanoid initons(catalytic). 
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for PDN initons of the catalytic(DNA). 
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Chromosome initons with DNA evolutions.
-
+##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare Attributes of DNA life's family, race, behavior, love, study, safe, work, creative and help.  2019-04-17
 
 #### OK let's begin! 2019-04-16
 #### Author Yaoguang.Luo
