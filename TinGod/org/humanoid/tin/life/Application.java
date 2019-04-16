@@ -21,5 +21,13 @@ public class Application{
 		raceFamily.put("Royal", family);
 		race.setRace(raceFamily);
 		//loop the Hello World.
+		while(true) {
+			//love issues
+			//study issues
+			//help issues
+			//work issues
+			//creative issues
+			//safe issues
+		}
 	}
 }
