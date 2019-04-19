@@ -1,6 +1,6 @@
 package org.humanoid.tin.analysis;
 
-public class StudyIssues{
+public class StudyAnalysisIssues{
 	public void studyDefinition() {
 		
 	}
@@ -16,4 +16,11 @@ public class StudyIssues{
     public void studyAckquisition() {
 		
    	}
+    public void vpcsInitons() {
+		this.studyDefinition();
+		this.studyImplementation();
+		this.studyCombination();
+		this.studyExtension();
+		this.studyAckquisition();
+	}
 }

@@ -1,6 +1,6 @@
 package org.humanoid.tin.analysis;
 
-public class HelpIssues{
+public class HelpAnalysisIssues{
 	public void helpDefinition() {
 		
 	}
@@ -16,4 +16,11 @@ public class HelpIssues{
     public void helpAckquisition() {
 		
    	}
+    public void vpcsInitons() {
+		this.helpDefinition();
+		this.helpImplementation();
+		this.helpCombination();
+		this.helpExtension();
+		this.helpAckquisition();
+	}
 }

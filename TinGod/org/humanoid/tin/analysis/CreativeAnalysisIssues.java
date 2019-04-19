@@ -1,6 +1,6 @@
 package org.humanoid.tin.analysis;
 
-public class CreativeIssues{
+public class CreativeAnalysisIssues{
 	public void creativeDefinition() {
 		
 	}
@@ -16,4 +16,11 @@ public class CreativeIssues{
     public void creativeAckquisition() {
 		
    	}
+    public void vpcsInitons() {
+		this.creativeDefinition();
+		this.creativeImplementation();
+		this.creativeCombination();
+		this.creativeExtension();
+		this.creativeAckquisition();
+	}
 }

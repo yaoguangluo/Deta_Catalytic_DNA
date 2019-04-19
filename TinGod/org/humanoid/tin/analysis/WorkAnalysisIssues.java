@@ -1,6 +1,6 @@
 package org.humanoid.tin.analysis;
 
-public class WorkIssues{
+public class WorkAnalysisIssues{
 	public void workDefinition() {
 		
 	}
@@ -16,4 +16,11 @@ public class WorkIssues{
     public void workAckquisition() {
 		
    	}
+    public void vpcsInitons() {
+		this.workDefinition();
+		this.workImplementation();
+		this.workCombination();
+		this.workExtension();
+		this.workAckquisition();
+	}
 }

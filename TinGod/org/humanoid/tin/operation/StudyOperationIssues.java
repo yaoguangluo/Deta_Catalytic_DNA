@@ -1,6 +1,6 @@
 package org.humanoid.tin.operation;
 
-public class StudyIssues{
+public class StudyOperationIssues{
 	public void studyForLove() {
 		
 	}
@@ -16,4 +16,11 @@ public class StudyIssues{
     public void studyForCreative() {
 		
    	}
+    public void vpcsInitons() {
+    	this.studyForLove();
+    	this.studyForHelp();
+    	this.studyForWork();
+    	this.studyForSafe();
+    	this.studyForCreative();
+	}
 }

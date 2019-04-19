@@ -1,6 +1,6 @@
 package org.humanoid.tin.operation;
 
-public class CreativeIssues{
+public class CreativeOperationIssues{
 	public void creativeForLove() {
 		
 	}
@@ -16,4 +16,11 @@ public class CreativeIssues{
     public void creativeForSafe() {
 		
    	}
+    public void vpcsInitons() {
+    	this.creativeForLove();
+    	this.creativeForStudy();
+    	this.creativeForHelp();
+    	this.creativeForWork();
+    	this.creativeForSafe();
+	} 
 }

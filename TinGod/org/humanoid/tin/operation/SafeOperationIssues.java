@@ -1,6 +1,6 @@
 package org.humanoid.tin.operation;
 
-public class SafeIssues{
+public class SafeOperationIssues{
 	public void safeForLove() {
 		
 	}
@@ -16,4 +16,11 @@ public class SafeIssues{
     public void safeForCreative() {
 		
    	}
+    public void vpcsInitons() {
+    	this.safeForLove();
+    	this.safeForStudy();
+    	this.safeForHelp();
+    	this.safeForWork();
+    	this.safeForCreative();
+	}
 }

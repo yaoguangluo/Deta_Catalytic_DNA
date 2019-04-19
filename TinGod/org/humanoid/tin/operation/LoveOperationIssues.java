@@ -1,6 +1,6 @@
 package org.humanoid.tin.operation;
 
-public class LoveIssues{
+public class LoveOperationIssues{
 	public void loveForStudy() {
 		
 	}
@@ -16,4 +16,11 @@ public class LoveIssues{
     public void loveForCreative() {
 		
    	}
+    public void vpcsInitons() {
+    	this.loveForStudy();
+    	this.loveForStudy();
+    	this.loveForStudy();
+    	this.loveForStudy();
+    	this.loveForStudy();
+	}
 }

@@ -1,6 +1,6 @@
 package org.humanoid.tin.analysis;
 
-public class SafeIssues{
+public class SafeAnalysisIssues{
 	public void safeDefinition() {
 		
 	}
@@ -16,4 +16,11 @@ public class SafeIssues{
     public void safeAckquisition() {
 		
    	}
+    public void vpcsInitons() {
+		this.safeDefinition();
+		this.safeImplementation();
+		this.safeCombination();
+		this.safeExtension();
+		this.safeAckquisition();
+	}
 }
