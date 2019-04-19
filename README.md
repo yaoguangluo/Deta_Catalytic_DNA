@@ -7,13 +7,14 @@ Usful Source Link:
 ###### https://github.com/yaoguangluo/Data_Processor/tree/master/DP
 
 
-##### ![实例](http://progressed.io/bar/20?title=completed) working on：Prepare for AOPM Dimentions of the VPCS Humanoid initons(catalytic). 
-##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for PDN initons of the catalytic(DNA). 
+##### ![实例](http://progressed.io/bar/21?title=completed) working on：Prepare for AOPM Dimentions of the VPCS Humanoid initons(catalytic). 
+##### ![实例](http://progressed.io/bar/11?title=completed) working on：Prepare for PDN initons of the catalytic(DNA). 
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Chromosome initons with DNA evolutions.
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare Attributes of DNA life's family, race, behavior, love, study, safe, work, creative and help.  2019-04-17
-##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for AOPM Six Dimentions Creation for Humanoid initons. 2019-04-18 
-##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for DNA Life as a philosothon model where thinking for the AOPM Tissues. 2019-04-19
+##### ![实例](http://progressed.io/bar/12?title=completed) working on：Prepare for AOPM Six Dimentions Creation for Humanoid initons. 2019-04-18 
+##### ![实例](http://progressed.io/bar/11?title=completed) working on：Prepare for DNA Life as a philosothon model where thinking for the AOPM Tissues. 2019-04-19
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for philosothon model's VPCS initons 2019-04-20
+##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for VPCS tissues with PDN mask initons 2019-04-20
 
 #### OK let's begin! 2019-04-16
 #### Author Yaoguang.Luo
