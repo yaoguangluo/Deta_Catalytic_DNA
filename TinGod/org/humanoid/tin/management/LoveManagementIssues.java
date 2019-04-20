@@ -18,9 +18,9 @@ public class LoveManagementIssues{
    	}
     public void vpcsInitons() {
     	this.loveForStudy();
-    	this.loveForStudy();
-    	this.loveForStudy();
-    	this.loveForStudy();
-    	this.loveForStudy();
+    	this.loveForHelp();
+    	this.loveForWork();
+    	this.loveForSafe();
+    	this.loveForCreative();
 	}
 }
