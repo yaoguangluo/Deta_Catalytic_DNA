@@ -2,16 +2,15 @@ package org.humanoid.tin.life;
 
 import java.util.concurrent.ConcurrentHashMap;
 
+import org.humanoid.tin.dna.processor.Family;
+import org.humanoid.tin.dna.processor.Life;
+import org.humanoid.tin.dna.processor.Race;
 import org.humanoid.tin.life.CreativeIssues;
 import org.humanoid.tin.life.HelpIssues;
 import org.humanoid.tin.life.LoveIssues;
 import org.humanoid.tin.life.SafeIssues;
 import org.humanoid.tin.life.StudyIssues;
 import org.humanoid.tin.life.WorkIssues;
-
-import DNAProcessor.Family;
-import DNAProcessor.Life;
-import DNAProcessor.Race;
 
 public class Application{
 	public static void main(String[] argv) {
