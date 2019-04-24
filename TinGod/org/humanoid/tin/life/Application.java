@@ -52,14 +52,14 @@ public class Application{
 				creativeIssues.philosothon(read);
 				//safe issues
 				safeIssues.philosothon(read);
-				read="";
+				read= null;
 				isSleep= true;
 			}	 
 		}
 	}
 	
 	private boolean wakeUp() throws InterruptedException {
-		while(read.isEmpty()) {
+		while(null== read) {
 			Thread.sleep(100);
 		}
 		return false;
