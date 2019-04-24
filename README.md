@@ -16,6 +16,7 @@ Usful Source Link:
 ##### ![实例](http://progressed.io/bar/11?title=completed) working on：Prepare for philosothon model's VPCS initons 2019-04-20
 ##### ![实例](http://progressed.io/bar/11?title=completed) working on：Prepare for VPCS tissues with PDN mask initons 2019-04-20
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for swapping PDN and Mask to DNA  2019-04-21
+##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Mr.Tin gets an information from the real world now! 2019-04-25
 
 #### OK let's begin! 2019-04-16
 #### Author Yaoguang.Luo
