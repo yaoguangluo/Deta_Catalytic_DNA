@@ -21,7 +21,7 @@ public class SafeIssues{
 	public void safeAckquisition() {
 
 	}
-	public void philosothon() {
+	public void philosothon(String read) {
 		//a
 		new SafeAnalysisIssues().vpcsInitons();
 		//o

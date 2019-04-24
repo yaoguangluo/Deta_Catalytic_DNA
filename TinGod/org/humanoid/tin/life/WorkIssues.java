@@ -21,7 +21,7 @@ public class WorkIssues{
 	public void workAckquisition() {
 
 	}
-	public void philosothon() {
+	public void philosothon(String read) {
 		//a
 		new WorkAnalysisIssues().vpcsInitons();
 		//o

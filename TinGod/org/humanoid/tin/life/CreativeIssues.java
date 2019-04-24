@@ -21,7 +21,7 @@ public class CreativeIssues{
     public void creativeAckquisition() {
 		
    	}
-    public void philosothon() {
+    public void philosothon(String read) {
     	//a
 		new CreativeAnalysisIssues().vpcsInitons();
 		//o

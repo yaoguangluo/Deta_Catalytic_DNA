@@ -21,7 +21,7 @@ public class HelpIssues{
 	public void helpAckquisition() {
 
 	}
-	public void philosothon() {
+	public void philosothon(String read) {
 		//a
 		new HelpAnalysisIssues().vpcsInitons();
 		//o

@@ -13,7 +13,10 @@ import org.humanoid.tin.life.StudyIssues;
 import org.humanoid.tin.life.WorkIssues;
 
 public class Application{
-	public static void main(String[] argv) {
+	public String read;
+	boolean isSleep= true;
+	public void run() throws InterruptedException {
+		isSleep= false;
 		Life life= new Life();
 		life.born();
 		//register family
@@ -27,26 +30,43 @@ public class Application{
 		raceFamily.put("Royal", family);
 		race.setRace(raceFamily);
 		//init analysis
-		LoveIssues loveIssues=new LoveIssues();
-		StudyIssues studyIssues=new StudyIssues();
-		HelpIssues helpIssues=new HelpIssues();
-		SafeIssues safeIssues=new SafeIssues();
-		WorkIssues workIssues=new WorkIssues();
-		CreativeIssues creativeIssues=new CreativeIssues();
+		LoveIssues loveIssues= new LoveIssues();
+		StudyIssues studyIssues= new StudyIssues();
+		HelpIssues helpIssues= new HelpIssues();
+		SafeIssues safeIssues= new SafeIssues();
+		WorkIssues workIssues= new WorkIssues();
+		CreativeIssues creativeIssues= new CreativeIssues();
 		//loop the Hello World.
 		while(true) {
-			//love issues
-			loveIssues.philosothon();
-			//study issues
-			studyIssues.philosothon();
-			//help issues
-			helpIssues.philosothon();
-			//work issues
-			workIssues.philosothon();
-			//creative issues
-			creativeIssues.philosothon();
-			//safe issues
-			safeIssues.philosothon();
+			isSleep= wakeUp();
+			if(!isSleep) {
+				//love issues
+				loveIssues.philosothon(read);
+				//study issues
+				studyIssues.philosothon(read);
+				//help issues
+				helpIssues.philosothon(read);
+				//work issues
+				workIssues.philosothon(read);
+				//creative issues
+				creativeIssues.philosothon(read);
+				//safe issues
+				safeIssues.philosothon(read);
+				read="";
+				isSleep= true;
+			}	 
 		}
+	}
+	
+	private boolean wakeUp() throws InterruptedException {
+		while(read.isEmpty()) {
+			Thread.sleep(100);
+		}
+		return false;
+	}
+	
+	public static void main(String[] argv) throws InterruptedException {
+		Application application= new Application();
+		application.run();
 	}
 }

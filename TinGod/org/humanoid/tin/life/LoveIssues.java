@@ -21,7 +21,7 @@ public class LoveIssues{
 	public void loveAckquisition() {
 
 	}
-	public void philosothon() {
+	public void philosothon(String read) {
 		//a
 		new LoveAnalysisIssues().vpcsInitons();
 		//o
