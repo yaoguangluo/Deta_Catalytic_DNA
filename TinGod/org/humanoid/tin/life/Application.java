@@ -12,10 +12,10 @@ import org.humanoid.tin.life.SafeIssues;
 import org.humanoid.tin.life.StudyIssues;
 import org.humanoid.tin.life.WorkIssues;
 
-public class Application{
+public class Application extends Thread {
 	public String read;
 	boolean isSleep= true;
-	public void run() throws InterruptedException {
+	public void run() {
 		isSleep= false;
 		Life life= new Life();
 		life.born();
@@ -38,23 +38,27 @@ public class Application{
 		CreativeIssues creativeIssues= new CreativeIssues();
 		//loop the Hello World.
 		while(true) {
-			isSleep= wakeUp();
-			if(!isSleep) {
-				//love issues
-				loveIssues.philosothon(read);
-				//study issues
-				studyIssues.philosothon(read);
-				//help issues
-				helpIssues.philosothon(read);
-				//work issues
-				workIssues.philosothon(read);
-				//creative issues
-				creativeIssues.philosothon(read);
-				//safe issues
-				safeIssues.philosothon(read);
-				read= null;
-				isSleep= true;
-			}	 
+			try {
+				isSleep= wakeUp();
+				if(!isSleep) {
+					//love issues
+					loveIssues.philosothon(read);
+					//study issues
+					studyIssues.philosothon(read);
+					//help issues
+					helpIssues.philosothon(read);
+					//work issues
+					workIssues.philosothon(read);
+					//creative issues
+					creativeIssues.philosothon(read);
+					//safe issues
+					safeIssues.philosothon(read);
+					read= null;
+					isSleep= true;
+				}	 
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	
@@ -62,6 +66,7 @@ public class Application{
 		while(null== read) {
 			Thread.sleep(100);
 		}
+		System.out.println("Tin God at here!");
 		return false;
 	}
 	
