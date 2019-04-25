@@ -1,5 +1,7 @@
 package org.humanoid.tin.life;
 
+import java.util.concurrent.CopyOnWriteArrayList;
+
 import org.humanoid.tin.analysis.HelpAnalysisIssues;
 import org.humanoid.tin.management.HelpManagementIssues;
 import org.humanoid.tin.operation.HelpOperationIssues;
@@ -21,7 +23,7 @@ public class HelpIssues{
 	public void helpAckquisition() {
 
 	}
-	public void philosothon(String read) {
+	public void philosothon(CopyOnWriteArrayList<String> read) {
 		//a
 		new HelpAnalysisIssues().vpcsInitons();
 		//o

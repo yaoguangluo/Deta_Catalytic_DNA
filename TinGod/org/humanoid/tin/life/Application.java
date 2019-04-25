@@ -1,6 +1,7 @@
 package org.humanoid.tin.life;
 
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.humanoid.tin.dna.processor.Family;
 import org.humanoid.tin.dna.processor.Life;
@@ -13,9 +14,10 @@ import org.humanoid.tin.life.StudyIssues;
 import org.humanoid.tin.life.WorkIssues;
 
 public class Application extends Thread {
-	public String read;
+	public CopyOnWriteArrayList<String> read;
 	boolean isSleep= true;
 	public void run() {
+		read= new CopyOnWriteArrayList<>();
 		isSleep= false;
 		Life life= new Life();
 		life.born();
@@ -53,7 +55,6 @@ public class Application extends Thread {
 					creativeIssues.philosothon(read);
 					//safe issues
 					safeIssues.philosothon(read);
-					read= null;
 					isSleep= true;
 				}	 
 			}catch(Exception e) {
@@ -61,15 +62,15 @@ public class Application extends Thread {
 			}
 		}
 	}
-	
+
 	private boolean wakeUp() throws InterruptedException {
-		while(null== read) {
+		while(read.isEmpty()) {
 			Thread.sleep(100);
 		}
 		System.out.println("Tin God at here!");
 		return false;
 	}
-	
+
 	public static void main(String[] argv) throws InterruptedException {
 		Application application= new Application();
 		application.run();

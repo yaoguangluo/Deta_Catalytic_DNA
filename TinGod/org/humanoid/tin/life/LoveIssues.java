@@ -1,5 +1,7 @@
 package org.humanoid.tin.life;
 
+import java.util.concurrent.CopyOnWriteArrayList;
+
 import org.humanoid.tin.analysis.LoveAnalysisIssues;
 import org.humanoid.tin.management.LoveManagementIssues;
 import org.humanoid.tin.operation.LoveOperationIssues;
@@ -21,7 +23,7 @@ public class LoveIssues{
 	public void loveAckquisition() {
 
 	}
-	public void philosothon(String read) {
+	public void philosothon(CopyOnWriteArrayList<String> read) {
 		//a
 		new LoveAnalysisIssues().vpcsInitons();
 		//o

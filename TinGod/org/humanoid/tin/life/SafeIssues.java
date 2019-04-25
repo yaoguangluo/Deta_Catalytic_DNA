@@ -1,5 +1,7 @@
 package org.humanoid.tin.life;
 
+import java.util.concurrent.CopyOnWriteArrayList;
+
 import org.humanoid.tin.analysis.SafeAnalysisIssues;
 import org.humanoid.tin.management.SafeManagementIssues;
 import org.humanoid.tin.operation.SafeOperationIssues;
@@ -21,7 +23,7 @@ public class SafeIssues{
 	public void safeAckquisition() {
 
 	}
-	public void philosothon(String read) {
+	public void philosothon(CopyOnWriteArrayList<String> read) {
 		//a
 		new SafeAnalysisIssues().vpcsInitons();
 		//o

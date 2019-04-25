@@ -1,5 +1,7 @@
 package org.humanoid.tin.life;
 
+import java.util.concurrent.CopyOnWriteArrayList;
+
 import org.humanoid.tin.analysis.CreativeAnalysisIssues;
 import org.humanoid.tin.management.CreativeManagementIssues;
 import org.humanoid.tin.operation.CreativeOperationIssues;
@@ -21,7 +23,7 @@ public class CreativeIssues{
     public void creativeAckquisition() {
 		
    	}
-    public void philosothon(String read) {
+    public void philosothon(CopyOnWriteArrayList<String> read) {
     	//a
 		new CreativeAnalysisIssues().vpcsInitons();
 		//o
