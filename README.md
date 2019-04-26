@@ -20,7 +20,7 @@ Prepare for Demo Link:
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for swapping PDN and Mask to DNA  2019-04-21
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Mr.Tin gets an information from the real world now!
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Mr.Tin's I/O read function by using queue method. 2019-04-26
-##### ![实例](http://progressed.io/bar/1?title=completed) working on：Prepare for study first for get new corpus will do at this weekend 2019-04-27
+##### ![实例](http://progressed.io/bar/1?title=completed) working on：Prepare for (study initons) first for get new corpus will do at this weekend 2019-04-27
 #### OK let's begin! 2019-04-16
 #### Author Yaoguang.Luo
 
