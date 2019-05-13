@@ -1,7 +1,4 @@
 package org.humanoid.tin.dna.processor;
-
-import DNAProcessor.RST;
-
 public class MutationLaw{
 	public RST mutation(RST father, RST mother) {
 		RST son= new RST();

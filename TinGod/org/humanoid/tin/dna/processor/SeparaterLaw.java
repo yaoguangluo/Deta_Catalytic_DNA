@@ -3,9 +3,6 @@ package org.humanoid.tin.dna.processor;
 import java.util.Iterator;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
-import DNAProcessor.CopyLaw;
-import DNAProcessor.DNA;
-
 public class SeparaterLaw{
 	public ConcurrentLinkedDeque<DNA> separater(ConcurrentLinkedDeque<DNA> original) {
 		ConcurrentLinkedDeque<DNA> output= new ConcurrentLinkedDeque<>();

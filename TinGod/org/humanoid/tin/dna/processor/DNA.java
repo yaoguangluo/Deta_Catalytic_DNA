@@ -1,8 +1,8 @@
 package org.humanoid.tin.dna.processor;
 import java.util.concurrent.ConcurrentHashMap;
+
 import java.util.concurrent.ConcurrentLinkedDeque;
 
-import DNAProcessor.PDN;
 public class DNA{
 	public ConcurrentLinkedDeque<PDN> getFunctionLineDeque() {
 		return functionLineDeque;

@@ -1,10 +1,5 @@
 package org.humanoid.tin.dna.processor;
 import java.util.concurrent.ConcurrentLinkedDeque;
-
-import DNAProcessor.CopyLaw;
-import DNAProcessor.DNA;
-import DNAProcessor.PDN;
-import DNAProcessor.RST;
 public class Life{
 	public ConcurrentLinkedDeque<RST> getLife() {
 		return lifeDeque;

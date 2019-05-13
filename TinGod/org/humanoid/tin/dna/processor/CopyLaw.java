@@ -4,9 +4,6 @@ import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
-import DNAProcessor.DNA;
-import DNAProcessor.PDN;
-
 public class CopyLaw{
 	public DNA copy(DNA dna) {
 		DNA newDna= new DNA();

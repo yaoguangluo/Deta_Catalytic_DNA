@@ -1,7 +1,5 @@
 package org.humanoid.tin.dna.processor;
 
-import DNAProcessor.DNA;
-
 public class RST{
 	public DNA getFatherDeque() {
 		return fatherDeque;

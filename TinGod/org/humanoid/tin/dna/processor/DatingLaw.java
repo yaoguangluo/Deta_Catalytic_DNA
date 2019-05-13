@@ -1,7 +1,5 @@
 package org.humanoid.tin.dna.processor;
 
-import DNAProcessor.RST;
-
 public class DatingLaw{
 	public RST dating(RST father, RST mother) {
 		RST son= new RST();
