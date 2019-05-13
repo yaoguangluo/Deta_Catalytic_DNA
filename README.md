@@ -3,9 +3,11 @@
 
 Usful Source Link:
 ###### https://github.com/yaoguangluo/AOPM_VPCS_Theroy
+###### https://github.com/yaoguangluo/Deta_Catalytic_DNA
 ###### https://github.com/yaoguangluo/Deta_Parser
 ###### https://github.com/yaoguangluo/Data_Processor/tree/master/DP
-
+Prepare for Demo Link:
+###### http://tinos.qicp.vip/data.html
 
 ##### ![实例](http://progressed.io/bar/21?title=completed) working on：Prepare for AOPM Dimentions of the VPCS Humanoid initons(catalytic). 
 ##### ![实例](http://progressed.io/bar/11?title=completed) working on：Prepare for PDN initons of the catalytic(DNA). 
@@ -16,8 +18,9 @@ Usful Source Link:
 ##### ![实例](http://progressed.io/bar/11?title=completed) working on：Prepare for philosothon model's VPCS initons 2019-04-20
 ##### ![实例](http://progressed.io/bar/11?title=completed) working on：Prepare for VPCS tissues with PDN mask initons 2019-04-20
 ##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for swapping PDN and Mask to DNA  2019-04-21
-##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Mr.Tin gets an information from the real world now! 2019-04-25
-
+##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Mr.Tin gets an information from the real world now!
+##### ![实例](http://progressed.io/bar/10?title=completed) working on：Prepare for Mr.Tin's I/O read function by using queue method. 2019-04-26
+##### ![实例](http://progressed.io/bar/1?title=completed) working on：Prepare for (study initons) first for get new corpus will do at this weekend 2019-04-27
 #### OK let's begin! 2019-04-16
 #### Author Yaoguang.Luo
 
