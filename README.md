@@ -1,5 +1,5 @@
-# <<100%(首创)个人著作权开源项目>>Deta_Catalytic_DNA 这个工程的主要目的是彻底颠覆现有的所有SDLC结构, 用一种诺贝尔级别的类人软件生命替代 2019-04-18-2:02 China 8+.
-## This new project implements a humanoid life by using Deta DNA catalytic theory, As a NOBEL applicat's project level. Author will do every thing by using English. Not only for the cod humanoid life application where we name Tin God, Deta also will spend more time for making a fully proof that VPCS nero cell and PDN link mask is the best way of chromosome executions.
+# <<100%(首创)个人著作权开源项目>>Deta_Catalytic_DNA 这个工程的主要目的是彻底颠覆现有的所有SDLC结构, 用一种类人软件生命替代 2019-04-18-2:02 China 8+.
+## This new project implements a humanoid life by using Deta DNA catalytic theory, Author will do every thing by using English. Not only for the cod humanoid life application where we name Tin God, Deta also will spend more time for making a fully proof that VPCS nero cell and PDN link mask is the best way of chromosome executions.
 
 Usful Source Link:
 ###### https://github.com/yaoguangluo/AOPM_VPCS_Theroy
