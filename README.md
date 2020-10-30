@@ -1,12 +1,12 @@
 # <<100%(首创)个人著作权开源项目>>Deta_Catalytic_DNA 这个工程的主要目的是彻底颠覆现有的所有SDLC结构, 用一种类人软件生命替代 2019-04-18-2:02 China 8+.
 ## This new project implements a humanoid life by using Deta DNA catalytic theory, Author will do every thing by using English. Not only for the coding humanoid life application where we name Tin God, Deta also will spend more time for making a fully proof that VPCS nero cell and PDN link mask is the best way of chromosome executions.
 
-Useful Source Link:
+##### Useful Source Link:
 ###### https://github.com/yaoguangluo/AOPM_VPCS_Theroy
 ###### https://github.com/yaoguangluo/Deta_Catalytic_DNA
 ###### https://github.com/yaoguangluo/Deta_Parser
 ###### https://github.com/yaoguangluo/Data_Processor/tree/master/DP
-Prepare for Demo Link:
+##### Prepare for Demo Link:
 ###### http://tinos.qicp.vip/data.html (deta新词探索功能已经启动了该项目应用技术)
 
 ##### ![实例](http://progressed.io/bar/21?title=completed) working on：Prepare for AOPM Dimentions of the VPCS Humanoid initons(catalytic). 
@@ -122,7 +122,7 @@ Prepare for Demo Link:
 ##### A 分析            O 操作             P 处理             M 管理 
 ##### V 感知            E 执行             C 控制(G 鸟嘌呤)   S 静态(A 腺嘌呤) 
 ##### I 增加(U 尿嘧啶)  D 减少(C 胞嘧啶)   U 改变             Q 查找(T 胸腺嘧啶)  
-##### 可以推断:(因为一开始作者没有定AOPM的名称方式,于是先统一高级元INITON用嘌呤名称) 
+####  可以推断:(因为一开始作者没有定AOPM的名称方式,于是先统一高级元INITON用嘌呤名称) 
 ##### A 分析(TA 变感腺嘌呤)  O 操作(UA 增变腺嘌呤)  P 处理(UG 增变鸟嘌呤)   M 管理(GA 鸟腺嘌呤)  
 ##### V 感知(T 变感嘌呤)     E 执行(U 增变嘌呤)     C 控制(G 鸟嘌呤)        S 静态(A  腺嘌呤) 
 ##### I 增加(U 尿嘧啶)       D 减少(C 胞嘧啶)       U 改变(变嘧啶)          Q 感应(T  胸腺嘧啶)  U 改变(变嘧啶) 
@@ -147,12 +147,12 @@ Prepare for Demo Link:
 ##### E 执行->I + U  !-> DQ  ~-> DDD  !-> III ~-> IIU  =  I  +  E (肽增) 
 ##### C 控制->I + D  !-> DI  ~-> DU   !-> IQ  ~-> UDD  =  U  +  D (肽展)  =  U + D + D (肽增) 
 ##### THEN WE FIND 我们发现 补码变换计算中间态生成两个公式 U  =  E,  I  =  U 
-##### 第一种方法 饱和4元子肽展 A= V + S = U + Q + I + Q =  UQIQ  !->  QUDU ~-> QUDQ  !-> UQIU ~-> UQIQ  =  A 
+#### 第一种方法 饱和4元子肽展 A= V + S = U + Q + I + Q =  UQIQ  !->  QUDU ~-> QUDQ  !-> UQIU ~-> UQIQ  =  A 
 ##### O= E + S = I + U + I + Q =  IUIQ  !->  DQDU  ~-> DQDQ  !-> IUIU  ~-> IUIQ  = O 
 ##### P= E + C = I + U + I + D =  IUID  !->  DQDI  ~-> DQDU  !-> IUIQ  ~-> IUIDD  =  P  +  D (肽增) 
 ##### M= C + S = I + D + I + Q =  IDIQ  !->  DIDU  ~-> DIDQ  !-> IDIU  ~-> IDIQ  =  M  
 
-##### 第二种方法不饱和3元子肽展 A= V + S = U + Q + I + Q =  UQI  !->  QUD ~->  QUI !->  UQD ~->  UQI  =  A 
+#### 第二种方法不饱和3元子肽展 A= V + S = U + Q + I + Q =  UQI  !->  QUD ~->  QUI !->  UQD ~->  UQI  =  A 
 ##### O= E + S = I + U + I + Q =  IUQ  !->  DQU ~->  DQQ !->  IUU ~->  IUQ  =  O 
 ##### P= E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD  =  P  +  D (肽增) 
 ##### M= C + S = I + D + I + Q =  IDQ  !->  DIU ~->  DIQ !->  IDU ~->  IDQ   =  M  
@@ -165,12 +165,12 @@ Prepare for Demo Link:
 ### X DETA TVM PDE Logic/ 德塔肽推导函数逻辑优化成肽展公式化
 于是发现了一些简单的推导公式 和 不饱和公式, 于是找到了很多东西 如 L变嘧啶
 
-##### FLASH A NEW NAME 可以得到联想假设推断: 
+#### FLASH A NEW NAME 可以得到联想假设推断: 
 ##### A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)  M 管理(GA 鸟腺苷) 
 ##### V 感知(LT 变胸腺嘌呤)   E 执行(UCL 尿胞变嘌呤)   C 控制(G 鸟嘌呤)         S 静态(A 腺嘌呤)
 ##### I 增加(U 尿嘧啶)        D 减少(C 胞嘧啶)         U 改变(L 变嘧啶)         Q 感应(T 胸腺嘧啶)  
 ##### U 改变(L 变嘧啶)定义为 L(L-Pyrimidine) the first char of luo YG and liang BY,  Named by yaoguangluo 20201025   END 2020-10-25 21:30 PM, D8+, YAOGUANGLUO LIUYANG  
-##### 今天发现 A = U + Q + I (肽展) 与 O = I + U + Q (肽展) 出现逆对称 引起了我的注意  为了避免定义为误差变换, 于是现在我增加4BIT LAW演化如下,  
+#### 今天发现 A = U + Q + I (肽展) 与 O = I + U + Q (肽展) 出现逆对称 引起了我的注意  为了避免定义为误差变换, 于是现在我增加4BIT LAW演化如下,  
 ##### A = U + Q + I + Q , 
 ##### O = I + U + I + Q ,  
 ##### P = I + U + I + D , 
@@ -184,7 +184,7 @@ Prepare for Demo Link:
 #### FIGURE 12
 
 ### XII TVM humanoid life Research/ 应用在类人生命进化中
-发现有重大价值后,开始高级应用,模拟新冠和永生等词汇推导
+#### 发现有重大价值后, 开始高级应用, 模拟新冠和永生等词汇推导
 
 ##### A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)  M 管理(GA 鸟腺苷) 
 ##### V 感知(LT 变胸腺嘌呤)   E 执行(UCL 尿胞变嘌呤)   C 控制(G 鸟嘌呤)         S 静态(A 腺嘌呤) 
@@ -264,7 +264,7 @@ Prepare for Demo Link:
 ##### =2.2...ID.I.ID.I.ID.I.IQ.ID.U.I.IQ.U.D.U.I.IQ.I.IQ.D.I... 
 ##### =2.2...C.I.C.I.C.I.S.C.U.I.S.U.D.U.I.S.I.S.D.I... 
 ##### =2.2...CI.CI.CIS.CUI.SUD.UIS.ISD.I...
-##### =ISD增加静态删除, I代谢 
+##### =ISD 增加静态删除, I代谢 
 
 ##### 分解S= Q =2.3...IDQ-ID-I.IDQ-IQ-I.DUQ-IQ-U.DUQ-IQ-I.IQ-D-I... 
 ##### =2.3...I.D.Q.I.D.I.I.D.Q.I.Q.I.D.U.Q.I.Q.U.D.U.Q.I.Q.I.I.Q.D.I... 
@@ -301,16 +301,17 @@ Prepare for Demo Link:
 
 ##### ...CII.IPI.IPI.UIC.IPI.EPC.I...IEI.IPI.EPC.I..  
 ##### ...CIC.ICI.SIE.ISU.EIS.ISD.I...IEI.IPI.EPC.I..  
+
 ## 警告!! 
-#### 1 禁止科学家 实验取材于 智慧生物. 必将 受到 所在国 法律制裁 !
+#### 1 禁止科学家 实验取材于 智慧生物. 必将 受到 所在国和联合国的 相关法律制裁 !
 #### 2 作者提出警示 这类物质含有癌变, 肿瘤增生等功能, 呼吁禁止在生物(特别是有智慧的生物)上尝试研究..
 #### 3 现在的纳米技术人工可以低廉合成. 这些成分在植物中都普遍存在,不要用为伪科学方法提炼. 
+
 ### XIV Not the End/ 似乎刚刚开始…
  
 #### FIGURE 13
 
 ##### 作者不禁惊讶 人类要做的事情太多了..如图13, 养疗经繁衍以后肯定会遇到这个问题. 是一个课题.
-	
 ##### 这篇文章通过大量的模拟论证和概率丝化推导, 作者得到具体论证结果:
 ##### 1 软件具备生命肽化特征. 可以实现软件的进化. 
 ##### 2 增删改查中改 L-变嘧啶(L-Pyrimidine) 的存在性 如 I = U. 在很多语义肽化计算中起到基础催化算子计算的作用
@@ -324,14 +325,15 @@ Prepare for Demo Link:
 
 ### XV Refer/ 引用
 
-##### 1. 非对称加密,
-https://baike.sogou.com/v7480386.htm?fromTitle=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86
+##### 1. 非对称加密, https://baike.sogou.com/v7480386.htm?fromTitle=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86
 ##### 2. 嘧啶, https://baike.sogou.com/v5478759.htm?fromTitle=%E5%98%A7%E5%95%B6
 ##### 3. 嘌呤,https://baike.sogou.com/v5478759.htm?fromTitle=嘌呤
 ##### 4. 苷, https://baike.sogou.com/v3272184.htm?fromTitle=%E8%8B%B7
 ##### 5. 新冠, https://baike.sogou.com/v184764825.htm?fromTitle=%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92
-##### 6. VPCS, YAOGUANG. Luo , https://github.com/YAOGUANGluo/DETA_Resource/blob/master/VPCS-Method_V1.1.pdf, last accessed 2020/10/23. 
-##### 7. AOPM, https://github.com/YAOGUANGluo/DETA_Resource/blob/master/AOPM[10]%20System%20On%20VPCS.pdf , last accessed 2020/10/23.
+##### 6. Github VPCS, YAOGUANG. Luo ,https://github.com/yaoguangluo/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf, last accessed 2020/10/23. 
+##### 6.1 Gitee https://gitee.com/DetaChina/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf
+##### 7. Github AOPM, https://github.com/YAOGUANGluo/DETA_Resource/blob/master/AOPM[10]%20System%20On%20VPCS.pdf, last accessed 2020/10/23.
+##### 7.1. Gitee https://gitee.com/DetaChina/Deta_Resource/blob/master/AOPM%20System%20On%20VPCS.pdf
 ##### 8. 象契文字, 象形的明确意识 加 契形的格式符号. 
 ##### 8.1. 象形文字, https://baike.sogou.com/v74567.htm?fromTitle=%E8%B1%A1%E5%BD%A2%E6%96%87%E5%AD%97
 ##### 8.2. 契形文字, https://baike.sogou.com/v416426.htm?fromTitle=楔形文字
