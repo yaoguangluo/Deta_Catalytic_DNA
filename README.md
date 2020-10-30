@@ -24,106 +24,75 @@ Prepare for Demo Link:
 #### OK let's begin! 2019-04-16
 #### Author Yaoguang.Luo
 
-AOPM-VECS-IDUQ Catalytic INITONS PDE LAW and Its Application
-AOPM VECS IDUQ 肽展公式推导与元基编码进化计算以及它的应用发现
+#### AOPM-VECS-IDUQ Catalytic INITONS PDE LAW and Its Application
+#### AOPM VECS IDUQ 肽展公式推导与元基编码进化计算以及它的应用发现
 Yaoguang Luo
 Liuyang DETA Software Development Limited Company
 罗瑶光
 浏阳德塔软件开发有限公司
 313699483@qq.com
 
-观点: 作为拥有研发背景的认知观点, 作者每次发现了一些理论和创造性思维, 便开始工程设计, 在真实的场景中应用, 进行论证, 确定它的社会价值: 改变生产力, 创造新的生产力, 优化和归纳生产资料, 最后适应生产环境并进行有效的从局部到整体的修复, 优化, 改善, 改变, 创造新的更好的环境的过程. 作者认为 一个命题论点必须经过严谨的推导论证, 确定它的真实性和有效性. 这篇著作于是形成了骨架.
+#### 观点: 作为拥有研发背景的认知观点, 作者每次发现了一些理论和创造性思维, 便开始工程设计, 在真实的场景中应用, 进行论证, 确定它的社会价值: 改变生产力, 创造新的生产力, 优化和归纳生产资料, 最后适应生产环境并进行有效的从局部到整体的修复, 优化, 改善, 改变, 创造新的更好的环境的过程. 作者认为 一个命题论点必须经过严谨的推导论证, 确定它的真实性和有效性. 这篇著作于是形成了骨架.
 
-Keywords: Chromosome, PDC, PDW, TVM, PDE, PDE-Code, Eternal-tons, L-Pyrimidine, Discrete
+#### Keywords: Chromosome, PDC, PDW, TVM, PDE, PDE-Code, Eternal-tons, L-Pyrimidine, Discrete
 关键词: 染色体, 生命词根库, 象契文字典, 肽虚拟机器, 磁基肽展公式, 非对称肽加密, 永生苷, 变嘧啶, 离散定律
 
-前言: 自从罗瑶光先生发现了类人 DNA 与 神经元基于催化算子映射编码方式后, 于是开始进行多种具体工程应用论证实现, 这个过程一次又一次的改变作者的思维, 特别是生命染色体配对后聚合方式, 形成了具体的生命词根库, 然后组成象契文字典, 逐渐形成肽虚拟机模拟, 进而优化推导出肽展公式, 非对称肽加密, 永生苷, 变嘧啶 作为DNA离散定律的补充, 于是归纳成一个完整的系统思想, 正如这篇文章, 对于AOPM VECS IDUQ 肽元基编码计算与它的应用, 永生只是开始~
+#### 前言: 自从罗瑶光先生发现了类人 DNA 与 神经元基于催化算子映射编码方式后, 于是开始进行多种具体工程应用论证实现, 这个过程一次又一次的改变作者的思维, 特别是生命染色体配对后聚合方式, 形成了具体的生命词根库, 然后组成象契文字典, 逐渐形成肽虚拟机模拟, 进而优化推导出肽展公式, 非对称肽加密, 永生苷, 变嘧啶 作为DNA离散定律的补充, 于是归纳成一个完整的系统思想, 正如这篇文章, 对于AOPM VECS IDUQ 肽元基编码计算与它的应用, 永生只是开始~
 
-I DETA INITONS classify/ 德塔元基 分类 
+#### I DETA INITONS classify/ 德塔元基 分类 
 Figure 1
 
 选个切入点说起, 自从作者在上一篇著作DNA编码规范中发现了类DNA的编码元 AOPM VPCS IDUC 后进行了简单的去重生成 AOPM VECS IDUQ, 于是开始女娲计划设计如Figure 1, 现在按照主谓宾, 定状补的语法组成形式设计3元词根如: 单元基 AOPM VECS IDUQ.  双元基 AA.. AO.. AP.. AM .. OA..OO.. OP.. OM.. 三元基 AAA.. AAO.. AAP.. AAM.. 通过编码, 发现 仅仅1维词根便包含上千的逻辑含义, 如果2维词根如 ..AAA.AAO... 便瞬间膨胀到(1000+) * (1000+)= 100万+, 这个意识远远大于人类现在的最高学术水平, 于是惊叹, 如何合理的应用这种知识结构? 似乎有点远, 先从养疗经上做元initons分类实验. 如下FIGURE 1-1
 
- 
 Figure 1-1
 
 一开始养疗经的ETL 节点 通过插件的方式扩充, 作者想设计成肽化插件形式, 通过TVM 肽化虚拟机来添加jar包,这样 jar包也可以设计成肽文件编码. 既可以加密保存又可以作为肽节点拓展. 于是作者开始验证可行性, 先按简单的分类和聚类索引模式, 按 A,  AO,  AOP, 进行节点归类. 研究发现, 一个肽索引世界展现在眼前, 原来这种染色体化的结构数不尽, 于是开始按主谓宾的方式开始模拟明显特征规范的 3元染色体层, 结果发现也有24对, 如Figure 2 
 
- 
 Figure 2
 
 作者有必要做出一些解释, 如下文字. 如图先将12个元基initons AOPM VECS IDUQ进行root 根拓展, 发现生成 AOPM- VECS 和AOPM-IDUQ  显隐模式于是发现了 24 类组, 正如figure 2 这些类组一开始作者的思路是染色体索引, 后来思考 如果这种索引能进行功能化, 那么就是一个个函数的主要功能区, 于是按DNA 编码规范1.2.2开始定义词根, 发现了很多惊讶和有趣的研究结果如 Figure4 词根的发现.
 
 
-
-II I DETA NITONS PDN words root/ 德塔元基分类 词根
+#### II I DETA NITONS PDN words root/ 德塔元基分类 词根
 
 分类组成词根 代表 动词, 名词和形容词, 动词 IDUC-前缀根, 名词 VPCS-前缀根, 形容词 AOPM-前缀根
 , 形成DNA 语言的 有效元染色体, 如图4, 按照编码规范, 2元词根有明确逻辑价值的组合竟然也是24个组, 作者开始专注思考. 这24组的功能进行深入研究..
  
- 
 Figure 4
 
-III DETA INITONS PDN words/ 德塔元基分类 词典
+#### III DETA INITONS PDN words/ 德塔元基分类 词典
 
 词根开始各种组合形成世界首个象契文字DNA语言, 按照罗瑶光先生的思维逻辑进行人类语言和象契语言转换 如 动词, 名词, 形容词... 于是我归纳了下 AOPM 体现了养疗经的智慧高级功能形态, VECS 体现了养疗经的多样化特征, IDUQ 体现了养疗经的生物应激活性, 这个归纳和总结, 用人类的认知的语义理解方式, 作者按照罗瑶光先生的思考方式进行词汇提炼, 确定了软件工程AOPM属于生命周期的系统分类,是一种高级形态, 具有可描述的智慧性, VPCS 因为涉及到控制执行, 插件扩展和静态属性, 作者认为是具有逻辑特征的多样性. 最后IDUQ因为涉及到增删改查, 都是运动方式, 作者定义为应激性表达. 于是再次归纳为Figure 5, 作者开始思考, dna的肽 竟然可以形成一篇具有阅读性的文章, 这篇文章竟然还有思维活性, 应激活性和智慧活性, 于是再次切入实际的论证 将java语言进行翻译成肽语言..
 
-
-
-
-
-
-
-	
 Figure 5
 
-IV DETA TVM/ 德塔词典肽翻译虚拟机
+#### IV DETA TVM/ 德塔词典肽翻译虚拟机
 
 于是开始将一个养疗经java文件翻译成肽文, 这个过程可以细分为几个细节, 如 Figure6, 先简单转成java行格式 肽文有利于区分. 有理观测. 然后再进行肽链化, 这时候作者发现了一些细节问题, 其中最主要的问题是怎么将AOPM 和 VECS向 IDUQ 层展开. 于是开始设计肽展函数. 我一直在思考一种可行的虚拟机形式, 如果我不设计而是依赖一种编程语言, 会出现平台移植困难, 于是先从肽翻译机开始.
 
-
-
-
-
-
-
-
-
- 
 Figure 6
 
-V DETA TVM applications/ 德塔 肽翻译虚拟机应用技术
+#### V DETA TVM applications/ 德塔 肽翻译虚拟机应用技术
 
 首先想到的是加密应用, 比如我最近10年常用MD5加密, 筛子加密, 单握手非对称加密,  DNA加密的效果因为有规则词库和规则概率钥匙, 然后丝化不饱和肽展失真, 所以加密无规律可循, 甚至越解越乱. 是很好的非对称加密方式.
-
-
-       
-	              Figure 7                                           Figure 8
+    
+Figure 7         
+		    
+Figure 8
 
 
 我选了一个比较简洁的插件源码进行肽化, 这个源码首先短小, 词汇量少, 所以肽化的过程实现快, 比较好观测中间过程, 拓展我的研发思维. 通过intions词根进行语义编码后, 如Figure8, 因为空格和回车等符号没有intion词根转码, 保留了一些程序的特征. 这种文可以作为虚拟机文, 方便以后词库优化. 
 
+#### VI DETA TVM PDC/ 虚拟机应用优化
 
-
-
-
-
-
-
-
-VI DETA TVM PDC/ 虚拟机应用优化
-
- Figure 9 
+Figure 9 
 加密后于是开始 设计非词汇的符号, 如空格和回车等. 更好的将TVM肽虚拟机密文对比肽展文是因为在肽展公式论证中, 推导出概率变化 如 S = I,  S =Q ,  (D=DD之后用于丝化计算), 如图Figure9虚拟机文在全部肽化后会惊奇的发现 整个文件 好比一个很长的链条. 这个链条有明确的序列和意思. 通过肽展的变换, 作者根据自身的对词汇的理解概括发现了. 
 
 A分析 = V 感知 + S静态 = U改变 + Q查询 + I可增加 + Q可查询 = U + Q + I = V + I...  O= E + S = I + U + I + Q = I + U + Q = E + Q...... P= E + C = I + U + I + D = I + U + D = E + D...... M= C + S = I + D + I + Q = I + D + Q = C + Q...... 这些比较简单的分类, 为了决定它的有效性, 于是开始论证, 用作者的话语便是从语文词汇上的语义的概括到离散数学公式的变换过程展开式.于是开始各种模拟推导. 
 
-VII DETA TVM PDE/ 德塔肽翻译推导
+#### VII DETA TVM PDE/ 德塔肽翻译推导
 
 完美的单链化后 开始思考怎么还原 迫切需要论证一些编码解码公式
-
-    
-
 
 =>通过推导发现有些肽展过程是可以可逆变换的. (后来论证得到准确答案这是不严谨的)
 A= S  -  I  =   I  -  S =... O= S  -  Q  =  Q  -  S =... P= C  -  D  =  D  -  S =... M=S  -  Q  =  Q  -  S =.... => 关于减法运算,作者想到计算汇编指令计算的反码和补码思路, 于是想到 可肽增方式. 于是停止了, 研究, 因为减法其实也是加法的一种形式.于是跟进论证优先级降低.
@@ -149,51 +118,11 @@ IX DETA TVM PDC function optimization and PDE/ 德塔肽推导函数逻辑优化
 
 于是开始这些组合的有理合理性演化推理. //SORT 20201025 19:47 AM D8+ 继续持续绝对专注论证肽增公式1.0 BY USING ENGLISH FOR - 4 BITS DIUQ WAY 通过已有逻辑公式
 
-
-
-
-
-
-
-
-
-   
-
-
-
 THEN WE FIND? 于是我们推导发现了一些新的肽展变换定律 (PDE SWAP NEW LAW: D =  DD) 
 在如下公式中 符号解释 !-> 为反码,  ~-> 为补码 V 感知->U + Q  !-> QU  ~-> QQ   !-> UU  ~-> UQ  =  V E 执行->I + U   !-> DQ  ~-> DDD  !-> III  ~-> IIU   =  I  +  E (肽增) C 控制->I + D   !-> DI  ~-> DU    !-> IQ  ~-> UDD  =  U  +  D (肽展)  =  U + D + D (肽增) THEN WE FIND 我们发现 补码变换计算中间态生成两个公式 U  =  E,  I  =  U 第一种方法 饱和4元子肽展 A= V + S = U + Q + I + Q =  UQIQ  !->  QUDU ~-> QUDQ  !-> UQIU ~-> UQIQ  =  A O= E + S = I + U + I + Q =  IUIQ  !->  DQDU  ~-> DQDQ  !-> IUIU  ~-> IUIQ  = O P= E + C = I + U + I + D =  IUID  !->  DQDI  ~-> DQDU  !-> IUIQ  ~-> IUIDD  =  P  +  D (肽增) M= C + S = I + D + I + Q =  IDIQ  !->  DIDU  ~-> DIDQ  !-> IDIU  ~-> IDIQ  =  M  第二种方法不饱和3元子肽展 A= V + S = U + Q + I + Q =  UQI  !->  QUD ~->  QUI !->  UQD ~->  UQI  =  A O= E + S = I + U + I + Q =  IUQ  !->  DQU ~->  DQQ !->  IUU ~->  IUQ  =  O P= E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD  =  P  +  D (肽增) M= C + S = I + D + I + Q =  IDQ  !->  DIU ~->  DIQ !->  IDU ~->  IDQ   =  M  结论, 看起来似乎是很好的方式 这里描述下为什么我会4bit 计算,因为一开始用3bit也能很好的论证,为了找到伪命题,我思考,VECS如果进行增元倍增,最好是倍数4bit, 于是觉得有必要推导论证
 
 
-
-
-
-
-
 于是开始整理, 归纳为本下面肽展公式.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
 
 Figure 11-1
 
@@ -203,16 +132,13 @@ X DETA TVM PDE Logic/ 德塔肽推导函数逻辑优化成肽展公式化
 FLASH A NEW NAME 可以得到联想假设推断: A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)  M 管理(GA 鸟腺苷)  V 感知(LT 变胸腺嘌呤)    E 执行(UCL 尿胞变嘌呤)   C 控制(G 鸟嘌呤)          S 静态(A 腺嘌呤) I 增加(U 尿嘧啶)         D 减少(C 胞嘧啶)          U 改变(L 变嘧啶)          Q 感应(T 胸腺嘧啶)  U 改变(L 变嘧啶)定义为 L(L-Pyrimidine) the first char of luo YG and liang BY,  Named by yaoguangluo 20201025   END 2020-10-25 21:30 PM, D8+, YAOGUANGLUO LIUYANG  今天发现 A = U + Q + I (肽展)与 O = I + U + Q (肽展) 出现逆对称 引起了我的注意  为了避免定义为误差变换, 于是现在我增加4BIT LAW演化如下,  A = U + Q + I + Q ,  O = I + U + I + Q ,  P = I + U + I + D ,  M = I + D + I + Q  
 
 
-
-
-XI  DETA TVM PDE and its application/ 德塔肽展公式应用论证技术
+#### XI  DETA TVM PDE and its application/ 德塔肽展公式应用论证技术
 于是想到文件加密,  DNA, 有丝分裂等. 于是开始从文件加密上论证
 肽展函数模拟酸碱 控制 概率丝化 方式 S= I,  S= Q,  E= IU,  E= DU..  等
 
- 
 FIGURE 12
 
-XII TVM humanoid life Research/ 应用在类人生命进化中
+#### XII TVM humanoid life Research/ 应用在类人生命进化中
 发现有重大价值后,开始高级应用,模拟新冠和永生等词汇推导
 
 A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)  M 管理(GA 鸟腺苷) 
@@ -312,7 +238,6 @@ XII Eternal Research/ 应用在类人生命永生探索领域
 2 作者提出警示 这类物质含有癌变, 肿瘤增生等功能, 呼吁禁止在生物(特别是有智慧的生物)上尝试研究..
 3 现在的纳米技术人工可以低廉合成. 这些成分在植物中都普遍存在,不要用为伪科学方法提炼. 
 XIII Not the End/ 似乎刚刚开始…
-
  
 FIGURE 13
 
@@ -329,8 +254,7 @@ FIGURE 13
 8 人类历史首次发现 肽展公式 确定DNA的唯一进化方式, 途径执行方式.
 还有很多启发点 因为科学的严谨性, 没有丰富的持续论证, 所以没有一一在此列举.
 
-
-XIV Refer/ 引用
+#### XIV Refer/ 引用
 
 1. 非对称加密,
 https://baike.sogou.com/v7480386.htm?fromTitle=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86
@@ -350,7 +274,7 @@ https://baike.sogou.com/v7480386.htm?fromTitle=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A
 13. PDN LINK, https://baike.baidu.com/item/%E8%82%BD%E9%93%BE/8625112?fr=aladdin, last accessed 2020/10/23.
 14. Yaoguangluo, Rongwuluo, The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2, CN2020Z11L0333706'
 
-Thanks
+#### Thanks
 感谢父亲在医学上提供了许多可借鉴的研究思维经验, 比如医学的严谨性和可扩展性, 为DNA非对称方法模拟丰富了作者的联想, 因为这篇文章主要是离散数学公式推导论证, 于是署名为独立作者, 在此感谢. 
 
 罗瑶光 浏阳
