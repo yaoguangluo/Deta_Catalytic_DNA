@@ -102,22 +102,22 @@
 ###### O = S - Q = Q - S =... 
 ###### P = C - D = D - S =... 
 ###### M = S - Q = Q - S =.... 
-##### => 关于减法运算,作者想到计算汇编指令计算的反码和补码思路, 于是想到 可肽增方式. 于是停止了, 研究, 因为减法其实也是加法的一种形式.于是跟进论证优先级降低.
+###### => 关于减法运算,作者想到计算汇编指令计算的反码和补码思路, 于是想到 可肽增方式. 于是停止了, 研究, 因为减法其实也是加法的一种形式.于是跟进论证优先级降低.
 ##### 有价值的推导和假设如下
-###### V + S = V + I => S = I      ~联想~~  A = U
-###### E + S = E + Q => S = Q      ~联想~~  A = T
-###### E + C = E + D => C = D      ~联想~~  G = C
-###### C + S = C + Q => S = Q      ~联想~~  A = T
+#### V + S = V + I => S = I      ~联想~~  A = U
+#### E + S = E + Q => S = Q      ~联想~~  A = T
+#### E + C = E + D => C = D      ~联想~~  G = C
+#### C + S = C + Q => S = Q      ~联想~~  A = T
 
 ### => 联想: 竟然和人类的ACGTU 腺吻合! 论证下~
 #### 假设 S 已经彻底解码为 A 腺嘌呤, 假设A 腺嘌呤在dna中属于原生静态物质, 于是得到可持续假设论证如下.  
-###### VECS-S 为 A-腺嘌呤   在dna函数中属于原生活性物质 
-###### IDUQ-Q 为 T-胸腺嘧啶 在dna函数中属于感应活性物质 
-###### IDUQ-I 为 U-尿嘧啶   在dna函数中属于增生活性物质 
-###### VECS-C 为 G-鸟嘌呤   在dna函数中属于控制活性物质 
-###### IDUQ-D 为 C-胞嘧啶   在dna函数中属于降解活性物质
+###### VECS-S 为 A-腺嘌呤   在 dna 函数中属于原生活性物质 
+###### IDUQ-Q 为 T-胸腺嘧啶 在 dna 函数中属于感应活性物质 
+###### IDUQ-I 为 U-尿嘧啶   在 dna 函数中属于增生活性物质 
+###### VECS-C 为 G-鸟嘌呤   在 dna 函数中属于控制活性物质 
+###### IDUQ-D 为 C-胞嘧啶   在 dna 函数中属于降解活性物质
 
-#### => 可持续论证如下. 嘌呤 生物多样化特征 属于VPCS INTIONS肽! 嘧啶 生物应激性特征 属于IDUQ INTIONS肽! 
+#### => 可持续论证如下. 嘌呤 生物多样化特征 属于VPCS INTIONS肽， 嘧啶 生物应激性特征 属于IDUQ INTIONS肽． 
 ## 最后通过推导公式归纳了下: V = U + Q,  E = I + U,  C = I + D,  S = I + Q,  I = !D,  U = !Q 
 ###### 罗瑶光,  2020年10月25日 6:00 AM D8+  我得到严谨的语义假设公式 推导论证结果:
 ###### A 分析　　　　　　　　　　O 操作　　　　　　　　　　P 处理　　　　　　　　　　M 管理 
@@ -160,7 +160,7 @@
 ###### O = E + S = I + U + I + Q =  IUQ  !->  DQU ~->  DQQ !->  IUU ~->  IUQ  = O 
 ###### P = E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD = P + D (肽增) 
 ###### M = C + S = I + D + I + Q =  IDQ  !->  DIU ~->  DIQ !->  IDU ~->  IDQ  = M  
-###### 结论, 看起来似乎是很好的方式 这里描述下为什么我会4bit 计算,因为一开始用3bit也能很好的论证,为了找到伪命题,我思考,VECS如果进行增元倍增,最好是倍数4bit, 于是觉得有必要推导论证
+###### 结论, 看起来似乎是很好的方式 这里描述下为什么我会4bit 计算, 因为一开始用3bit也能很好的论证, 为了找到伪命题, 我思考, VECS如果进行增元倍增,最好是倍数4bit, 于是觉得有必要推导论证
 
 ##### 于是开始整理, 归纳为本下面肽展公式.
 
@@ -332,13 +332,13 @@
 
 ###### 1. 非对称加密, https://baike.sogou.com/v7480386.htm?fromTitle=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86
 ###### 2. 嘧啶, https://baike.sogou.com/v5478759.htm?fromTitle=%E5%98%A7%E5%95%B6
-###### 3. 嘌呤,https://baike.sogou.com/v5478759.htm?fromTitle=嘌呤
+###### 3. 嘌呤, https://baike.sogou.com/v5478759.htm?fromTitle=嘌呤
 ###### 4. 苷, https://baike.sogou.com/v3272184.htm?fromTitle=%E8%8B%B7
 ###### 5. 新冠, https://baike.sogou.com/v184764825.htm?fromTitle=%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92
-###### 6. Github VPCS, YAOGUANG. Luo ,https://github.com/yaoguangluo/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf, last accessed 2020/10/23. 
-###### 6.1 Gitee https://gitee.com/DetaChina/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf
+###### 6. Github VPCS, YAOGUANG. Luo, https://github.com/yaoguangluo/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf, last accessed 2020/10/23. 
+###### 6.1 Gitee, https://gitee.com/DetaChina/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf
 ###### 7. Github AOPM, https://github.com/YAOGUANGluo/DETA_Resource/blob/master/AOPM[10]%20System%20On%20VPCS.pdf, last accessed 2020/10/23.
-###### 7.1. Gitee https://gitee.com/DetaChina/Deta_Resource/blob/master/AOPM%20System%20On%20VPCS.pdf
+###### 7.1. Gitee, https://gitee.com/DetaChina/Deta_Resource/blob/master/AOPM%20System%20On%20VPCS.pdf
 ###### 8. 象契文字, 象形的明确意识 加 契形的格式符号. 
 ###### 8.1. 象形文字, https://baike.sogou.com/v74567.htm?fromTitle=%E8%B1%A1%E5%BD%A2%E6%96%87%E5%AD%97
 ###### 8.2. 契形文字, https://baike.sogou.com/v416426.htm?fromTitle=楔形文字
@@ -348,8 +348,8 @@
 ###### 12. UNICORN AI, https://github.com/YAOGUANGluo/ETL_Unicorn, last accessed 2020/10/23.
 ###### 13. PDN LINK, https://baike.baidu.com/item/%E8%82%BD%E9%93%BE/8625112?fr=aladdin, last accessed 2020/10/23.
 ###### 14. Yaoguangluo, Rongwuluo, The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2, CN2020Z11L0333706'
-###### github https://github.com/yaoguangluo/Deta_Resource/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
-###### gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
+###### github, https://github.com/yaoguangluo/Deta_Resource/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
+###### gitee, https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
 
 #### Thanks
 ##### 感谢父亲在医学上提供了许多可借鉴的研究思维经验, 比如医学的严谨性和可扩展性, 为DNA非对称方法模拟丰富了作者的联想, 因为这篇文章主要是离散数学公式推导论证, 于是署名为独立作者, 在此感谢. 感谢 md 格式 规范, 方便我美观编辑.
