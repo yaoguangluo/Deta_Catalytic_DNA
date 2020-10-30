@@ -166,6 +166,48 @@
 
 #### Figure 11-1
 
+PDE MASK LAW
+I = D! 
+D = I!
+U = Q!
+Q = U!
+
+PDE COMP'S LAW
+DD = ++Q
+I  = ++D
+U  = ++I
+Q  = ++U
+
+PDE (肽减) LAW
+C = D (肽减)
+S = I (肽减)
+S = Q (肽减)
+
+
+PDE (肽增) LAW
+D = DD (肽增)
+U = E  (肽增)
+I = U  (肽增)
+E = I + E (肽增)
+P = P + D (肽增)
+C = U + D + D(肽增)
+
+
+PDE (肽展) LAW
+A = V + S (肽展)
+A = U + Q + I (不饱和／错误肽展)
+O = E + S (肽展)
+O = I + U + Q (不饱和／错误肽展)
+P = E + C (肽展)
+P = I + U + D (不饱和／错误肽展)
+M = C + S (肽展)
+M = I + D + Q (肽展)
+V = U + Q (肽展)
+E = I + U (肽展)
+E = D + U (肽展) 
+C = I + D (肽展)
+S = I + Q (肽展)
+
 ### X DETA TVM PDE Logic/ 德塔肽推导函数逻辑优化成肽展公式化
 于是发现了一些简单的推导公式 和 不饱和公式, 于是找到了很多东西 如 L变嘧啶
 
@@ -173,7 +215,7 @@
 ###### A 分析(LTA 变胸腺腺苷)　　O 操作(UCLA 尿胞变腺苷)　　P 处理(UCLG 尿胞变鸟苷)　　M 管理(GA 鸟腺苷) 
 ###### V 感知(LT 变胸腺嘌呤)　　 E 执行(UCL 尿胞变嘌呤)　　 C 控制(G 鸟嘌呤)　　　　　　S 静态(A 腺嘌呤)
 ###### I 增加(U 尿嘧啶)　　　　　D 减少(C 胞嘧啶)　　　　　　U 改变(L 变嘧啶)　　　　　　Q 感应(T 胸腺嘧啶)  
-###### U 改变(L 变嘧啶)定义为 L(L-Pyrimidine) the first char of luo YG and liang BY,  Named by yaoguangluo 20201025   END 2020-10-25 21:30 PM, D8+, YAOGUANGLUO LIUYANG  
+## U 改变(L 变嘧啶)定义为 L(L-Pyrimidine) the first char of luo YG and liang BY,  Named by yaoguangluo 20201025   END 2020-10-25 21:30 PM, D8+, YAOGUANGLUO LIUYANG  
 #### 今天发现 A = U + Q + I (肽展) 与 O = I + U + Q (肽展) 出现逆对称 引起了我的注意  为了避免定义为误差变换, 于是现在我增加 4BIT LAW 演化如下,  
 ###### A = U + Q + I + Q , 
 ###### O = I + U + I + Q ,  
