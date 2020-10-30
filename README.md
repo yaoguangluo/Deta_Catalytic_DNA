@@ -347,6 +347,8 @@
 ###### 12. UNICORN AI, https://github.com/YAOGUANGluo/ETL_Unicorn, last accessed 2020/10/23.
 ###### 13. PDN LINK, https://baike.baidu.com/item/%E8%82%BD%E9%93%BE/8625112?fr=aladdin, last accessed 2020/10/23.
 ###### 14. Yaoguangluo, Rongwuluo, The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2, CN2020Z11L0333706'
+###### github https://github.com/yaoguangluo/Deta_Resource/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
+###### gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
 
 #### Thanks
 ##### 感谢父亲在医学上提供了许多可借鉴的研究思维经验, 比如医学的严谨性和可扩展性, 为DNA非对称方法模拟丰富了作者的联想, 因为这篇文章主要是离散数学公式推导论证, 于是署名为独立作者, 在此感谢. 感谢 md 格式 规范, 方便我美观编辑.
