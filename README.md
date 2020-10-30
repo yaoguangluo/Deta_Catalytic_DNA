@@ -1,5 +1,5 @@
 # <<100%(首创)个人著作权开源项目>>Deta_Catalytic_DNA 这个工程的主要目的是彻底颠覆现有的所有SDLC结构, 用一种类人软件生命替代 2019-04-18-2:02 China 8+.
-## This new project implements a humanoid life by using Deta DNA catalytic theory, Author will do every thing by using English. Not only for the cod humanoid life application where we name Tin God, Deta also will spend more time for making a fully proof that VPCS nero cell and PDN link mask is the best way of chromosome executions.
+## This new project implements a humanoid life by using Deta DNA catalytic theory, Author will do every thing by using English. Not only for the code humanoid life application where we name Tin God, Deta also will spend more time for making a fully proof that VPCS nero cell and PDN link mask is the best way of chromosome executions.
 
 Useful Source Link:
 ###### https://github.com/yaoguangluo/AOPM_VPCS_Theroy
@@ -330,8 +330,8 @@ https://baike.sogou.com/v7480386.htm?fromTitle=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A
 ##### 3. 嘌呤,https://baike.sogou.com/v5478759.htm?fromTitle=嘌呤
 ##### 4. 苷, https://baike.sogou.com/v3272184.htm?fromTitle=%E8%8B%B7
 ##### 5. 新冠, https://baike.sogou.com/v184764825.htm?fromTitle=%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92
-##### 6. VPCS, YAOGUANG. Luo , https://github.com/YAOGUANGluo/DETA_Resource/blob/master/VPCS-Method_V1.1.doc, last accessed 2020/10/23. 
-##### 7. AOPM, https://github.com/YAOGUANGluo/DETA_Resource/blob/master/AOPM[10]%20System%20On%20VPCS.doc , last accessed 2020/10/23.
+##### 6. VPCS, YAOGUANG. Luo , https://github.com/YAOGUANGluo/DETA_Resource/blob/master/VPCS-Method_V1.1.pdf, last accessed 2020/10/23. 
+##### 7. AOPM, https://github.com/YAOGUANGluo/DETA_Resource/blob/master/AOPM[10]%20System%20On%20VPCS.pdf , last accessed 2020/10/23.
 ##### 8. 象契文字, 象形的明确意识 加 契形的格式符号. 
 ##### 8.1. 象形文字, https://baike.sogou.com/v74567.htm?fromTitle=%E8%B1%A1%E5%BD%A2%E6%96%87%E5%AD%97
 ##### 8.2. 契形文字, https://baike.sogou.com/v416426.htm?fromTitle=楔形文字
