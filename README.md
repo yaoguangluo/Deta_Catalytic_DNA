@@ -98,25 +98,27 @@
 ##### 完美的单链化后 开始思考怎么还原 迫切需要论证一些编码解码公式
 
 ##### =>通过推导发现有些肽展过程是可以可逆变换的. (后来论证得到准确答案这是不严谨的)
-###### A= S  -  I  =  I  -  S =... 
-###### O= S  -  Q  =  Q  -  S =... 
-###### P= C  -  D  =  D  -  S =... 
-###### M= S  -  Q  =  Q  -  S =.... 
+###### A = S - I = I - S =... 
+###### O = S - Q = Q - S =... 
+###### P = C - D = D - S =... 
+###### M = S - Q = Q - S =.... 
 ##### => 关于减法运算,作者想到计算汇编指令计算的反码和补码思路, 于是想到 可肽增方式. 于是停止了, 研究, 因为减法其实也是加法的一种形式.于是跟进论证优先级降低.
 ##### 有价值的推导和假设如下
-###### V  +  S =  V  +  I  =>  S  =  I      ~联想~~  A= U
-###### E  +  S =  E  +  Q  =>  S  =  Q      ~联想~~  A= T
-###### E  +  C =  E  +  D  =>  C  =  D      ~联想~~  G= C
-###### C  +  S =  C  +  Q  =>  S  =  Q      ~联想~~  A= T
-##### => 联想: 竟然和人类的ACGTU 腺吻合! 论证下~
-##### 假设 S 已经彻底解码为 A 腺嘌呤, 假设A 腺嘌呤在dna中属于原生静态物质, 于是得到可持续假设论证如下.  
+###### V + S = V + I => S = I      ~联想~~  A = U
+###### E + S = E + Q => S = Q      ~联想~~  A = T
+###### E + C = E + D => C = D      ~联想~~  G = C
+###### C + S = C + Q => S = Q      ~联想~~  A = T
+
+### => 联想: 竟然和人类的ACGTU 腺吻合! 论证下~
+#### 假设 S 已经彻底解码为 A 腺嘌呤, 假设A 腺嘌呤在dna中属于原生静态物质, 于是得到可持续假设论证如下.  
 ###### VECS-S 为 A-腺嘌呤   在dna函数中属于原生活性物质 
 ###### IDUQ-Q 为 T-胸腺嘧啶 在dna函数中属于感应活性物质 
 ###### IDUQ-I 为 U-尿嘧啶   在dna函数中属于增生活性物质 
 ###### VECS-C 为 G-鸟嘌呤   在dna函数中属于控制活性物质 
 ###### IDUQ-D 为 C-胞嘧啶   在dna函数中属于降解活性物质
-##### => 可持续论证如下. 嘌呤 生物多样化特征 属于VPCS INTIONS肽! 嘧啶 生物应激性特征 属于IDUQ INTIONS肽! 
-###### 最后通过推导公式归纳了下: V= U + Q,  E= I + U,  C= I + D,  S= I + Q,  I= !D,  U= !Q 
+
+#### => 可持续论证如下. 嘌呤 生物多样化特征 属于VPCS INTIONS肽! 嘧啶 生物应激性特征 属于IDUQ INTIONS肽! 
+## 最后通过推导公式归纳了下: V = U + Q,  E = I + U,  C = I + D,  S = I + Q,  I = !D,  U = !Q 
 ###### 罗瑶光,  2020年10月25日 6:00 AM D8+  我得到严谨的语义假设公式 推导论证结果:
 ###### A 分析            O 操作             P 处理             M 管理 
 ###### V 感知            E 执行             C 控制(G 鸟嘌呤)   S 静态(A 腺嘌呤) 
@@ -124,17 +126,17 @@
 ####  可以推断:(因为一开始作者没有定AOPM的名称方式,于是先统一高级元INITON用嘌呤名称) 
 ##### A 分析(TA 变感腺嘌呤)  O 操作(UA 增变腺嘌呤)  P 处理(UG 增变鸟嘌呤)   M 管理(GA 鸟腺嘌呤)  
 ##### V 感知(T 变感嘌呤)     E 执行(U 增变嘌呤)     C 控制(G 鸟嘌呤)        S 静态(A  腺嘌呤) 
-##### I 增加(U 尿嘧啶)       D 减少(C 胞嘧啶)       U 改变(变嘧啶)          Q 感应(T  胸腺嘧啶)  U 改变(变嘧啶) 
-######  Named by Yaoguang.Luo 20201025 
+##### I 增加(U 尿嘧啶)       D 减少(C 胞嘧啶)       U 改变(变嘧啶)          Q 感应(T  胸腺嘧啶)  
+## U 改变(变嘧啶)  Named by Yaoguang.Luo 20201025 
  
 ### VIII DETA TVM PDC functions/ 德塔肽推导函数化
 
 ##### 于是通过罗瑶光先生的认知思维与 模拟最简单的几个小词汇 组合, 有了这些小词汇, 于是开始降元推理, 进行统计观测, 作者很惊讶, 开启了意识肽展公式推导体系如下:
 
 ###### 书写: ...OVQ.OEQ.MVQ.OSU...
-###### 物体:...AVQ.ASQ...
-###### 桌子:...OVQ.OEQ.MVQ.OSU...AVQ.ASQ...
-###### 教育:...AVQ.OEQ.PVU.PSU.MSU.MSQ...OVQ.OEQ.MVQ.OSU...
+###### 物体: ...AVQ.ASQ...
+###### 桌子: ...OVQ.OEQ.MVQ.OSU...AVQ.ASQ...
+###### 教育: ...AVQ.OEQ.PVU.PSU.MSU.MSQ...OVQ.OEQ.MVQ.OSU...
 
 ### IX DETA TVM PDC function optimization and PDE/ 德塔肽推导函数逻辑优化
 
@@ -142,19 +144,21 @@
 
 ##### THEN WE FIND? 于是我们推导发现了一些新的肽展变换定律 (PDE SWAP NEW LAW: D =  DD) 
 ##### 在如下公式中 符号解释 !-> 为反码,  ~-> 为补码 
-###### V 感知->U + Q  !-> QU  ~-> QQ   !-> UU  ~-> UQ   =  V 
-###### E 执行->I + U  !-> DQ  ~-> DDD  !-> III ~-> IIU  =  I  +  E (肽增) 
-###### C 控制->I + D  !-> DI  ~-> DU   !-> IQ  ~-> UDD  =  U  +  D (肽展)  =  U + D + D (肽增) 
-###### THEN WE FIND 我们发现 补码变换计算中间态生成两个公式 U  =  E,  I  =  U 
-#### 第一种方法 饱和4元子肽展 A= V + S = U + Q + I + Q =  UQIQ  !->  QUDU ~-> QUDQ  !-> UQIU ~-> UQIQ  =  A 
-###### O= E + S = I + U + I + Q =  IUIQ  !->  DQDU  ~-> DQDQ  !-> IUIU  ~-> IUIQ  = O 
-###### P= E + C = I + U + I + D =  IUID  !->  DQDI  ~-> DQDU  !-> IUIQ  ~-> IUIDD  =  P  +  D (肽增) 
-###### M= C + S = I + D + I + Q =  IDIQ  !->  DIDU  ~-> DIDQ  !-> IDIU  ~-> IDIQ  =  M  
+###### V 感知 -> U + Q !-> QU ~-> QQ  !-> UU  ~-> UQ   = V 
+###### E 执行 -> I + U !-> DQ ~-> DDD !-> III ~-> IIU  = I + E (肽增) 
+###### C 控制 -> I + D !-> DI ~-> DU  !-> IQ  ~-> UDD  = U + D (肽展) = U + D + D (肽增) 
+###### THEN WE FIND 我们发现 补码变换计算中间态生成两个公式 U = E, I = U 
+#### 第一种方法 饱和4元子肽展 
+###### A = V + S = U + Q + I + Q = UQIQ  !->  QUDU  ~-> QUDQ  !-> UQIU  ~-> UQIQ  = A 
+###### O = E + S = I + U + I + Q = IUIQ  !->  DQDU  ~-> DQDQ  !-> IUIU  ~-> IUIQ  = O 
+###### P = E + C = I + U + I + D = IUID  !->  DQDI  ~-> DQDU  !-> IUIQ  ~-> IUIDD = P + D (肽增) 
+###### M = C + S = I + D + I + Q = IDIQ  !->  DIDU  ~-> DIDQ  !-> IDIU  ~-> IDIQ  = M  
 
-#### 第二种方法不饱和3元子肽展 A= V + S = U + Q + I + Q =  UQI  !->  QUD ~->  QUI !->  UQD ~->  UQI  =  A 
-###### O= E + S = I + U + I + Q =  IUQ  !->  DQU ~->  DQQ !->  IUU ~->  IUQ  =  O 
-###### P= E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD  =  P  +  D (肽增) 
-###### M= C + S = I + D + I + Q =  IDQ  !->  DIU ~->  DIQ !->  IDU ~->  IDQ   =  M  
+#### 第二种方法不饱和3元子肽展 
+###### A = V + S = U + Q + I + Q =  UQI  !->  QUD ~->  QUI !->  UQD ~->  UQI  = A 
+###### O = E + S = I + U + I + Q =  IUQ  !->  DQU ~->  DQQ !->  IUU ~->  IUQ  = O 
+###### P = E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD = P + D (肽增) 
+###### M = C + S = I + D + I + Q =  IDQ  !->  DIU ~->  DIQ !->  IDU ~->  IDQ  = M  
 ###### 结论, 看起来似乎是很好的方式 这里描述下为什么我会4bit 计算,因为一开始用3bit也能很好的论证,为了找到伪命题,我思考,VECS如果进行增元倍增,最好是倍数4bit, 于是觉得有必要推导论证
 
 ##### 于是开始整理, 归纳为本下面肽展公式.
@@ -185,9 +189,9 @@
 ### XII TVM humanoid life Research/ 应用在类人生命进化中
 #### 发现有重大价值后, 开始高级应用, 模拟新冠和永生等词汇推导
 
-##### A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)  M 管理(GA 鸟腺苷) 
-##### V 感知(LT 变胸腺嘌呤)   E 执行(UCL 尿胞变嘌呤)   C 控制(G 鸟嘌呤)         S 静态(A 腺嘌呤) 
-##### I 增加(U 尿嘧啶)        D 减少(C 胞嘧啶)         U 改变(L 变嘧啶)         Q 感应(T 胸腺嘧啶)
+###### A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)  M 管理(GA 鸟腺苷) 
+###### V 感知(LT 变胸腺嘌呤)   E 执行(UCL 尿胞变嘌呤)   C 控制(G 鸟嘌呤)         S 静态(A 腺嘌呤) 
+###### I 增加(U 尿嘧啶)        D 减少(C 胞嘧啶)         U 改变(L 变嘧啶)         Q 感应(T 胸腺嘧啶)
 
 ##### 1 新冠语义解释模拟 
 ###### ...MSI.OCU.OCI.PCU.PCI... 罗瑶光按照人类的理解方式认为 管理静态增加, 操作控制增加处理控制增加
@@ -229,7 +233,8 @@
 ###### ....概率论证很多,这里不一一例举.
 
 ##### 2 永生语义解释模拟
-###### 永生有关 核酸成分 ...MCI.MSI.OSU.OSI.SDI... 罗瑶光按照人类的理解方式认为 管理控制增加, 管理静态增加,操作静态的 胞嘧啶增加可以补充核酸链的胞嘧啶. 作者同样认为可以用在OSGI函数插件过滤的肽化上. 
+###### 永生有关 核酸成分 ...MCI.MSI.OSU.OSI.SDI... 
+###### 罗瑶光按照人类的理解方式认为 管理控制增加, 管理静态增加,操作静态的 胞嘧啶增加可以补充核酸链的胞嘧啶. 作者同样认为可以用在OSGI函数插件过滤的肽化上. 
 ###### -> ...GAGU.GAAU.UCLAA.UCLAAU.LACU... , 一种核酸永生苷糖, 肿瘤增生苷糖 
 ###### -> ...鸟腺苷-鸟嘌呤-尿嘧啶.鸟腺苷-腺嘌呤-尿嘧啶.尿胞变腺苷-腺嘌呤-变嘧啶.尿胞变腺苷-腺嘌呤-尿嘧啶.腺嘌呤-胞嘧啶-尿嘧啶... 根据肽展公式1.2.2 分解为 为 
 ###### =...MCI.MSI.OSU.OSI.SDI...
@@ -240,9 +245,9 @@
 ###### =...CQ.CI.CQ.SI.PSU.PSI.SDI... 完美变换过程 全程透明 
 ###### 论证结果:永生苷糖, 肿瘤增生苷糖核酸成分 可以转换为 控制执行 静态胞嘧啶增加 (SDI) 论证人: 罗瑶光 2020-10-27 11:37 AM
 
-##### A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)   M 管理(GA 鸟腺苷) 
-##### V 感知(LT 变胸腺嘌呤)   E 执行(UCL 尿胞变嘌呤)   C 控制(G 鸟嘌呤)          S 静态(A 腺嘌呤) 
-##### I 增加(U 尿嘧啶)        D 减少(C 胞嘧啶)         U 改变(L 变嘧啶)          Q 感应(T 胸腺嘧啶) 
+###### A 分析(LTA 变胸腺腺苷)  O 操作(UCLA 尿胞变腺苷)  P 处理(UCLG 尿胞变鸟苷)   M 管理(GA 鸟腺苷) 
+###### V 感知(LT 变胸腺嘌呤)   E 执行(UCL 尿胞变嘌呤)   C 控制(G 鸟嘌呤)          S 静态(A 腺嘌呤) 
+###### I 增加(U 尿嘧啶)        D 减少(C 胞嘧啶)         U 改变(L 变嘧啶)          Q 感应(T 胸腺嘧啶) 
 
 ##### 永生有关 核酸成分 ...MCI.MSI.OSU.OSI.SDI... 
 ###### -> ...GAGU.GAAU.UCLAA.UCLAAU.LACU... , 一种核酸永生苷糖, 肿瘤增生苷糖 
@@ -256,23 +261,23 @@
 ###### 论证结果:永生苷糖, 肿瘤增生苷糖核酸成分 可以转换为 控制执行 静态胞嘧啶增加 (SDI) 论证人: 罗瑶光 2020-10-27 11:37 AM
 
 ##### 分解2 =...CS-ID-I.CS-IQ-I.ES-IQ-U.ES-IQ-I.IQ-D-I... 
-###### 分解E= DU =2...CS-ID-I.CS-IQ-I.DUS-IQ-U.DUS-IQ-I.IQ-D-I... 
-###### 分解S= IQ =2.1...IDIQ-ID-I.IDIQ-IQ-I.DUIQ-IQ-U.DUIQ-IQ-I.IQ-D-I... =略. 
-###### 分解S= I =2.2...IDI-ID-I.IDI-IQ-I.DUI-IQ-U.DUI-IQ-I.IQ-D-I... 
-###### =2.2...I.D.I.I.D.I.I.D.I.I.Q.I.D.U.I.I.Q.U.D.U.I.I.Q.I.I.Q.D.I... 
-###### =2.2...ID.I.ID.I.ID.I.IQ.ID.U.I.IQ.U.D.U.I.IQ.I.IQ.D.I... 
-###### =2.2...C.I.C.I.C.I.S.C.U.I.S.U.D.U.I.S.I.S.D.I... 
-###### =2.2...CI.CI.CIS.CUI.SUD.UIS.ISD.I...
-###### =ISD 增加静态删除, I代谢 
+###### 分解 E= DU =2...CS-ID-I.CS-IQ-I.DUS-IQ-U.DUS-IQ-I.IQ-D-I... 
+###### 分解 S= IQ =2.1...IDIQ-ID-I.IDIQ-IQ-I.DUIQ-IQ-U.DUIQ-IQ-I.IQ-D-I... =略. 
+###### 分解 S= I =2.2...IDI-ID-I.IDI-IQ-I.DUI-IQ-U.DUI-IQ-I.IQ-D-I... 
+###### = 2.2...I.D.I.I.D.I.I.D.I.I.Q.I.D.U.I.I.Q.U.D.U.I.I.Q.I.I.Q.D.I... 
+###### = 2.2...ID.I.ID.I.ID.I.IQ.ID.U.I.IQ.U.D.U.I.IQ.I.IQ.D.I... 
+###### = 2.2...C.I.C.I.C.I.S.C.U.I.S.U.D.U.I.S.I.S.D.I... 
+###### = 2.2...CI.CI.CIS.CUI.SUD.UIS.ISD.I...
+###### = ISD 增加静态删除, I代谢 
 
 ##### 分解S= Q =2.3...IDQ-ID-I.IDQ-IQ-I.DUQ-IQ-U.DUQ-IQ-I.IQ-D-I... 
-###### =2.3...I.D.Q.I.D.I.I.D.Q.I.Q.I.D.U.Q.I.Q.U.D.U.Q.I.Q.I.I.Q.D.I... 
-###### =2.3...ID.Q.ID.I.ID.Q.IQ.ID.UQ.IQ.U.D.UQ.IQ.I.IQ.D.I... 
-###### =2.3...C.Q.C.I.C.Q.S.C.V.S.U.D.V.S.I.S.D.I... 
-###### =2.3...C.Q.C.I.C.Q.S.C.VS.U.D.VS.I.S.D.I... 
-###### =2.3...C.Q.C.I.C.Q.S.C.A.U.D.A.I.S.D.I... 
-###### =2.3...CQ.CI.CQ.SCA.UDA.ISD.I... 
-###### =SCA UDA 变胸腺腺苷代谢,ISD生成静态嘧胞啶, I代谢 根据肽增公式1.2.2 聚合为 完美变换过程 全程透明 
+###### = 2.3...I.D.Q.I.D.I.I.D.Q.I.Q.I.D.U.Q.I.Q.U.D.U.Q.I.Q.I.I.Q.D.I... 
+###### = 2.3...ID.Q.ID.I.ID.Q.IQ.ID.UQ.IQ.U.D.UQ.IQ.I.IQ.D.I... 
+###### = 2.3...C.Q.C.I.C.Q.S.C.V.S.U.D.V.S.I.S.D.I... 
+###### = 2.3...C.Q.C.I.C.Q.S.C.VS.U.D.VS.I.S.D.I... 
+###### = 2.3...C.Q.C.I.C.Q.S.C.A.U.D.A.I.S.D.I... 
+###### = 2.3...CQ.CI.CQ.SCA.UDA.ISD.I... 
+###### = SCA UDA 变胸腺腺苷代谢,ISD生成静态嘧胞啶, I代谢 根据肽增公式1.2.2 聚合为 完美变换过程 全程透明 
 ###### 论证结果:永生苷糖, 肿瘤增生苷糖核酸成分 可以转换为 变嘧啶控制执行 静态胞嘧啶增加 (SDI) 
 ###### 论证人: 罗瑶光 2020-10-27 11:37 AM 过程可 酸碱 化 控制 合成趋势.
 
@@ -344,10 +349,11 @@
 ###### 14. Yaoguangluo, Rongwuluo, The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2, CN2020Z11L0333706'
 
 #### Thanks
-##### 感谢父亲在医学上提供了许多可借鉴的研究思维经验, 比如医学的严谨性和可扩展性, 为DNA非对称方法模拟丰富了作者的联想, 因为这篇文章主要是离散数学公式推导论证, 于是署名为独立作者, 在此感谢. 
+##### 感谢父亲在医学上提供了许多可借鉴的研究思维经验, 比如医学的严谨性和可扩展性, 为DNA非对称方法模拟丰富了作者的联想, 因为这篇文章主要是离散数学公式推导论证, 于是署名为独立作者, 在此感谢. 感谢 md 格式 规范, 方便我美观编辑.
 
-##### 罗瑶光 浏阳
-##### 2020-10-30
+##### 罗瑶光 浏阳 准备翻译英文版本前规范化文章.
+##### 2020-10-30 已向华夏 知识产权提交个人著作中文版本申请: 文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+
 
 
 
