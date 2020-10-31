@@ -58,64 +58,90 @@
 #### Figure 2　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 2　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
-###### 作者有必要做出一些解释, 如下文字. 如图先将12个元基initons AOPM VECS IDUQ进行root 根拓展, 发现生成 AOPM- VECS 和AOPM-IDUQ  显隐模式于是发现了 24 类组, 正如figure 2 这些类组一开始作者的思路是染色体索引, 后来思考 如果这种索引能进行功能化, 那么就是一个个函数的主要功能区, 于是按DNA 编码规范1.2.2开始定义词根, 发现了很多惊讶和有趣的研究结果如 Figure4 词根的发现.
+###### 如下文字. 如图先将12个元基initons AOPM VECS IDUQ进行root 根拓展, 发现生成 AOPM- VECS 和AOPM-IDUQ  显隐模式于是发现了 24 类组, 正如figure 2 这些类组一开始作者的思路是染色体索引, 后来思考 如果这种索引能进行功能化, 那么就是一个个函数的主要功能区, 于是按DNA 编码规范1.2.2开始定义词根, 发现了很多惊讶和有趣的研究结果如 Figure4 词根的发现.
+###### lets proof that the root extension of the initons AOPM-VECS-IDUQ, we could see there have 2 types initon section-extensions per each same initon section. For example we can find AOPM has AOPM-VECS and AOPM-IDUQ, the author named dominant chromosome and recessive chromosome, after named, it proofs the software's function also could be extended to the PDN funtion Observer model. then following 'The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2' Author began to make a definition of the PDN's word (PDW) by using PDN root initon chars(PDC), and those PDCs where could build a extension linklist model in the PDN files (PDE). see Figure 4(PDC) 
 
-
-### II I DETA NITONS PDN words root/ 德塔元基分类 词根
+### II I DETA INITONS PDN words root/ 德塔元基分类 词根
 
 ###### 分类组成词根 代表 动词, 名词和形容词, 动词 IDUC-前缀根, 名词 VPCS-前缀根, 形容词 AOPM-前缀根, 形成DNA 语言的 有效元染色体, 如图4, 按照编码规范, 2元词根有明确逻辑价值的组合竟然也是24个组, 作者开始专注思考. 这24组的功能进行深入研究..
+###### After the classification of the PDC and into the 4-pars-chromosome model, it proofs the IDUC-PDC root where similar with the humanoid Verb definition; the VPCS-PDC root similar with the humanoid Noun definition; and the AOPM-PDC root similar with the humanoid Adj definition. See the Figure 4, by following DNA encoding 1.2.2 researching, then got 24 types useful 4-pars-chromosome model, let's continuring proofing as below..   
  
-#### Figure 4　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 4　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 4　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ### III DETA INITONS PDN words/ 德塔元基分类 词典
 
 ###### 词根开始各种组合形成世界首个象契文字DNA语言, 按照罗瑶光先生的思维逻辑进行人类语言和象契语言转换 如 动词, 名词, 形容词... 于是我归纳了下 AOPM 体现了养疗经的智慧高级功能形态, VECS 体现了养疗经的多样化特征, IDUQ 体现了养疗经的生物应激活性, 这个归纳和总结, 用人类的认知的语义理解方式, 作者按照罗瑶光先生的思考方式进行词汇提炼, 确定了软件工程AOPM属于生命周期的系统分类,是一种高级形态, 具有可描述的智慧性, VPCS 因为涉及到控制执行, 插件扩展和静态属性, 作者认为是具有逻辑特征的多样性. 最后IDUQ因为涉及到增删改查, 都是运动方式, 作者定义为应激性表达. 于是再次归纳为Figure 5, 作者开始思考, dna的肽 竟然可以形成一篇具有阅读性的文章, 这篇文章竟然还有思维活性, 应激活性和智慧活性, 于是再次切入实际的论证 将java语言进行翻译成肽语言..
+###### After researching, It proof that DNA language is a hieroglyph-sphenogram word which has intently hieroglyph details and sphenogram formats. then next proof, the Author changes his thinking and mind reading ways into the hieroglyph-sphenogram word sentences, for example changes the human's verb, noun and adj into DNA PDC roots PDW linklist. then find out that AOPM-VECS INITONS, wisdom dominant chromosome pair determines the way of wisdom  association; AOPM-IDUQ INITONS, wisdom recessive chromosome pair determines the way of wisdom expression; VECS-AOPM INITONS, diversity dominant chromosome pairs, determine the diversity of consciousness characteristic; VECS-IDUQ INITONS, diversified recessive chromosome pairs to determine diversified motion characteristics; IDUQ-AOPM INITONS, stress dominant chromosome pair to determine the functional aspects of stress; IDUQ-VECS INITONS, stress recessive chromosome pairs to determine the expression object of stress. please see Figure 5, it proof that DNA PDW could be a artical paper, and this paper could become to a life. it reflections as three instances: AOPM the diversity of consciousness characteristic, VECS wisdom association and IDUQ diversified motion characteristics. lets proof in a real wold project 'YANGLIAOJING': Change the Java file into the PDE file.
 
-#### Figure 5　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 5　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 5　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ### IV DETA TVM/ 德塔词典肽翻译虚拟机
 
 ###### 于是开始将一个养疗经java文件翻译成肽文, 这个过程可以细分为几个细节, 如 Figure6, 先简单转成java行格式 肽文有利于区分. 有理观测. 然后再进行肽链化, 这时候作者发现了一些细节问题, 其中最主要的问题是怎么将AOPM 和 VECS向 IDUQ 层展开. 于是开始设计肽展函数. 我一直在思考一种可行的虚拟机形式, 如果我不设计而是依赖一种编程语言, 会出现平台移植困难, 于是先从肽翻译机开始.
+###### After beginning of the PDE translation, the duration of operations could be parsed in a small details as Figure 6, first into TVM file, then into TVM-PDN list file. finally into a TVM-PDN-PDE IDUQ list file. This real operation needs a logic extension formular collection of PDE AOPM <-SWAP-> VECS <-SWAP->IDUQ ASAP. the Author thought JVM could embedded into other OS platform, TVM PDW needs inherit JVM this fomation: TVM could embedded into other programming languages environment(c/c++, QT, RUBY, C# .ETC..). let's continuring proofing TVM's application. 
 
-#### Figure 6　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 6　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 6　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ### V DETA TVM applications/ 德塔 肽翻译虚拟机应用技术
 
 ###### 首先想到的是加密应用, 比如我最近10年常用MD5加密, 筛子加密, 单握手非对称加密,  DNA加密的效果因为有规则词库和规则概率钥匙, 然后丝化不饱和肽展失真, 所以加密无规律可循, 甚至越解越乱. 是很好的非对称加密方式.
-    
-#### Figure 7 见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf  　      
+###### The first real world imagination of application is Asymmetrically Communications Encryption, Such likes MD5 and Dice communication, DNA Encryption Includes the probabily extension and statistic method, lets the probabily extension build a key, and statistic method for indexing, its very hard to rollback without personal PDE laws, therefore, the level of the safe is pending highly. let proof.  
+
+#### Figure 7　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 7　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf　      
 		    
-#### Figure 8　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+
+#### Figure 8　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 8　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ###### 我选了一个比较简洁的插件源码进行肽化, 这个源码首先短小, 词汇量少, 所以肽化的过程实现快, 比较好观测中间过程, 拓展我的研发思维. 通过intions词根进行语义编码后, 如Figure8, 因为空格和回车等符号没有intion词根转码, 保留了一些程序的特征. 这种文可以作为虚拟机文, 方便以后词库优化. 
+###### Initly, the Author choose a short Java file for PDN extending. because of short, its easy to understand how does TVM working for the translation. after observation of the duration, please see figure 8, without the simbol ENTER and TAB, TVM and JAVA all include the programming features. By following John Von Neumann's flow chat, in order to optimiz to a PDE file in the next step, now save this programming features is sufficency and necessery.  
+
 
 ## VI DETA TVM PDC/ 虚拟机应用优化
 
-#### Figure 9 见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
-##### 加密后于是开始 设计非词汇的符号, 如空格和回车等. 更好的将TVM肽虚拟机密文对比肽展文是因为在肽展公式论证中, 推导出概率变化 如 S = I,  S =Q ,  (D=DD之后用于丝化计算), 如图Figure9虚拟机文在全部肽化后会惊奇的发现 整个文件 好比一个很长的链条. 这个链条有明确的序列和意思. 通过肽展的变换, 作者根据自身的对词汇的理解概括发现了. 
+#### Figure 9　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+#### Figure 9　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
-###### A分析 = V 感知 + S　静态 = U　改变 + Q　查询 + I　可增加 + Q　可查询 = U + Q + I = V + I...  
+###### 加密后于是开始 设计非词汇的符号, 如空格和回车等. 更好的将TVM肽虚拟机密文对比肽展文是因为在肽展公式论证中, 推导出概率变化 如 S = I,  S =Q ,  (D=DD之后用于丝化计算), 如图Figure9虚拟机文在全部肽化后会惊奇的发现 整个文件 好比一个很长的链条. 这个链条有明确的序列和意思. 通过肽展的变换, 作者根据自身的对词汇的理解概括发现了. 
+###### After the DNA PDE Encryption, It proofs alot of PDE Law in Figure 9, we get alot of basic PDE formular like S = I,  S = Q, (D = DD for PDE comp's caculation, proof laterly), then proofs the Java or PDE file could be a PDE IDUQ initons linklist, this list has an absolutly hieroglyph-grammar in sphenogram-sequency. in Author's collections, means from Human verbal list into a DNA verbal list by uing PDE Formular. let's continuring proofing as below..    
+
+###### I-INCREMENT/ADD 　　D-DECREMENT/FILTER　　 U-UPDATE 　　　　C/Q-QUERY/CHECK
+###### V-VITIONARY/FEEL 　　P/E-EXECUTE 　　　　　　C-CONTROL 　　　S-SET/STATIC
+###### A-ANALYSIS 　　　　　O-OPERATION 　　　　　　P-PROCESS　　　 M-MANAGEMENT
+
+###### A分析 　　　= V 感知 　　　+ S　静态 　　= U　改变 　+ Q　查询 　+ I　可增加 　+ Q　可查询 = U 　+ Q 　+ I　　= V 　　　　　　+ I...  
+###### A analysis = V visionary + S static sets = U update + Q query + I increment + Q query 　= U update  + Q query+ I increment = V visionary  + I increment...  
 ###### O= E + S = I + U + I + Q = I + U + Q = E + Q...... 
 ###### P= E + C = I + U + I + D = I + U + D = E + D...... 
 ###### M= C + S = I + D + I + Q = I + D + Q = C + Q...... 
 ###### 这些比较简单的分类, 为了决定它的有效性, 于是开始论证, 用作者的话语便是从语文词汇上的语义的概括到离散数学公式的变换过程展开式.于是开始各种模拟推导. 
+###### Then Author proofs that makes alot of real word POS words into PDW by using PDE logic classify method, in order to find more and more PDE formular LAW　ASAP with a highly quality.   
 
 ### VII DETA TVM PDE/ 德塔肽翻译推导
 
 ##### 完美的单链化后 开始思考怎么还原 迫切需要论证一些编码解码公式
+##### After the linklist modulation, then need roll back the IDUQ into a highly style likes VECS and AOPM, so it seems Mr.Yaoguang need proof more, then continuring proofing. 
 
 ##### =>通过推导发现有些肽展过程是可以可逆变换的. (后来论证得到准确答案这是不严谨的)
+##### =>After the perfect single chain, lets started to think about how to rollback or restore it. It is urgent to demonstrate some encoding and decoding formulas.
 ###### A = S - I = I - S =... 
 ###### O = S - Q = Q - S =... 
 ###### P = C - D = D - S =... 
 ###### M = S - Q = Q - S =.... 
 ###### => 关于减法运算,作者想到计算汇编指令计算的反码和补码思路, 于是想到 可肽增方式. 于是停止了, 研究, 因为减法其实也是加法的一种形式.于是跟进论证优先级降低.
+###### => Regarding the subtraction operation, the author thought of calculating the complement and complement of the calculation of the assembly instruction, so he thought of the PDE increase method. So I stopped, researching, because subtraction is actually a form of addition. So the priority of the follow-up argument is reduced .
+
 ##### 有价值的推导和假设如下
-#### V + S = V + I => S = I      ~联想~~  A = U
-#### E + S = E + Q => S = Q      ~联想~~  A = T
-#### E + C = E + D => C = D      ~联想~~  G = C
-#### C + S = C + Q => S = Q      ~联想~~  A = T
+##### The valuable derivations and assumptions are as follows
+#### V + S = V + I => S = I      ~联想/Imagination~~  A = U
+#### E + S = E + Q => S = Q      ~联想/Imagination~~  A = T
+#### E + C = E + D => C = D      ~联想/Imagination~~  G = C
+#### C + S = C + Q => S = Q      ~联想/Imagination~~  A = T
 
 ### => 联想: 竟然和人类的ACGTU 腺吻合! 论证下~
 #### 假设 S 已经彻底解码为 A 腺嘌呤, 假设A 腺嘌呤在dna中属于原生静态物质, 于是得到可持续假设论证如下.  
@@ -125,17 +151,44 @@
 ###### VECS-C 为 G-鸟嘌呤   在 dna 函数中属于控制活性物质 
 ###### IDUQ-D 为 C-胞嘧啶   在 dna 函数中属于降解活性物质
 
+### => Lenovo: It actually coincides with the human ACGTU gland! Under the argument~
+#### Assuming that S has been completely decoded as A adenine, and assuming that A adenine is a primitive static substance in DNA, the sustainable hypothesis is demonstrated as follows.
+###### VECS-S is A-adenine initon, which is the original active substance in DNA function
+###### IDUQ-Q is T-thymine initon, which is an active substance in the DNA function
+###### IDUQ-I is U-uracil initon is a life-enhancing substance in the DNA function
+###### VECS-C is G-guanine initon which is a controlling active substance in DNA function
+###### IDUQ-D is C-cytosine initon which is a degradation active substance in DNA function
+
+
+
 #### => 可持续论证如下. 嘌呤 生物多样化特征 属于VPCS INTIONS肽， 嘧啶 生物应激性特征 属于IDUQ INTIONS肽． 
+###### => The sustainable proof is as follows. Purine and its biological diversity characteristics where belong to VPCS INTIONS peptides, and pyrimidine and its biological stress characteristics where belong to IDUQ INTIONS peptides.
+
+
 ## 最后通过推导公式归纳了下: V = U + Q,  E = I + U,  C = I + D,  S = I + Q,  I = !D,  U = !Q 
+## Then we find: V = U + Q,  E = I + U,  C = I + D,  S = I + Q,  I = !D,  U = !Q 
 ###### 罗瑶光,  2020年10月25日 6:00 AM D8+  我得到严谨的语义假设公式 推导论证结果:
+###### Luo Yaoguang, October 25, 2020 6:00 AM D8+ got the rigorous semantic hypothesis formula deduction result:
 ###### A 分析　　　　　　　　　　O 操作　　　　　　　　　　P 处理　　　　　　　　　　M 管理 
 ###### V 感知　　　　　　　　　　E 执行　　　　　　　　　　C 控制(G 鸟嘌呤)　　 　　S 静态(A 腺嘌呤) 
 ###### I 增加(U 尿嘧啶)　　　　　　D 减少(C 胞嘧啶)　　　　　U 改变　　　　　　　　　　Q 查找(T 胸腺嘧啶)  
+
+###### A analysis　　　　　　　　　  　O operation　　　　　　　　　P process　　　　　　　　　　M management 
+###### V vitionary　　　　　　　　　　 E execute　　　　　　　　　C control(G Guanine initon)　S static(A Adenine initon) 
+###### I increment(U uracil initon)　D decrement(C cytosine initon)　　　U update　　　　　　Q query(T thymine initon) 
+ 
 ####  可以推断:(因为一开始作者没有定AOPM的名称方式,于是先统一高级元INITON用嘌呤名称) 
 ##### A 分析(TA 变感腺嘌呤)　　O 操作(UA 增变腺嘌呤)　　P 处理(UG 增变鸟嘌呤)　　M 管理(GA 鸟腺嘌呤)  
 ##### V 感知(T 变感嘌呤)　　　　E 执行(U 增变嘌呤)　　　C 控制(G 鸟嘌呤)　　　　　S 静态(A  腺嘌呤) 
 ##### I 增加(U 尿嘧啶)　　　　　D 减少(C 胞嘧啶)　　　　U 改变(变嘧啶)　　　　　　Q 感应(T  胸腺嘧啶)  
+
+####  Then proof:(in the first Mr.Yaoguang didn't name the AOPM initons then using Purine initons(PI) instead. 
+##### A analysis(LTA -Adenine-PI)　O operation(ULA -Adenine-PI)　　P process(UG －Guanine－PI)　M management (GA－PI)  
+##### V vitionary(LT yaoguang-T-PI)　E execute(UL -yaoguang-PI)　C control(G Guanine initon)　S static(A Adenine initon) 
+##### I increment(U uracil initon)　D decrement(C cytosine initon)　U update(L yaoguang initons)　Q query(T thymine initon)  
+
 ## U 改变(变嘧啶)  Named by Yaoguang.Luo 20201025 
+## U UPDATE(L yaoguang initons)  Named by Yaoguang.Luo 20201025 
  
 ### VIII DETA TVM PDC functions/ 德塔肽推导函数化
 
@@ -410,6 +463,8 @@
 ## 新增疑问２０２０－１０－３１：
 ##### 1.3 第一个S=I 第二个S=D,,, 这是一个概率问题.(20201031-我思考了下男性染色体生育X还是Y 与精囊组织液和执行腺体钥匙 IEI　IEE 这类同连元基肽展的酸碱浓度有关，可以让医学家去论证．) 停止论证.　之后可以设计成证书或者概率钥匙 用于非对称量子丝化加密．
 ##### 另外计算机减法的D　=　DD　消耗大量D,　我猜想　肽　计算的过程　在生物学　解释　属于一种智慧　的新陈代谢，可以让医学家去论证，停止论证，之后可以设计软件应激进化工程20201031
-##### 关于警告中的肿瘤增生和癌变　意思是　这篇文章仅仅论证出 DNA执行钥匙同连元基　片段，如果要永生　至少要明确人体dna的语法，　然后根据语法将　语言＂寻找肠胃里的某物质合成某高级分分子用于补充干细胞　．．．．．．．　这种精确肽文　，癌变和肿瘤　就会大大减少　．　20201031　
+##### 关于警告中的肿瘤增生和癌变　意思是　这篇文章仅仅论证出 DNA执行钥匙同连元基　片段，如果要永生　至少要明确人体dna的语法，　然后根据语法将　语言＂寻找肠胃里的某物质合成某高级分分子用于补充干细胞　．．．．．．．　这种精确肽文， 癌变和肿瘤　就会大大减少　．　20201031　
 
 不说了，等下翻译成英文，　DNA 完整解码与肽展计算公式，欢迎人类社会达到宇宙中等级文明．罗瑶光．浏阳
+
+
