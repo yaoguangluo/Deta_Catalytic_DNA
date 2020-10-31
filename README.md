@@ -33,12 +33,13 @@
 #### 313699483@qq.com
 
 ### 观点: 作为拥有研发背景的认知观点, 作者每次发现了一些理论和创造性思维, 便开始工程设计, 在真实的场景中应用, 进行论证, 确定它的社会价值: 改变生产力, 创造新的生产力, 优化和归纳生产资料, 最后适应生产环境并进行有效的从局部到整体的修复, 优化, 改善, 改变, 创造新的更好的环境的过程. 作者认为 一个命题论点必须经过严谨的推导论证, 确定它的真实性和有效性. 这篇著作于是形成了骨架.
-###### OUTLOOK: Due to the cognitically researching background, the Author always prepare more and more real world software projects where supporting the proof truly: Emancipate the productive forces, Create new productivity, Optimize existing production tools to better adapt to the production environment and Better assists Human-oid in where understanding, adaptation and transformation of the environment, there for, thurs proofs and factors where could be garthered to the parts of backbone in catalytic computing of the humanoid DNA.    
+###### OUTLOOK: Due to the cognitically researching background, the Author always prepare more and more real world software projects where supporting the proof in truly way: Emancipate the productive forces, Create new productivity, Optimize existing production tools to better adapt to the production environment and Better assists Human-oid in where understanding, adaptation and transformation of the environment, there for, thurs proofs and factors where could be garthered to the parts of backbone in catalytic computing of the humanoid DNA.    
 
 ### Keywords: Chromosome, PDC, PDW, TVM, PDE, PDE-Code, Eternal-tons, L-Pyrimidine, Discrete
 ### 关键词: 染色体, 生命词根库, 象契文字典, 肽虚拟机器, 磁基肽展公式, 非对称肽加密, 永生苷, 变嘧啶, 离散定律
 
 ### 前言: 自从罗瑶光先生发现了类人 DNA 与 神经元基于催化算子映射编码方式后, 于是开始进行多种具体工程应用论证实现, 这个过程一次又一次的改变作者的思维, 特别是生命染色体配对后聚合方式, 形成了具体的生命词根库, 然后组成象契文字典, 逐渐形成肽虚拟机模拟, 进而优化推导出肽展公式, 非对称肽加密, 永生苷, 变嘧啶 作为DNA离散定律的补充, 于是归纳成一个完整的系统思想, 正如这篇文章, 对于AOPM VECS IDUQ 肽元基编码计算与它的应用, 永生只是开始~
+###### Since Mr.Yaoguang Luo AND Mr.Rongwu luo found out the 'The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell' see 1.2.2 Chinese full style: NCAC, CN2020Z11L0333706. English short style: EI ACM, A2050-ICITEE2020, then did alot of proofs in DETA web big data projects, such like (Deta OSS...). Always, Those proofs have been pushing Mr.Yaoguang who always jumping out the way of his mind for thinking in depthly.. for the instances PDC, PDW, TVM, PDE, PDE-Code, Eternal-tons and L-Pyrimidine, the Author will prepare more and more logic caculation proofs about implementing the 'AOPM-VECS-IDUQ Catalytic INITONS PDE LAW and Its Application' in sequency flowchat as below.     
 
 ### I DETA INITONS classify/ 德塔元基 分类 
 #### Figure 1　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
