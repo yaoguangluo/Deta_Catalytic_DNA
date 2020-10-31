@@ -39,32 +39,32 @@
 ### 关键词: 染色体, 生命词根库, 象契文字典, 肽虚拟机器, 磁基肽展公式, 非对称肽加密, 永生苷, 变嘧啶, 离散定律
 
 ### 前言: 自从罗瑶光先生发现了类人 DNA 与 神经元基于催化算子映射编码方式后, 于是开始进行多种具体工程应用论证实现, 这个过程一次又一次的改变作者的思维, 特别是生命染色体配对后聚合方式, 形成了具体的生命词根库, 然后组成象契文字典, 逐渐形成肽虚拟机模拟, 进而优化推导出肽展公式, 非对称肽加密, 永生苷, 变嘧啶 作为DNA离散定律的补充, 于是归纳成一个完整的系统思想, 正如这篇文章, 对于AOPM VECS IDUQ 肽元基编码计算与它的应用, 永生只是开始~
-###### Since Mr.Yaoguang Luo AND Mr.Rongwu luo found out the 'The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell' see 1.2.2 Chinese full style: NCAC, CN2020Z11L0333706. English short style: EI ACM, A2050-ICITEE2020, then did alot of proofs in DETA web big data projects, such like (Deta OSS...). Always, Those proofs have been pushing Mr.Yaoguang who always jumping out the way of his mind for thinking in depthly.. for the instances PDC, PDW, TVM, PDE, PDE-Code, Eternal-tons and L-Pyrimidine, the Author will prepare more and more logic caculation proofs about implementing the 'AOPM-VECS-IDUQ Catalytic INITONS PDE LAW and Its Application' in sequency flowchat as below.     
+###### Since Mr.Yaoguang Luo AND Mr.Rongwu luo found out the 'The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell(DNA encoding 1.2.2)' see 1.2.2 Chinese full style: NCAC, CN2020Z11L0333706. English short style: EI ACM, A2050-ICITEE2020, then did alot of proofs in DETA web big data projects, such like (Deta OSS...). Always, Those proofs have been pushing Mr.Yaoguang who always jumping out the way of his mind for thinking in depthly.. for the instances PDC, PDW, TVM, PDE, PDE-Code, Eternal-tons and L-Pyrimidine, the Author will prepare more and more logic caculation proofs about implementing the 'AOPM-VECS-IDUQ Catalytic INITONS PDE LAW and Its Application' in sequency flowchat as below.     
 
 ### I DETA INITONS classify/ 德塔元基 分类 
+
 #### Figure 1　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 1　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
-###### 选个切入点说起, 自从作者在上一篇著作DNA编码规范中发现了类DNA的编码元 AOPM VPCS IDUC 后进行了简单的去重生成 AOPM VECS IDUQ, 于是开始女娲计划设计如Figure 1, 现在按照主谓宾, 定状补的语法组成形式设计3元词根如: 单元基 AOPM VECS IDUQ. 双元基 AA.. AO.. AP.. AM.. OA.. OO.. OP.. OM.. 三元基 AAA.. AAO.. AAP.. AAM.. 通过编码, 发现 仅仅1维词根便包含上千的逻辑含义, 如果2维词根如 ..AAA.AAO... 便瞬间膨胀到(1000+) * (1000+)= 100万+, 这个意识远远大于人类现在的最高学术水平, 于是惊叹, 如何合理的应用这种知识结构? 似乎有点远, 先从养疗经上做元initons分类实验. 如下FIGURE 1-1
-###### Since the latest document paper "The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell" finished, the Author changes the name of AOPM-VPCS-IDUC initons into AOPM-VECS-IDUQ due to the duplication of the same chars P and C. then starts the NUWA plan, please see at Figure 1, similar with the Human's grammar, could format the initons as three types, one for Single-tons A, O, P, M, V, E, C, S, I, D, U, Q; two for Double-tons AA, AO, AP, AM, ... ...OA, OP, OM... AND Triper-tons AAA, AAO, AAP, AAM... Then we could find out more than 1800 Triper initons word's root. if it's root words appear in 2 dimension or more dimension root links... It could happen and detail out the conbination features of more than one millon real world verbal's, so lets talk about the 'YANGLIAOJING' software on a researching way as FIGURE 1-1.          
-
+###### 选个切入点说起, 自从作者在上一篇著作DNA编码规范中发现了类DNA的编码元 AOPM VPCS IDUC 后进行了简单的去重生成 AOPM VECS IDUQ, 于是开始女娲计划设计如Figure 1, 现在按照主谓宾, 定状补的语法组成形式设计3元词根如: 单元基 AOPM VECS IDUQ.  双元基 AA.. AO.. AP.. AM .. OA..OO.. OP.. OM.. 三元基 AAA.. AAO.. AAP.. AAM.. 通过编码, 发现 仅仅1维词根便包含上千的逻辑含义, 如果2维词根如 ..AAA.AAO... 便瞬间膨胀到(1000+) * (1000+)= 100万+, 这个意识远远大于人类现在的最高学术水平, 于是惊叹, 如何合理的应用这种知识结构? 似乎有点远, 先从养疗经上做元initons分类实验. 如下FIGURE 1-1
+###### Since the latest document paper "The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell" finished, the Author changes the name of AOPM-VPCS-IDUC initons into AOPM-VECS-IDUQ due to the duplication of the same chars P and C. then starts the NUWA plan, please see at Figure 1, similar with the Human's grammar, could format the initons as three types, one for Single-tons A, O, P, M, V, E, C, S, I, D, U, Q; two for Double-tons AA, AO, AP, AM, ... ...OA, OP, OM... AND Triper-tons AAA, AAO, AAP, AAM... Then we could find out more than 1800 Triper initons word's root. if it's root words appear in 2 dimension or more dimension root links... It could happen and detail out the conbination features of more than one millon real world verbal's, so let's talking about the 'YANGLIAOJING' software on a researching way as FIGURE 1-1.
 
 #### Figure 1-1　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 1-1　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ###### 一开始养疗经的ETL 节点 通过插件的方式扩充, 作者想设计成肽化插件形式, 通过TVM 肽化虚拟机来添加jar包,这样 jar包也可以设计成肽文件编码. 既可以加密保存又可以作为肽节点拓展. 于是作者开始验证可行性, 先按简单的分类和聚类索引模式, 按 A,  AO,  AOP, 进行节点归类. 研究发现, 一个肽索引世界展现在眼前, 原来这种染色体化的结构数不尽, 于是开始按主谓宾的方式开始模拟明显特征规范的 3元染色体层, 结果发现也有24对, 如Figure 2 
-###### Base through the DETA Unicorn NODES in ETL OSGI plug-in way, the Author try to code the ETL nodes files where trans into a PDN files by using DNA catalytic 1.2.2 INITONS encoding technonogy, At that time, Author thinks It could be used in Data encoding domain. Let's proofing, for example the first, using classify method, define the A, AO, AOP.. did the PDN files name's statistic in an observer classify model. then get a true answear of the main features of triper-tons classify where similar with 24 basic types. as Figure 2 shows.
+###### Base through the DETA Unicorn Nodes in ETL OSGI plug-in way, the Author try to code the ETL node files where transpoting into a PDN files by using DNA catalytic 1.2.2 INITONS encoding technonogy, At that time, Author thinks It could be used in Data encoding domain. Let's proving, for example the first, using classify method, define the A, AO, AOP.. did the PDN files name's statistic in an observer view upon the classify model. then get a true answear of the main features of triper-tons classify where similar with 24 basic types. as Figure 2 shows.
 
 #### Figure 2　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 2　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ###### 如下文字. 如图先将12个元基initons AOPM VECS IDUQ进行root 根拓展, 发现生成 AOPM- VECS 和AOPM-IDUQ  显隐模式于是发现了 24 类组, 正如figure 2 这些类组一开始作者的思路是染色体索引, 后来思考 如果这种索引能进行功能化, 那么就是一个个函数的主要功能区, 于是按DNA 编码规范1.2.2开始定义词根, 发现了很多惊讶和有趣的研究结果如 Figure4 词根的发现.
-###### lets proof that the root extension of the initons AOPM-VECS-IDUQ, we could see there have 2 types initon section-extensions per each same initon section. For example we can find AOPM has AOPM-VECS and AOPM-IDUQ, the author named dominant chromosome and recessive chromosome, after named, it proofs the software's function also could be extended to the PDN funtion Observer model. then following 'The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2' Author began to make a definition of the PDN's word (PDW) by using PDN root initon chars(PDC), and those PDCs where could build a extension linklist model in the PDN files (PDE). see Figure 4(PDC) 
+###### let's proving that the root extension of the initons AOPM-VECS-IDUQ, we could see there have 2 types initon section-extensions per each same initon section. For example we can find AOPM has AOPM-VECS and AOPM-IDUQ, the author named dominant chromosome and recessive chromosome, after named, it proofs the software's function also could be extended to the PDN funtion Observer model. then following 'The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2' Author began to make a definition of the PDN's word (PDW) by using PDN root initon chars(PDC), and those PDCs where could build a extension linklist model in the PDN files (PDE). see Figure 4(PDC) 
 
 ### II I DETA INITONS PDN words root/ 德塔元基分类 词根
 
 ###### 分类组成词根 代表 动词, 名词和形容词, 动词 IDUC-前缀根, 名词 VPCS-前缀根, 形容词 AOPM-前缀根, 形成DNA 语言的 有效元染色体, 如图4, 按照编码规范, 2元词根有明确逻辑价值的组合竟然也是24个组, 作者开始专注思考. 这24组的功能进行深入研究..
-###### After the classification of the PDC and into the 4-pars-chromosome model, it proofs the IDUC-PDC root where similar with the humanoid Verb definition; the VPCS-PDC root similar with the humanoid Noun definition; and the AOPM-PDC root similar with the humanoid Adj definition. See the Figure 4, by following DNA encoding 1.2.2 researching, then got 24 types useful 4-pars-chromosome model, let's continuring proofing as below..   
+###### After the classification of the PDC and into the 4-pars-chromosome model, it proofs the IDUC-PDC root where similar with the humanoid Verb definition; the VPCS-PDC root similar with the humanoid Noun definition; and the AOPM-PDC root similar with the humanoid Adj definition. See the Figure 4, by following DNA encoding 1.2.2 researching, then got 24 types useful 4-pars-chromosome model, let's continuring proving as below..   
  
 #### Figure 4　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 4　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
@@ -72,7 +72,7 @@
 ### III DETA INITONS PDN words/ 德塔元基分类 词典
 
 ###### 词根开始各种组合形成世界首个象契文字DNA语言, 按照罗瑶光先生的思维逻辑进行人类语言和象契语言转换 如 动词, 名词, 形容词... 于是我归纳了下 AOPM 体现了养疗经的智慧高级功能形态, VECS 体现了养疗经的多样化特征, IDUQ 体现了养疗经的生物应激活性, 这个归纳和总结, 用人类的认知的语义理解方式, 作者按照罗瑶光先生的思考方式进行词汇提炼, 确定了软件工程AOPM属于生命周期的系统分类,是一种高级形态, 具有可描述的智慧性, VPCS 因为涉及到控制执行, 插件扩展和静态属性, 作者认为是具有逻辑特征的多样性. 最后IDUQ因为涉及到增删改查, 都是运动方式, 作者定义为应激性表达. 于是再次归纳为Figure 5, 作者开始思考, dna的肽 竟然可以形成一篇具有阅读性的文章, 这篇文章竟然还有思维活性, 应激活性和智慧活性, 于是再次切入实际的论证 将java语言进行翻译成肽语言..
-###### After researching, It proof that DNA language is a hieroglyph-sphenogram word which has intently hieroglyph details and sphenogram formats. then next proof, the Author changes his thinking and mind reading ways into the hieroglyph-sphenogram word sentences, for example changes the human's verb, noun and adj into DNA PDC roots PDW linklist. then find out that AOPM-VECS INITONS, wisdom dominant chromosome pair determines the way of wisdom  association; AOPM-IDUQ INITONS, wisdom recessive chromosome pair determines the way of wisdom expression; VECS-AOPM INITONS, diversity dominant chromosome pairs, determine the diversity of consciousness characteristic; VECS-IDUQ INITONS, diversified recessive chromosome pairs to determine diversified motion characteristics; IDUQ-AOPM INITONS, stress dominant chromosome pair to determine the functional aspects of stress; IDUQ-VECS INITONS, stress recessive chromosome pairs to determine the expression object of stress. please see Figure 5, it proof that DNA PDW could be a artical paper, and this paper could become to a life. it reflections as three instances: AOPM the diversity of consciousness characteristic, VECS wisdom association and IDUQ diversified motion characteristics. lets proof in a real wold project 'YANGLIAOJING': Change the Java file into the PDE file.
+###### After researching, It proofs that DNA language is a hieroglyph-sphenogram word which has intently hieroglyph details and sphenogram formats. then next proof, the Author changes his thinking and mind reading ways into the hieroglyph-sphenogram word sentences, for example changes the human's verb, noun and adj into DNA PDC roots PDW linklist. then find out that AOPM-VECS INITONS, wisdom dominant chromosome pair determines the way of wisdom  association; AOPM-IDUQ INITONS, wisdom recessive chromosome pair determines the way of wisdom expression; VECS-AOPM INITONS, diversity dominant chromosome pairs, determine the diversity of consciousness characteristic; VECS-IDUQ INITONS, diversified recessive chromosome pairs to determine diversified motion characteristics; IDUQ-AOPM INITONS, stress dominant chromosome pair to determine the functional aspects of stress; IDUQ-VECS INITONS, stress recessive chromosome pairs to determine the expression object of stress. please see Figure 5, it proofs that DNA PDW could be a artical paper, and this paper could become to a life. it reflections as three instances: AOPM the diversity of consciousness characteristic, VECS wisdom association and IDUQ diversified motion characteristics. let's proving in a real wold project 'YANGLIAOJING': Change the Java file into the PDE file.
 
 #### Figure 5　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 5　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
@@ -80,7 +80,7 @@
 ### IV DETA TVM/ 德塔词典肽翻译虚拟机
 
 ###### 于是开始将一个养疗经java文件翻译成肽文, 这个过程可以细分为几个细节, 如 Figure6, 先简单转成java行格式 肽文有利于区分. 有理观测. 然后再进行肽链化, 这时候作者发现了一些细节问题, 其中最主要的问题是怎么将AOPM 和 VECS向 IDUQ 层展开. 于是开始设计肽展函数. 我一直在思考一种可行的虚拟机形式, 如果我不设计而是依赖一种编程语言, 会出现平台移植困难, 于是先从肽翻译机开始.
-###### After beginning of the PDE translation, the duration of operations could be parsed in a small details as Figure 6, first into TVM file, then into TVM-PDN list file. finally into a TVM-PDN-PDE IDUQ list file. This real operation needs a logic extension formular collection of PDE AOPM <-SWAP-> VECS <-SWAP->IDUQ ASAP. the Author thought JVM could embedded into other OS platform, TVM PDW needs inherit JVM this fomation: TVM could embedded into other programming languages environment(c/c++, QT, RUBY, C# .ETC..). let's continuring proofing TVM's application. 
+###### After beginning of the PDE translation, the duration of operations could be parsed in a small details as Figure 6, first into TVM file, then into TVM-PDN list file. finally into a TVM-PDN-PDE IDUQ list file. This real operation needs a logic extension formular collection of PDE AOPM <-SWAP-> VECS <-SWAP->IDUQ ASAP. the Author thought JVM could embedded into other OS platform, TVM PDW needs inherit JVM this fomation: TVM could embedded into other programming languages environment(c/c++, QT, RUBY, C# .ETC..). let's continuring proving TVM's application. 
 
 #### Figure 6　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 6　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
@@ -88,7 +88,7 @@
 ### V DETA TVM applications/ 德塔 肽翻译虚拟机应用技术
 
 ###### 首先想到的是加密应用, 比如我最近10年常用MD5加密, 筛子加密, 单握手非对称加密,  DNA加密的效果因为有规则词库和规则概率钥匙, 然后丝化不饱和肽展失真, 所以加密无规律可循, 甚至越解越乱. 是很好的非对称加密方式.
-###### The first real world imagination of application is Asymmetrically Communications Encryption, Such likes MD5 and Dice communication, DNA Encryption Includes the probabily extension and statistic method, lets the probabily extension build a key, and statistic method for indexing, its very hard to rollback without personal PDE laws, therefore, the level of the safe is pending highly. let proof.  
+###### The first real world imagination of application is Asymmetrically Communications Encryption, Such likes MD5 and Dice communication, DNA Encryption Includes the probabily extension and statistic method, lets the probabily extension build a key, and statistic method for indexing, its very hard to rollback without personal PDE laws, therefore, the level of the safe is pending highly. let's proving.  
 
 #### Figure 7　见文件地址: github https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 #### Figure 7　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf　      
@@ -108,13 +108,13 @@
 #### Figure 9　见文件地址: gitee https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ###### 加密后于是开始 设计非词汇的符号, 如空格和回车等. 更好的将TVM肽虚拟机密文对比肽展文是因为在肽展公式论证中, 推导出概率变化 如 S = I,  S =Q ,  (D=DD之后用于丝化计算), 如图Figure9虚拟机文在全部肽化后会惊奇的发现 整个文件 好比一个很长的链条. 这个链条有明确的序列和意思. 通过肽展的变换, 作者根据自身的对词汇的理解概括发现了. 
-###### After the DNA PDE Encryption, It proofs alot of PDE Law in Figure 9, we get alot of basic PDE formular like S = I,  S = Q, (D = DD for PDE comp's caculation, proof laterly), then proofs the Java or PDE file could be a PDE IDUQ initons linklist, this list has an absolutly hieroglyph-grammar in sphenogram-sequency. in Author's collections, means from Human verbal list into a DNA verbal list by uing PDE Formular. let's continuring proofing as below..    
+###### After the DNA PDE Encryption, It proofs alot of PDE Law in Figure 9, we get alot of basic PDE formular like S = I,  S = Q, (D = DD for PDE comp's caculation, proof laterly), then proofs the Java or PDE file could be a PDE IDUQ initons linklist, this list has an absolutly hieroglyph-grammar in sphenogram-sequency. in Author's collections, means from Human verbal list into a DNA verbal list by uing PDE Formular. let's continuring proving as below..    
 
 ###### I-INCREMENT/ADD 　　D-DECREMENT/FILTER　　 U-UPDATE 　　　　C/Q-QUERY/CHECK
 ###### V-VITIONARY/FEEL 　　P/E-EXECUTE 　　　　　　C-CONTROL 　　　S-SET/STATIC
 ###### A-ANALYSIS 　　　　　O-OPERATION 　　　　　　P-PROCESS　　　 M-MANAGEMENT
 
-###### A分析 　　　= V 感知 　　　+ S　静态 　　= U　改变 　+ Q　查询 　+ I　可增加 　+ Q　可查询 = U 　+ Q 　+ I　　= V 　　　　　　+ I...  
+###### A分析 　　　= V 感知 　　　+ S　静态 　　= U　改变 　+ Q　查询 　+ I　可增加 　+ Q　可查询 = U 　　+ Q 　+ I　　= V 　　　　　　+ I...  
 ###### A analysis = V visionary + S static sets = U update + Q query + I increment + Q query 　= U update  + Q query+ I increment = V visionary  + I increment...  
 ###### O= E + S = I + U + I + Q = I + U + Q = E + Q...... 
 ###### P= E + C = I + U + I + D = I + U + D = E + D...... 
@@ -125,10 +125,10 @@
 ### VII DETA TVM PDE/ 德塔肽翻译推导
 
 ##### 完美的单链化后 开始思考怎么还原 迫切需要论证一些编码解码公式
-##### After the linklist modulation, then need roll back the IDUQ into a highly style likes VECS and AOPM, so it seems Mr.Yaoguang need proof more, then continuring proofing. 
+##### After the linklist modulation, then need roll back the IDUQ into a highly style likes VECS and AOPM, so it seems Mr.Yaoguang need proof more, then continuring proving. 
 
 ##### =>通过推导发现有些肽展过程是可以可逆变换的. (后来论证得到准确答案这是不严谨的)
-##### =>After the perfect single chain, lets started to think about how to rollback or restore it. It is urgent to demonstrate some encoding and decoding formulas.
+##### =>After the perfect single chain, let's started to think about how to rollback or restore it. It is urgent to demonstrate some encoding and decoding formulas.
 ###### A = S - I = I - S =... 
 ###### O = S - Q = Q - S =... 
 ###### P = C - D = D - S =... 
@@ -193,81 +193,92 @@
 ### VIII DETA TVM PDC functions/ 德塔肽推导函数化
 
 ##### 于是通过罗瑶光先生的认知思维与 模拟最简单的几个小词汇 组合, 有了这些小词汇, 于是开始降元推理, 进行统计观测, 作者开启了意识肽展公式推导体系如下:
-
 ###### 书写: ...OVQ.OEQ.MVQ.OSU...
 ###### 物体: ...AVQ.ASQ...
 ###### 桌子: ...OVQ.OEQ.MVQ.OSU...AVQ.ASQ...
 ###### 教育: ...AVQ.OEQ.PVU.PSU.MSU.MSQ...OVQ.OEQ.MVQ.OSU...
 
+##### Mr.Luo monit the human words into PDW by using his real word cognitions, then begin to make a logic proof of PDE caculations. 
+###### HAND WRITE: ...OVQ.OEQ.MVQ.OSU...
+###### OBJECT: 　　 **...AVQ.ASQ...** 
+###### TABLE: 　　 _　...OVQ.OEQ.MVQ.OSU_  **...AVQ.ASQ...** 
+###### EDUCATION:　...AVQ.OEQ.PVU.PSU.MSU.MSQ _...OVQ.OEQ.MVQ.OSU..._ 
+
 ### IX DETA TVM PDC function optimization and PDE/ 德塔肽推导函数逻辑优化
 
-##### 于是开始这些组合的有理合理性演化推理. //SORT 20201025 19:47 AM D8+ 继续持续绝对专注论证肽增公式1.0 BY USING ENGLISH FOR - 4 BITS DIUQ WAY 通过已有逻辑公式
-
+#### 于是开始这些组合的有理合理性演化推理. //SORT 20201025 19:47 AM D8+ 继续持续绝对专注论证肽增公式1.0 BY USING ENGLISH FOR - 4 BITS DIUQ WAY 通过已有逻辑公式
+#### Proof !-> MASK,  ~->  COMPS :
 ##### THEN WE FIND? 于是我们推导发现了一些新的肽展变换定律 (PDE SWAP NEW LAW: D =  DD) 
 ##### 在如下公式中 符号解释 !-> 为反码,  ~-> 为补码 
+##### Proof !-> MASK,  ~->  COMPS :
 ###### V 感知 -> U + Q !-> QU ~-> QQ  !-> UU  ~-> UQ   = V 
-###### E 执行 -> I + U !-> DQ ~-> DDD !-> III ~-> IIU  = I + E (肽增) 
-###### C 控制 -> I + D !-> DI ~-> DU  !-> IQ  ~-> UDD  = U + D (肽展) = U + D + D (肽增) 
+###### E 执行 -> I + U !-> DQ ~-> DDD !-> III ~-> IIU  = I + E (肽增/PDE INCREMENT) 
+###### C 控制 -> I + D !-> DI ~-> DU  !-> IQ  ~-> UDD  = U + D (肽展/PDE) = U + D + D (肽增/PDE INCREMENT) 
 ###### THEN WE FIND 我们发现 补码变换计算中间态生成两个公式 U = E, I = U 
 
-#### 第一种方法 饱和4元子肽展 
+###### V vitionary -> U + Q !-> QU ~-> QQ  !-> UU  ~-> UQ   = V 
+###### E execute -> I + U !-> DQ ~-> DDD !-> III ~-> IIU  = I + E (肽增/PDINCREMENT) 
+###### C control -> I + D !-> DI ~-> DU  !-> IQ  ~-> UDD  = U + D (肽展/PDE) = U + D + D (肽增/PDE INCREMENT) 
+###### THEN WE FIND two formulars in comp's duration:  U = E, I = U 
+
+#### 第一种方法 饱和4元子肽展 /first way 4 bits proof
 ###### A = V + S = U + Q + I + Q = UQIQ  !->  QUDU  ~-> QUDQ  !-> UQIU  ~-> UQIQ  = A 
 ###### O = E + S = I + U + I + Q = IUIQ  !->  DQDU  ~-> DQDQ  !-> IUIU  ~-> IUIQ  = O 
-###### P = E + C = I + U + I + D = IUID  !->  DQDI  ~-> DQDU  !-> IUIQ  ~-> IUIDD = P + D (肽增) 
+###### P = E + C = I + U + I + D = IUID  !->  DQDI  ~-> DQDU  !-> IUIQ  ~-> IUIDD = P + D (肽增/PDE INCREMENT) 
 ###### M = C + S = I + D + I + Q = IDIQ  !->  DIDU  ~-> DIDQ  !-> IDIU  ~-> IDIQ  = M  
 
-#### 第二种方法不饱和3元子肽展 
+#### 第二种方法不饱和3元子肽展 /second way 3 bits proof
 ###### A = V + S = U + Q + I + Q =  UQI  !->  QUD ~->  QUI !->  UQD ~->  UQI  = A 
 ###### O = E + S = I + U + I + Q =  IUQ  !->  DQU ~->  DQQ !->  IUU ~->  IUQ  = O 
-###### P = E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD = P + D (肽增) 
+###### P = E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD = P + D (肽增/PDE INCREMENT) 
 ###### M = C + S = I + D + I + Q =  IDQ  !->  DIU ~->  DIQ !->  IDU ~->  IDQ  = M  
 ###### 结论, 看起来似乎是很好的方式 这里描述下为什么我会4bit 计算, 因为一开始用3bit也能很好的论证, 为了找到伪命题, 我思考, VECS如果进行增元倍增,最好是倍数4bit, 于是觉得有必要推导论证
-
-##### 于是开始整理, 归纳为本下面肽展公式.
+###### In conclusion, it proofs 4bits discrete caculation is a better way. then Author makes an arrangement as below.the Author thought from VPCS to IDUQ is 2 bits, so that from AOPM to IDUQ may need 4 bit, will be better for the observation.
+##### 于是开始整理, 归纳为下面肽展公式.
 
 #### Figure 11-1　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
-## PDE MASK LAW　离散反码定理　
+## PDE MASK LAW/　离散反码定理　
 ###### I = D! 
 ###### D = I!
 ###### U = Q!
 ###### Q = U!
 
-## PDE COMP'S LAW　离散补码定理
+## PDE COMP'S LAW/　离散补码定理
 ###### DD = ++Q
 ###### I  = ++D
 ###### U  = ++I
 ###### Q  = ++U
 
-## PDE (肽减) LAW
-###### C = D (肽减)
-###### S = I (肽减)
-###### S = Q (肽减)
+## PDE (肽减/PDE DECREMENT) LAW
+###### C = D (肽减/PDE DECREMENT)
+###### S = I (肽减/PDE DECREMENT)
+###### S = Q (肽减/PDE DECREMENT)
 
 
-## PDE (肽增) LAW
-###### D = DD (肽增)
-###### U = E  (肽增)
-###### I = U  (肽增)
-###### E = I + E (肽增)
-###### P = P + D (肽增)
-###### C = U + D + D(肽增)
+## PDE (肽增/PDE INCREMENT) LAW
+###### D = DD (肽增/PDE INCREMENT)
+###### U = E  (肽增/PDE INCREMENT)
+###### I = U  (肽增/PDE INCREMENT)
+###### E = I + E (肽增/PDE INCREMENT)
+###### P = P + D (肽增/PDE INCREMENT)
+###### C = U + D + D(肽增/PDE INCREMENT)
 
 
-## PDE (肽展) LAW
-###### A = V + S (肽展)
-###### A = U + Q + I (不饱和／错误肽展)
-###### O = E + S (肽展)
-###### O = I + U + Q (不饱和／错误肽展)
-###### P = E + C (肽展)
-###### P = I + U + D (不饱和／错误肽展)
+## PDE (肽展/PDE) LAW
+###### A = V + S (肽展/PDE)
+###### A = U + Q + I (不饱和／错误肽展/UNSAFE PDE)
+###### O = E + S (肽展/PDE)
+###### O = I + U + Q (不饱和／错误肽展/UNSAFE PDE)
+###### P = E + C (肽展/PDE)
+###### P = I + U + D (不饱和／错误肽展/UNSAFE PDE)
 ###### M = C + S (肽展)
-###### M = I + D + Q (不饱和／错误肽展)
-###### V = U + Q (肽展)
-###### E = I + U (肽展)
-###### E = D + U (肽展) 
-###### C = I + D (肽展)
-###### S = I + Q (肽展)
+###### M = I + D + Q (不饱和／错误肽展/UNSAFE PDE)
+###### V = U + Q (肽展/PDE)
+###### E = I + U (肽展/PDE)
+###### E = D + U (肽展/PDE) 
+###### C = I + D (肽展/PDE)
+###### S = I + Q (肽展/PDE)
 
 ### X DETA TVM PDE Logic/ 德塔肽推导函数逻辑优化成肽展公式化
 ## 于是发现了一些简单的推导公式 和 不饱和公式, 于是找到了很多东西 如 L变嘧啶
@@ -277,7 +288,15 @@
 ###### V 感知(LT 变胸腺嘌呤)　　 E 执行(UCL 尿胞变嘌呤)　　 C 控制(G 鸟嘌呤)　　　　　　S 静态(A 腺嘌呤)
 ###### I 增加(U 尿嘧啶)　　　　　D 减少(C 胞嘧啶)　　　　　　U 改变(L 变嘧啶)　　　　　　Q 感应(T 胸腺嘧啶)  
 ## U 改变(L 变嘧啶)定义为 L(L-Pyrimidine) the first char of luo YG and liang BY,  Named by yaoguangluo 20201025   END 2020-10-25 21:30 PM, D8+, YAOGUANGLUO LIUYANG  
+
+##### A analysis(LTA -Glycoside)　O operation(UCLA -Glycoside)　P process(UCLG －Glycoside)　M management (GA－Glycoside)  
+##### V vitionary(LT yaoguang-T-PI)　E execute(UL -yaoguang-PI)　C control(G Guanine initon)　S static(A Adenine initon) 
+##### I increment(U uracil initon)　D decrement(C cytosine initon)　U update(L yaoguang initons)　Q query(T thymine initon)  
+## U update(L update-Pyrimidine)定义为 L(L-Pyrimidine) the first char of luo YG and liang BY,  Named by yaoguangluo 20201025   END 2020-10-25 21:30 PM, D8+, YAOGUANGLUO LIUYANG  
+
 #### 今天发现 A = U + Q + I (肽展) 与 O = I + U + Q (肽展) 出现逆对称 引起了我的注意  为了避免定义为误差变换, 于是现在我增加 4BIT LAW 演化如下,  
+#### Today find out that (paper time) A = U + Q + I (PDE) 与 O = I + U + Q (PDE) will cause a Direction Inverse Symmetry, Then makes more attension that increments 4 formulars of 4 bits PDE Law as below 
+
 ###### A = U + Q + I + Q , 
 ###### O = I + U + I + Q ,  
 ###### P = I + U + I + D , 
@@ -287,18 +306,26 @@
 ### XI  DETA TVM PDE and its application/ 德塔肽展公式应用论证技术
 
 ##### 于是想到文件加密,  DNA, 有丝分裂等. 于是开始从文件加密上论证, 肽展函数模拟酸碱 控制 概率丝化 方式 S= I,  S= Q,  E= IU,  E= DU..  等
-
+##### TVM PDE and its application where not only could used in document encoding, DNA moniter, humanoid cognitions or other domains, and also for the probability real word issues by using PDE LAW. for example S= I,  S= Q,  E= IU,  E= DU.. etc.
+ 
 #### FIGURE 12　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
 ### XII TVM humanoid life Research/ 应用在类人生命进化中
 #### 发现有重大价值后, 开始高级应用, 模拟新冠和永生等词汇推导
+#### Moniter　COVID-19 verbal　AND Immortal life verbal
 
 ###### A 分析(LTA 变胸腺腺苷)　　O 操作(UCLA 尿胞变腺苷)　　P 处理(UCLG 尿胞变鸟苷)　　M 管理(GA 鸟腺苷) 
 ###### V 感知(LT 变胸腺嘌呤)　　　E 执行(UCL 尿胞变嘌呤)　　C 控制(G 鸟嘌呤)　　　　　　S 静态(A 腺嘌呤) 
 ###### I 增加(U 尿嘧啶)　　　　　D 减少(C 胞嘧啶)　　　　　　U 改变(L 变嘧啶)　　　　　　Q 感应(T 胸腺嘧啶)
 
-##### 1 新冠语义解释模拟 
+##### A analysis(LTA -Glycoside)O operation(UCLA -Glycoside)P process(UCLG －Glycoside)M management (GA－Glycoside)  
+##### V vitionary(LT yaoguang-T-PI)　E execute(UL -yaoguang-PI)　C control(G Guanine initon)　S static(A Adenine initon) 
+##### I increment(U uracil initon)　D decrement(C cytosine initon)　U update(L yaoguang initons)　Q query(T thymine initon)  
+
+
+##### 1 新冠语义解释模拟/Moniter　COVID-19
 ###### ...MSI.OCU.OCI.PCU.PCI... 罗瑶光按照人类的理解方式认为 管理静态增加, 操作控制增加处理控制增加
+###### ...MSI.OCU.OCI.PCU.PCI... in yaoguangluo's cognitive way is  manage set  increment, operat control increment ,process control increment...
 ##### 作者认为可以用在OSGI插件肽化上. 
 ###### ...GAAU.UCLAGL.UCLAGU.UCLGGL.UCLGGU...一种核酸抑制新冠苷糖
 ###### ...鸟腺苷-腺嘌呤-尿嘧啶.尿胞变腺苷-鸟嘌呤-变嘧啶.尿胞变腺苷-鸟嘌呤-尿嘧啶.尿胞变鸟苷-鸟嘌呤-变嘧啶.尿胞变鸟苷-鸟嘌呤-尿嘧啶...
@@ -466,5 +493,4 @@
 ##### 关于警告中的肿瘤增生和癌变　意思是　这篇文章仅仅论证出 DNA执行钥匙同连元基　片段，如果要永生　至少要明确人体dna的语法，　然后根据语法将　语言＂寻找肠胃里的某物质合成某高级分分子用于补充干细胞　．．．．．．．　这种精确肽文， 癌变和肿瘤　就会大大减少　．　20201031　
 
 不说了，等下翻译成英文，　DNA 完整解码与肽展计算公式，欢迎人类社会达到宇宙中等级文明．罗瑶光．浏阳
-
 
