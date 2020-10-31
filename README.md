@@ -93,4 +93,323 @@
 
 #### Figure 9 见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
 
-##### 加密后于是开始 设计非词汇的符号, 如空格和回车等. 更好的将TVM肽虚拟机密文对比肽展文是因为在肽展公式论证中, 推导出概率
+##### 加密后于是开始 设计非词汇的符号, 如空格和回车等. 更好的将TVM肽虚拟机密文对比肽展文是因为在肽展公式论证中, 推导出概率变化 如 S = I,  S =Q ,  (D=DD之后用于丝化计算), 如图Figure9虚拟机文在全部肽化后会惊奇的发现 整个文件 好比一个很长的链条. 这个链条有明确的序列和意思. 通过肽展的变换, 作者根据自身的对词汇的理解概括发现了. 
+
+###### A分析 = V 感知 + S　静态 = U　改变 + Q　查询 + I　可增加 + Q　可查询 = U + Q + I = V + I...  
+###### O= E + S = I + U + I + Q = I + U + Q = E + Q...... 
+###### P= E + C = I + U + I + D = I + U + D = E + D...... 
+###### M= C + S = I + D + I + Q = I + D + Q = C + Q...... 
+###### 这些比较简单的分类, 为了决定它的有效性, 于是开始论证, 用作者的话语便是从语文词汇上的语义的概括到离散数学公式的变换过程展开式.于是开始各种模拟推导. 
+
+### VII DETA TVM PDE/ 德塔肽翻译推导
+
+##### 完美的单链化后 开始思考怎么还原 迫切需要论证一些编码解码公式
+
+##### =>通过推导发现有些肽展过程是可以可逆变换的. (后来论证得到准确答案这是不严谨的)
+###### A = S - I = I - S =... 
+###### O = S - Q = Q - S =... 
+###### P = C - D = D - S =... 
+###### M = S - Q = Q - S =.... 
+###### => 关于减法运算,作者想到计算汇编指令计算的反码和补码思路, 于是想到 可肽增方式. 于是停止了, 研究, 因为减法其实也是加法的一种形式.于是跟进论证优先级降低.
+##### 有价值的推导和假设如下
+#### V + S = V + I => S = I      ~联想~~  A = U
+#### E + S = E + Q => S = Q      ~联想~~  A = T
+#### E + C = E + D => C = D      ~联想~~  G = C
+#### C + S = C + Q => S = Q      ~联想~~  A = T
+
+### => 联想: 竟然和人类的ACGTU 腺吻合! 论证下~
+#### 假设 S 已经彻底解码为 A 腺嘌呤, 假设A 腺嘌呤在dna中属于原生静态物质, 于是得到可持续假设论证如下.  
+###### VECS-S 为 A-腺嘌呤   在 dna 函数中属于原生活性物质 
+###### IDUQ-Q 为 T-胸腺嘧啶 在 dna 函数中属于感应活性物质 
+###### IDUQ-I 为 U-尿嘧啶   在 dna 函数中属于增生活性物质 
+###### VECS-C 为 G-鸟嘌呤   在 dna 函数中属于控制活性物质 
+###### IDUQ-D 为 C-胞嘧啶   在 dna 函数中属于降解活性物质
+
+#### => 可持续论证如下. 嘌呤 生物多样化特征 属于VPCS INTIONS肽， 嘧啶 生物应激性特征 属于IDUQ INTIONS肽． 
+## 最后通过推导公式归纳了下: V = U + Q,  E = I + U,  C = I + D,  S = I + Q,  I = !D,  U = !Q 
+###### 罗瑶光,  2020年10月25日 6:00 AM D8+  我得到严谨的语义假设公式 推导论证结果:
+###### A 分析　　　　　　　　　　O 操作　　　　　　　　　　P 处理　　　　　　　　　　M 管理 
+###### V 感知　　　　　　　　　　E 执行　　　　　　　　　　C 控制(G 鸟嘌呤)　　 　　S 静态(A 腺嘌呤) 
+###### I 增加(U 尿嘧啶)　　　　　　D 减少(C 胞嘧啶)　　　　　U 改变　　　　　　　　　　Q 查找(T 胸腺嘧啶)  
+####  可以推断:(因为一开始作者没有定AOPM的名称方式,于是先统一高级元INITON用嘌呤名称) 
+##### A 分析(TA 变感腺嘌呤)　　O 操作(UA 增变腺嘌呤)　　P 处理(UG 增变鸟嘌呤)　　M 管理(GA 鸟腺嘌呤)  
+##### V 感知(T 变感嘌呤)　　　　E 执行(U 增变嘌呤)　　　C 控制(G 鸟嘌呤)　　　　　S 静态(A  腺嘌呤) 
+##### I 增加(U 尿嘧啶)　　　　　D 减少(C 胞嘧啶)　　　　U 改变(变嘧啶)　　　　　　Q 感应(T  胸腺嘧啶)  
+## U 改变(变嘧啶)  Named by Yaoguang.Luo 20201025 
+ 
+### VIII DETA TVM PDC functions/ 德塔肽推导函数化
+
+##### 于是通过罗瑶光先生的认知思维与 模拟最简单的几个小词汇 组合, 有了这些小词汇, 于是开始降元推理, 进行统计观测, 作者开启了意识肽展公式推导体系如下:
+
+###### 书写: ...OVQ.OEQ.MVQ.OSU...
+###### 物体: ...AVQ.ASQ...
+###### 桌子: ...OVQ.OEQ.MVQ.OSU...AVQ.ASQ...
+###### 教育: ...AVQ.OEQ.PVU.PSU.MSU.MSQ...OVQ.OEQ.MVQ.OSU...
+
+### IX DETA TVM PDC function optimization and PDE/ 德塔肽推导函数逻辑优化
+
+##### 于是开始这些组合的有理合理性演化推理. //SORT 20201025 19:47 AM D8+ 继续持续绝对专注论证肽增公式1.0 BY USING ENGLISH FOR - 4 BITS DIUQ WAY 通过已有逻辑公式
+
+##### THEN WE FIND? 于是我们推导发现了一些新的肽展变换定律 (PDE SWAP NEW LAW: D =  DD) 
+##### 在如下公式中 符号解释 !-> 为反码,  ~-> 为补码 
+###### V 感知 -> U + Q !-> QU ~-> QQ  !-> UU  ~-> UQ   = V 
+###### E 执行 -> I + U !-> DQ ~-> DDD !-> III ~-> IIU  = I + E (肽增) 
+###### C 控制 -> I + D !-> DI ~-> DU  !-> IQ  ~-> UDD  = U + D (肽展) = U + D + D (肽增) 
+###### THEN WE FIND 我们发现 补码变换计算中间态生成两个公式 U = E, I = U 
+
+#### 第一种方法 饱和4元子肽展 
+###### A = V + S = U + Q + I + Q = UQIQ  !->  QUDU  ~-> QUDQ  !-> UQIU  ~-> UQIQ  = A 
+###### O = E + S = I + U + I + Q = IUIQ  !->  DQDU  ~-> DQDQ  !-> IUIU  ~-> IUIQ  = O 
+###### P = E + C = I + U + I + D = IUID  !->  DQDI  ~-> DQDU  !-> IUIQ  ~-> IUIDD = P + D (肽增) 
+###### M = C + S = I + D + I + Q = IDIQ  !->  DIDU  ~-> DIDQ  !-> IDIU  ~-> IDIQ  = M  
+
+#### 第二种方法不饱和3元子肽展 
+###### A = V + S = U + Q + I + Q =  UQI  !->  QUD ~->  QUI !->  UQD ~->  UQI  = A 
+###### O = E + S = I + U + I + Q =  IUQ  !->  DQU ~->  DQQ !->  IUU ~->  IUQ  = O 
+###### P = E + C = I + U + I + D =  IUD  !->  DQI ~->  DQU !->  IUQ ~->  IUDD = P + D (肽增) 
+###### M = C + S = I + D + I + Q =  IDQ  !->  DIU ~->  DIQ !->  IDU ~->  IDQ  = M  
+###### 结论, 看起来似乎是很好的方式 这里描述下为什么我会4bit 计算, 因为一开始用3bit也能很好的论证, 为了找到伪命题, 我思考, VECS如果进行增元倍增,最好是倍数4bit, 于是觉得有必要推导论证
+
+##### 于是开始整理, 归纳为本下面肽展公式.
+
+#### Figure 11-1　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+
+## PDE MASK LAW　离散反码定理　
+###### I = D! 
+###### D = I!
+###### U = Q!
+###### Q = U!
+
+## PDE COMP'S LAW　离散补码定理
+###### DD = ++Q
+###### I  = ++D
+###### U  = ++I
+###### Q  = ++U
+
+## PDE (肽减) LAW
+###### C = D (肽减)
+###### S = I (肽减)
+###### S = Q (肽减)
+
+
+## PDE (肽增) LAW
+###### D = DD (肽增)
+###### U = E  (肽增)
+###### I = U  (肽增)
+###### E = I + E (肽增)
+###### P = P + D (肽增)
+###### C = U + D + D(肽增)
+
+
+## PDE (肽展) LAW
+###### A = V + S (肽展)
+###### A = U + Q + I (不饱和／错误肽展)
+###### O = E + S (肽展)
+###### O = I + U + Q (不饱和／错误肽展)
+###### P = E + C (肽展)
+###### P = I + U + D (不饱和／错误肽展)
+###### M = C + S (肽展)
+###### M = I + D + Q (不饱和／错误肽展)
+###### V = U + Q (肽展)
+###### E = I + U (肽展)
+###### E = D + U (肽展) 
+###### C = I + D (肽展)
+###### S = I + Q (肽展)
+
+### X DETA TVM PDE Logic/ 德塔肽推导函数逻辑优化成肽展公式化
+## 于是发现了一些简单的推导公式 和 不饱和公式, 于是找到了很多东西 如 L变嘧啶
+
+#### FLASH A NEW NAME 可以得到联想假设推断: 
+###### A 分析(LTA 变胸腺腺苷)　　O 操作(UCLA 尿胞变腺苷)　　P 处理(UCLG 尿胞变鸟苷)　　M 管理(GA 鸟腺苷) 
+###### V 感知(LT 变胸腺嘌呤)　　 E 执行(UCL 尿胞变嘌呤)　　 C 控制(G 鸟嘌呤)　　　　　　S 静态(A 腺嘌呤)
+###### I 增加(U 尿嘧啶)　　　　　D 减少(C 胞嘧啶)　　　　　　U 改变(L 变嘧啶)　　　　　　Q 感应(T 胸腺嘧啶)  
+## U 改变(L 变嘧啶)定义为 L(L-Pyrimidine) the first char of luo YG and liang BY,  Named by yaoguangluo 20201025   END 2020-10-25 21:30 PM, D8+, YAOGUANGLUO LIUYANG  
+#### 今天发现 A = U + Q + I (肽展) 与 O = I + U + Q (肽展) 出现逆对称 引起了我的注意  为了避免定义为误差变换, 于是现在我增加 4BIT LAW 演化如下,  
+###### A = U + Q + I + Q , 
+###### O = I + U + I + Q ,  
+###### P = I + U + I + D , 
+###### M = I + D + I + Q  
+
+
+### XI  DETA TVM PDE and its application/ 德塔肽展公式应用论证技术
+
+##### 于是想到文件加密,  DNA, 有丝分裂等. 于是开始从文件加密上论证, 肽展函数模拟酸碱 控制 概率丝化 方式 S= I,  S= Q,  E= IU,  E= DU..  等
+
+#### FIGURE 12　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+
+### XII TVM humanoid life Research/ 应用在类人生命进化中
+#### 发现有重大价值后, 开始高级应用, 模拟新冠和永生等词汇推导
+
+###### A 分析(LTA 变胸腺腺苷)　　O 操作(UCLA 尿胞变腺苷)　　P 处理(UCLG 尿胞变鸟苷)　　M 管理(GA 鸟腺苷) 
+###### V 感知(LT 变胸腺嘌呤)　　　E 执行(UCL 尿胞变嘌呤)　　C 控制(G 鸟嘌呤)　　　　　　S 静态(A 腺嘌呤) 
+###### I 增加(U 尿嘧啶)　　　　　D 减少(C 胞嘧啶)　　　　　　U 改变(L 变嘧啶)　　　　　　Q 感应(T 胸腺嘧啶)
+
+##### 1 新冠语义解释模拟 
+###### ...MSI.OCU.OCI.PCU.PCI... 罗瑶光按照人类的理解方式认为 管理静态增加, 操作控制增加处理控制增加
+##### 作者认为可以用在OSGI插件肽化上. 
+###### ...GAAU.UCLAGL.UCLAGU.UCLGGL.UCLGGU...一种核酸抑制新冠苷糖
+###### ...鸟腺苷-腺嘌呤-尿嘧啶.尿胞变腺苷-鸟嘌呤-变嘧啶.尿胞变腺苷-鸟嘌呤-尿嘧啶.尿胞变鸟苷-鸟嘌呤-变嘧啶.尿胞变鸟苷-鸟嘌呤-尿嘧啶...
+###### ...MSI.OCU.OCI.PCU.PCI...
+##### 仅仅做不饱和分解聚合的肽展计算为:
+###### ...M.S.I.O.C.U.O.C.I.P.C.U.P.C.I...
+###### ...CS.S.I.ES.C.U.ES.C.I.EC.C.U.EC.C.I...
+##### 1 E=IU
+###### ...CS.S.I.IUS.C.U.IUS.C.I.IUC.C.U.IUC.C.I...
+##### 1.1 S=I
+###### ...CI.I.I.IUI.C.U.IUI.C.I.IUC.C.U.IUC.C.I...
+###### ...C.I.I.I.I.U.I.C.U.I.U.I.C.I.I.U.C.C.U.I.U.C.C.I...
+###### ...I.D.I.I.I.I.U.I.I.D.U.I.U.I.I.D.I.I.U.I.D.I.D.U.I.U.I.D.I.D.I...
+###### ...C.I.I.I.E.I.I.E.I.U.I.C.I.E.C.I.E.E.C.C.I...
+###### ...C.I.I.I.E.I.I.E.I.U.I.C.I.P.I.E.P.C.I...
+###### ...CI.I.IE.I.IEI.UIC.IPI.EPC.I...
+###### 生成人体饮食难以形成的染色体 同元基 IEI  IPI 物质 Initon语义翻译做用就是dna 执行钥匙
+
+##### 1.2 S=D
+###### ...CD.D.I.IUD.C.U.IUD.C.I.IUC.C.U.IUC.C.I...
+##### 1.3 第一个S=I 第二个S=D,,, 这是一个概率问题.　停止论证.之后可以设计成证书或者概率钥匙 
+
+##### 2 E=DU
+###### ...CS.S.I.DUS.C.U.DUS.C.I.DUC.C.U.DUC.C.I...
+##### 2.1 S=D
+###### ...CD.D.I.DUD.C.U.DUD.C.I.DUC.C.U.DUC.C.I...
+###### ...I.D.D.D.I.D.U.D.I.D.U.D.U.D.I.D.I.D.U.I.D.I.D.U.D.U.I.D.I.D.I...
+###### ...C.D.D.I.E.D.I.E.E.D.I.D.I.E.C.I.E.E.C.C.I...
+###### ...CDD.IED.IEE.DID.IPI.EPC.I...
+###### 生成人体饮食难以形成的染色体 连元基 CDD IEE 等物质 做用就是dna钥匙执行的中间补码供给 如DD = ++Q
+
+##### 2.2 如1.3
+
+###### 实验推导证明:  补充均衡营养, 多运动, 多喝水, 远离脏乱环境( 因为脏乱的环境有增加不饱和肽展几率 ) 提高免疫力可以有效的预防新冠. 另外过程可模拟 酸碱化, 磁化等概率论 来控制 合成趋势. 作者准备在编码的非对称钥匙证书中广泛应用.
+###### 论证人 罗瑶光  2020-10-28 23:17 PM D8+
+###### ....概率论证很多,这里不一一例举.
+
+##### 2 永生语义解释模拟
+###### 永生有关 核酸成分 ...MCI.MSI.OSU.OSI.SDI... 
+###### 罗瑶光按照人类的理解方式认为 管理控制增加, 管理静态增加,操作静态的 胞嘧啶增加可以补充核酸链的胞嘧啶. 作者同样认为可以用在OSGI函数插件过滤的肽化上. 
+###### -> ...GAGU.GAAU.UCLAA.UCLAAU.LACU... , 一种核酸永生苷糖, 肿瘤增生苷糖 
+###### -> ...鸟腺苷-鸟嘌呤-尿嘧啶.鸟腺苷-腺嘌呤-尿嘧啶.尿胞变腺苷-腺嘌呤-变嘧啶.尿胞变腺苷-腺嘌呤-尿嘧啶.腺嘌呤-胞嘧啶-尿嘧啶... 根据肽展公式1.2.2 分解为 为 
+###### =...MCI.MSI.OSU.OSI.SDI...
+###### =...IDQ-ID-I.IDQ-IQ-I.IUQ-IQ-U.IUQ-IQ-I.IQ-D-I... 
+###### =...I.D.Q.I.D.I.I.D.Q.I.Q.I.I.U.Q.I.Q.U.I.U.Q.I.Q.I.I.Q.D.I... 根据肽增公式1.2.2 聚合为 
+###### =...C.Q.C.I.C.Q.S.I.I.U.Q.S.U.I.U.Q.S.I.S.D.I... 
+###### =...C.Q.C.I.C.Q.S.I.P.S.U.P.S.I.S.D.I... 
+###### =...CQ.CI.CQ.SI.PSU.PSI.SDI... 完美变换过程 全程透明 
+###### 论证结果:永生苷糖, 肿瘤增生苷糖核酸成分 可以转换为 控制执行 静态胞嘧啶增加 (SDI) 论证人: 罗瑶光 2020-10-27 11:37 AM
+
+###### A 分析(LTA 变胸腺腺苷)　O 操作(UCLA 尿胞变腺苷)　P 处理(UCLG 尿胞变鸟苷)　　M 管理(GA 鸟腺苷) 
+###### V 感知(LT 变胸腺嘌呤)　 E 执行(UCL 尿胞变嘌呤)　  C 控制(G 鸟嘌呤)　　　　　　S 静态(A 腺嘌呤) 
+###### I 增加(U 尿嘧啶)　　　　D 减少(C 胞嘧啶)　　　　　U 改变(L 变嘧啶)　　　　　　Q 感应(T 胸腺嘧啶) 
+
+##### 永生有关 核酸成分 ...MCI.MSI.OSU.OSI.SDI... 
+###### -> ...GAGU.GAAU.UCLAA.UCLAAU.LACU... , 一种核酸永生苷糖, 肿瘤增生苷糖 
+###### -> ...鸟腺苷-鸟嘌呤-尿嘧啶.鸟腺苷-腺嘌呤-尿嘧啶.尿胞变腺苷-腺嘌呤-变嘧啶.尿胞变腺苷-腺嘌呤-尿嘧啶.腺嘌呤-胞嘧啶-尿嘧啶... 根据肽展公式1.2.2 分解为  
+###### =...MCI.MSI.OSU.OSI.SDI...
+###### =...IDQ-ID-I.IDQ-IQ-I.IUQ-IQ-U.IUQ-IQ-I.IQ-D-I... 
+###### =...I.D.Q.I.D.I.I.D.Q.I.Q.I.I.U.Q.I.Q.U.I.U.Q.I.Q.I.I.Q.D.I... 根据肽增公式1.2.2 聚合为 
+###### =...C.Q.C.I.C.Q.S.I.I.U.Q.S.U.I.U.Q.S.I.S.D.I... 
+###### =...C.Q.C.I.C.Q.S.I.P.S.U.P.S.I.S.D.I... 
+###### =...CQ.CI.CQ.SI.PSU.PSI.SDI... 完美变换过程 全程透明 
+###### 论证结果:永生苷糖, 肿瘤增生苷糖核酸成分 可以转换为 控制执行 静态胞嘧啶增加 (SDI) 论证人: 罗瑶光 2020-10-27 11:37 AM
+
+##### 分解2 =...CS-ID-I.CS-IQ-I.ES-IQ-U.ES-IQ-I.IQ-D-I... 
+###### 分解 E= DU =2...CS-ID-I.CS-IQ-I.DUS-IQ-U.DUS-IQ-I.IQ-D-I... 
+###### 分解 S= IQ =2.1...IDIQ-ID-I.IDIQ-IQ-I.DUIQ-IQ-U.DUIQ-IQ-I.IQ-D-I... =略. 
+###### 分解 S= I =2.2...IDI-ID-I.IDI-IQ-I.DUI-IQ-U.DUI-IQ-I.IQ-D-I... 
+###### = 2.2...I.D.I.I.D.I.I.D.I.I.Q.I.D.U.I.I.Q.U.D.U.I.I.Q.I.I.Q.D.I... 
+###### = 2.2...ID.I.ID.I.ID.I.IQ.ID.U.I.IQ.U.D.U.I.IQ.I.IQ.D.I... 
+###### = 2.2...C.I.C.I.C.I.S.C.U.I.S.U.D.U.I.S.I.S.D.I... 
+###### = 2.2...CI.CI.CIS.CUI.SUD.UIS.ISD.I...
+###### = ISD 增加静态删除, I代谢 
+
+##### 分解S= Q =2.3...IDQ-ID-I.IDQ-IQ-I.DUQ-IQ-U.DUQ-IQ-I.IQ-D-I... 
+###### = 2.3...I.D.Q.I.D.I.I.D.Q.I.Q.I.D.U.Q.I.Q.U.D.U.Q.I.Q.I.I.Q.D.I... 
+###### = 2.3...ID.Q.ID.I.ID.Q.IQ.ID.UQ.IQ.U.D.UQ.IQ.I.IQ.D.I... 
+###### = 2.3...C.Q.C.I.C.Q.S.C.V.S.U.D.V.S.I.S.D.I... 
+###### = 2.3...C.Q.C.I.C.Q.S.C.VS.U.D.VS.I.S.D.I... 
+###### = 2.3...C.Q.C.I.C.Q.S.C.A.U.D.A.I.S.D.I... 
+###### = 2.3...CQ.CI.CQ.SCA.UDA.ISD.I... 
+###### = SCA UDA 变胸腺腺苷代谢,ISD生成静态嘧胞啶, I代谢 根据肽增公式1.2.2 聚合为 完美变换过程 全程透明 
+###### 论证结果:永生苷糖, 肿瘤增生苷糖核酸成分 可以转换为 变嘧啶控制执行 静态胞嘧啶增加 (SDI) 
+###### 论证人: 罗瑶光 2020-10-27 11:37 AM 过程可 酸碱 化 控制 合成趋势.
+
+### XIII Eternal Research/ 应用在类人生命永生探索领域
+###### 于是找到了很多 新东西, 如 核酸 执行钥匙 ...IEI.IPI.EPC.I ... 应用如
+###### 永生之匙类 族重要肽丝 激素注射液 1.0 
+###### ...CI.I.IE.I.IEI.UIC.IPI.EPC.I...IEI.IPI.EPC.I.  
+###### ...CI.CI.CI.SI.EI.SU.EI.SI.SDI...IEI.IPI.EPC.I..  
+###### ...CQ.CI.CQ.SI.IAU.IA.ISI.D...IEI.IPI.EPC.I..  => 同元基 增补 钥匙  
+###### ...IAI.IOI.IPI.IMI...IEI.IPI.EPC.I.. 
+###### ...IVI.IEI.ICI.ISI...IEI.IPI.EPC.I..  
+
+###### => 罗瑶光于2020-10-20 命名为  <大同连元基鸟胸腺苷肽丝碱 1.1> 永生活性钥匙组合 如下: 
+###### ...CII.IEI.IEI.UIC.IPI.EPC.I...IEI.IPI.EPC.I..  
+###### ...CIC.ICI.SIE.ISU.EIS.ISD.I...IEI.IPI.EPC.I..  
+
+###### ...CII.IVI.IVI.UIC.IPI.EPC.I...IEI.IPI.EPC.I..  
+###### ...CIC.ICI.SIE.ISU.EIS.ISD.I...IEI.IPI.EPC.I.. 
+
+###### ...CII.IOI.IOI.UIC.IPI.EPC.I...IEI.IPI.EPC.I..  
+###### ...CIC.ICI.SIE.ISU.EIS.ISD.I...IEI.IPI.EPC.I..
+
+###### ...CII.IMI.IMI.UIC.IPI.EPC.I...IEI.IPI.EPC.I..  
+###### ...CIC.ICI.SIE.ISU.EIS.ISD.I...IEI.IPI.EPC.I.. 
+
+###### ...CII.IPI.IPI.UIC.IPI.EPC.I...IEI.IPI.EPC.I..  
+###### ...CIC.ICI.SIE.ISU.EIS.ISD.I...IEI.IPI.EPC.I..  
+
+## 警告!! 
+#### 1 禁止科学家 实验取材于 智慧生物. 必将 受到 所在国和联合国的 相关法律制裁 !
+#### 2 作者提出警示 这类物质含有癌变, 肿瘤增生等功能, 呼吁禁止在生物(特别是有智慧的生物)上尝试研究..
+#### 3 现在的纳米技术人工可以低廉合成. 这些成分在植物中都普遍存在,不要用为伪科学方法提炼. 
+
+### XIV Not the End/ 似乎刚刚开始…
+ 
+#### FIGURE 13　见文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+
+###### 人类要做的事情太多了..如图13, 养疗经繁衍以后肯定会遇到这个问题. 是一个课题.
+###### 这篇文章通过大量的模拟论证和概率丝化推导, 作者得到具体论证结果:
+###### 1 软件具备生命肽化特征. 可以实现软件的进化. 
+###### 2 增删改查中改 L-变嘧啶(L-Pyrimidine) 的存在性 如 I = U. 在很多语义肽化计算中起到基础催化算子计算的作用
+###### 3 AOPM VECS IDUQ肽展公式Figure 11-1完整的推导过程具备离散数学严谨性.
+###### 4 DNA 的编码方式和生命词库可以实现非对称加密. 并可以进行概率化钥匙生成.
+###### 5 人类历史首次论证 DNA的执行钥匙是一种同连元基(...CII... ...   .......IEI.IPI.EPC.I...)... 肽丝组合.
+###### 6 世界首个象契文字典DNA initon生命字典 具有巨大应用价值.
+###### 7 TVM做为函数的肽化虚拟机可以进行 肽文和代码间的自由变换. 也为下一步肽函数执行逻辑做铺垫.
+###### 8 人类历史首次发现 肽展公式 确定DNA的唯一进化方式, 途径执行方式.
+###### 还有很多启发点 因为科学的严谨性, 没有丰富的持续论证, 所以没有一一在此列举.
+
+### XV Refer/ 引用
+
+###### 1. 非对称加密, https://baike.sogou.com/v7480386.htm?fromTitle=%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86
+###### 2. 嘧啶, https://baike.sogou.com/v5478759.htm?fromTitle=%E5%98%A7%E5%95%B6
+###### 3. 嘌呤, https://baike.sogou.com/v5478759.htm?fromTitle=嘌呤
+###### 4. 苷, https://baike.sogou.com/v3272184.htm?fromTitle=%E8%8B%B7
+###### 5. 新冠, https://baike.sogou.com/v184764825.htm?fromTitle=%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92
+###### 6. Github VPCS, YAOGUANG. Luo, https://github.com/yaoguangluo/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf, last accessed 2020/10/23. 
+###### 6.1 Gitee, https://gitee.com/DetaChina/Deta_Resource/blob/master/VPCS-Method_V1.1.pdf
+###### 7. Github AOPM, https://github.com/YAOGUANGluo/DETA_Resource/blob/master/AOPM[10]%20System%20On%20VPCS.pdf, last accessed 2020/10/23.
+###### 7.1. Gitee, https://gitee.com/DetaChina/Deta_Resource/blob/master/AOPM%20System%20On%20VPCS.pdf
+###### 8. 象契文字, 象形的明确意识 加 契形的格式符号. 
+###### 8.1. 象形文字, https://baike.sogou.com/v74567.htm?fromTitle=%E8%B1%A1%E5%BD%A2%E6%96%87%E5%AD%97
+###### 8.2. 契形文字, https://baike.sogou.com/v416426.htm?fromTitle=楔形文字
+###### 9 YAOGUANG LUO, DETA ETL, National Copyright Administration of China, CN4240558, (2019). 
+###### 10. YANGLIAOJING, http://tinos.qicp.vip/DETA_HUARUIJI[12].html, last accessed 2020/10/23.
+###### 11. DNA, https://baike.baidu.com/item/%E8%84%B1%E6%B0%A7%E6%A0%B8%E7%B3%96%E6%A0%B8%E9%85%B8/78250?fromtitle =DNA[14]&fromid=98123&fr=aladdin, last accessed 2020/10/23.
+###### 12. UNICORN AI, https://github.com/YAOGUANGluo/ETL_Unicorn, last accessed 2020/10/23.
+###### 13. PDN LINK, https://baike.baidu.com/item/%E8%82%BD%E9%93%BE/8625112?fr=aladdin, last accessed 2020/10/23.
+###### 14. Yaoguangluo, Rongwuluo, The INITONS Catalytic Reflection Between Humanoid DNA and Nero Cell 1.2.2, CN2020Z11L0333706'
+###### github, https://github.com/yaoguangluo/Deta_Resource/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
+###### gitee, https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/DNA%20%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F1.2.2%20%E4%B8%AD%E8%AF%91%E8%8B%B1%E6%B7%B7%E5%90%88%E7%89%88.pdf
+
+#### Thanks
+##### 感谢父亲在医学上提供了许多可借鉴的研究思维经验, 比如医学的严谨性和可扩展性, 为DNA非对称方法模拟丰富了作者的联想, 因为这篇文章主要是离散数学公式推导论证, 于是署名为独立作者, 在此感谢. 感谢 md 格式 规范, 方便我美观编辑.
+
+##### 罗瑶光 浏阳 准备翻译英文版本前规范化文章.
+##### 2020-10-30 已向华夏 知识产权提交个人著作中文版本申请: 文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+
+## 新增疑问２０２０－１０－３１：
+##### 1.3 第一个S=I 第二个S=D,,, 这是一个概率问题.(20201031-我思考了下男性染色体生育X还是Y 与精囊组织液和执行腺体钥匙 IEI　IEE 这类同连元基肽展的酸碱浓度有关，可以让医学家去论证．) 停止论证.　之后可以设计成证书或者概率钥匙 用于非对称量子丝化加密．
+##### 另外计算机减法的D　=　DD　消耗大量D,　我猜想　肽　计算的过程　在生物学　解释　属于一种智慧　的新陈代谢，可以让医学家去论证，停止论证，之后可以设计软件应激进化工程20201031
+##### 关于警告中的肿瘤增生和癌变　意思是　这篇文章仅仅论证出 DNA执行钥匙同连元基　片段，如果要永生　至少要明确人体dna的语法，　然后根据语法将　语言＂寻找肠胃里的某物质合成某高级分分子用于补充干细胞　．．．．．．．　这种精确肽文　，癌变和肿瘤　就会大大减少　．　20201031　
+
+不说了，等下翻译成英文，　DNA 完整解码与肽展计算公式，欢迎人类社会达到宇宙中等级文明．罗瑶光．浏阳
