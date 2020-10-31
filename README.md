@@ -33,6 +33,7 @@
 #### 313699483@qq.com
 
 ### 观点: 作为拥有研发背景的认知观点, 作者每次发现了一些理论和创造性思维, 便开始工程设计, 在真实的场景中应用, 进行论证, 确定它的社会价值: 改变生产力, 创造新的生产力, 优化和归纳生产资料, 最后适应生产环境并进行有效的从局部到整体的修复, 优化, 改善, 改变, 创造新的更好的环境的过程. 作者认为 一个命题论点必须经过严谨的推导论证, 确定它的真实性和有效性. 这篇著作于是形成了骨架.
+###### OUTLOOK: Due to the cognitically researching background, the Author always prepare more and more real world software projects where supporting the proof truly: Emancipate the productive forces, Create new productivity, Optimize existing production tools to better adapt to the production environment and Better assists Human-oid in where understanding, adaptation and transformation of the environment, there for, thurs proofs and factors where could be garthered to the parts of backbone in catalytic computing of the humanoid DNA.    
 
 ### Keywords: Chromosome, PDC, PDW, TVM, PDE, PDE-Code, Eternal-tons, L-Pyrimidine, Discrete
 ### 关键词: 染色体, 生命词根库, 象契文字典, 肽虚拟机器, 磁基肽展公式, 非对称肽加密, 永生苷, 变嘧啶, 离散定律
