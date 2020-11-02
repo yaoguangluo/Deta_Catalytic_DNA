@@ -134,7 +134,7 @@
 ###### P = C - D = D - S =... 
 ###### M = S - Q = Q - S =.... 
 ###### => 关于减法运算,作者想到计算汇编指令计算的反码和补码思路, 于是想到 可肽增方式. 于是停止了, 研究, 因为减法其实也是加法的一种形式.于是跟进论证优先级降低.
-###### = >Regarding the subtraction of operation, the author thought of how to calculating the complement andimplementincrements of the calculation of the assembly instruction, so he thought of the PDE increase method. After research researching, because that subtraction almost actually a form of addition. So the priority of the follow-up argument is reduced down. 
+###### = >Regarding the subtraction of operation, the author thought of how to calculate the complement andimplementincrements of the calculation of the assembly instruction, so he thought of the PDE increase method. After research researching, because that subtraction almost actually a form of addition. So the priority of the follow-up argument is reduced down. 
 ##### 有价值的推导和假设如下
 ##### The valuable derivations and assumptions are as follows
 #### V + S = V + I => S = I      ~联想/Imagination~~  A = U
