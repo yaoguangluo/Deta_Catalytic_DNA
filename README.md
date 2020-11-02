@@ -523,6 +523,8 @@ Then proving: with in a sufficency nutritions, do more sports, drink more water 
 
 ##### 罗瑶光 浏阳 准备翻译英文版本前规范化文章.
 ##### 2020-10-30 已向华夏 知识产权提交个人著作中文版本申请: 文件地址: https://github.com/yaoguangluo/Deta_Resource/blob/master/CN_DT_pdn_computing1_2_2.pdf
+##### 发布受干扰, 20201102报警, 国家公安备案 按git 时间戳 增量模式 确定的 保留的 中英 混合版本(肽展定理的推导过程一字不变):
+##### https://gitee.com/DetaChina/collection-of-papers-by-deta/blob/master/著作权版本PDE_Formular_1_2_2.pdf
 
 ## 新增疑问２０２０－１０－３１：
 ##### 1.3 第一个S=I 第二个S=Q,,, 这是一个概率问题.(20201031-我思考了下男性染色体生育X还是Y 与精囊组织液和执行腺体钥匙 IEI　IEE 这类同连元基肽展的酸碱浓度有关，可以让医学家去论证．) 停止论证.　之后可以设计成证书或者概率钥匙 用于非对称量子丝化加密．
