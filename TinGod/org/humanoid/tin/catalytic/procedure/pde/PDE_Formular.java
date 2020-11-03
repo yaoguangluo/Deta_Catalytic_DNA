@@ -7,6 +7,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 //公安部 与 知识产权委员会 已经备案 , 可阅读 相关 著作权 原文  进行逻辑辨别.  
 public class PDE_Formular {
 	//A = V + S LINK 数据结构对象 (未测试)
+	//这个函数我没有按sonar模式 修改,因为我担心 sonar会潜意识 改变我的写作模式, 
+	//于是 按照我很多年的ANSI C代码风格进行编写, 因为这种方式是我的基础. 我个人觉
+	//得 一个人的研发能力来自于他的母语水平.所以我是C基础, 我应该继续跟进这个天赋.正如下面这函数.
 	public Initon PDE_IncrementA(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
 		while(null!= initonLink) {
@@ -28,11 +31,15 @@ public class PDE_Formular {
 					}
 				}
 			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
 		}
 		return initonLink;
 	}
 	
-	//A = V + S LIST jdk util对象 
+	//A = V + S LIST jdk util对象, 下面函数是直接用JDK的虚拟机函数 编写的,逻辑比较清晰, 各有各的用处.
 	public List<Initon> PDE_IncrementA(List<Initon> Initons) {
 		List<Initon> output= new CopyOnWriteArrayList<>(); 
 		Iterator<Initon> iterator= Initons.iterator();
