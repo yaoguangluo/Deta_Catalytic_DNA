@@ -17,19 +17,22 @@ public class PDE_Formular {
 				if(iterator.hasNext()) {
 					Initon initonNext= iterator.next();
 					if(initonNext.getStore().equalsIgnoreCase("S")) {
-						Initon initonIncrement= new Initon();
-						initonIncrement.setA();
-						output.add(initonIncrement);
+						Initon initonIncrementA= new Initon();
+						initonIncrementA.setA();
+						output.add(initonIncrementA);
 						continue HERE;
 					}
-					Initon initonIncrement= new Initon();
-					initonIncrement.setS();
-					output.add(initon);
+					Initon initonIncrementV= new Initon();
+					initonIncrementV.setV();
+					Initon initonIncrementS= new Initon();
+					initonIncrementS.setS();
+					output.add(initonIncrementV);
+					output.add(initonIncrementS);
 					continue HERE;
 				}
-				Initon initonIncrement= new Initon();
-				initonIncrement.setV();
-				output.add(initon);
+				Initon initonIncrementV= new Initon();
+				initonIncrementV.setV();
+				output.add(initonIncrementV);
 				continue HERE;
 			}
 			output.add(initon);
