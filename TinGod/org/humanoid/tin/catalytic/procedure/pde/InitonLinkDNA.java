@@ -15,7 +15,10 @@ public class InitonLinkDNA {
 		initonList.add(0, initon);
 	}
 	public Initon getInitonLink() {
-		// TODO Auto-generated method stub
 		return initonLink;
+	}
+	
+	public void setInitonLink(Initon initons) {
+		initonLink= initons;
 	}
 }

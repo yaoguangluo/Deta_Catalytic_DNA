@@ -95,4 +95,42 @@ public class PDE_Formular {
 	}
 	public void PDE_IncrementQ(List<Initon> Initons) {
 	}
+	
+	public static void main(String[] argv) {	
+		//初始
+		Initon initonV= new Initon();
+		initonV.setV();
+		Initon initonE= new Initon();
+		initonE.setE();
+		Initon initonS= new Initon();
+		initonS.setS();
+
+		initonE.next= initonV;
+		initonV.prev= initonE;
+		initonV.next= initonS;
+		initonS.prev= initonV;
+		Initon InitonPDE= initonE;
+		System.out.print("input:" + InitonPDE.getStore());
+		while(InitonPDE.hasNext()) {
+			InitonPDE= InitonPDE.forwardNext();
+			System.out.print(InitonPDE.getStore());
+		}
+		System.out.println();
+        //赋值
+		InitonLinkDNA initonLinkDNA= new InitonLinkDNA();
+		initonLinkDNA.setInitonLink(initonE);
+		//肽展计算
+		InitonPDE= new PDE_Formular().PDE_IncrementA(initonLinkDNA);
+		//整理
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		//打印
+		System.out.print("output:" + InitonPDE.getStore());
+		while(InitonPDE.hasNext()) {
+			InitonPDE= InitonPDE.forwardNext();
+			System.out.print(InitonPDE.getStore());
+		}
+		
+	}
 }

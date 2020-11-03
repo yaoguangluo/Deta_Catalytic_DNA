@@ -80,4 +80,8 @@ public class Initon {
 		}
 		return false;
 	}
+
+	public Initon forwardPrev() {
+		return this.prev;
+	}
 }
