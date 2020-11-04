@@ -65,48 +65,278 @@ public class PDE_Decrement_Formular {
 		return initonLink;
 	}
 
+	//P = E + C LINK 数据结构对象 (简单测试)
 	public Initon PDE_DecrementP(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("P")) {
+				Initon initonIncrementE= new Initon();
+				initonIncrementE.setE(); //新增一个数据V
+				Initon initonIncrementC= new Initon();
+				initonIncrementC.setC(); //新增一个数据S
+
+				initonIncrementE.next= initonIncrementC;  //V初始
+				initonIncrementE.prev= initonLink.prev;
+				if(null!= initonIncrementE.prev) {
+					initonIncrementE.prev.next= initonIncrementE;
+				}
+
+				initonIncrementC.prev= initonIncrementE;  //S初始
+				initonIncrementC.next= initonLink.next;
+				if(null!= initonIncrementC.next) {
+					initonIncrementC.next.prev= initonIncrementC;
+				}
+				initonLink= initonIncrementC;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
 		return initonLink;
 	}
+	//M = C + S
 	public Initon PDE_DecrementM(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("M")) {
+				Initon initonIncrementC= new Initon();
+				initonIncrementC.setC(); //新增一个数据V
+				Initon initonIncrementS= new Initon();
+				initonIncrementS.setS(); //新增一个数据S
+
+				initonIncrementC.next= initonIncrementS;  //V初始
+				initonIncrementC.prev= initonLink.prev;
+				if(null!= initonIncrementC.prev) {
+					initonIncrementC.prev.next= initonIncrementC;
+				}
+
+				initonIncrementS.prev= initonIncrementC;  //S初始
+				initonIncrementS.next= initonLink.next;
+				if(null!= initonIncrementS.next) {
+					initonIncrementS.next.prev= initonIncrementS;
+				}
+				initonLink= initonIncrementS;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
 		return initonLink;
 	}
+	//V = U + Q
 	public Initon PDE_DecrementV(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("V")) {
+				Initon initonIncrementU= new Initon();
+				initonIncrementU.setU(); //新增一个数据V
+				Initon initonIncrementQ= new Initon();
+				initonIncrementQ.setQ(); //新增一个数据S
+
+				initonIncrementU.next= initonIncrementQ;  //V初始
+				initonIncrementU.prev= initonLink.prev;
+				if(null!= initonIncrementU.prev) {
+					initonIncrementU.prev.next= initonIncrementU;
+				}
+
+				initonIncrementQ.prev= initonIncrementU;  //S初始
+				initonIncrementQ.next= initonLink.next;
+				if(null!= initonIncrementQ.next) {
+					initonIncrementQ.next.prev= initonIncrementQ;
+				}
+				initonLink= initonIncrementQ;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
 		return initonLink;
 	}
-	public Initon PDE_DecrementE(InitonLinkDNA initonLinkDNA) {
+	
+	//E = I + U
+	//肽展公式的概率问题, 先这样命名,之后讨论 是IU还是DU
+	public Initon PDE_DecrementE_IU(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("E")) {
+				Initon initonIncrementI= new Initon();
+				initonIncrementI.setI(); //新增一个数据V
+				Initon initonIncrementU= new Initon();
+				initonIncrementU.setU(); //新增一个数据S
+
+				initonIncrementI.next= initonIncrementU;  //V初始
+				initonIncrementI.prev= initonLink.prev;
+				if(null!= initonIncrementI.prev) {
+					initonIncrementI.prev.next= initonIncrementI;
+				}
+
+				initonIncrementU.prev= initonIncrementI;  //S初始
+				initonIncrementU.next= initonLink.next;
+				if(null!= initonIncrementU.next) {
+					initonIncrementU.next.prev= initonIncrementU;
+				}
+				initonLink= initonIncrementU;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
 		return initonLink;
 	}
+	
+	//C = I + D
 	public Initon PDE_DecrementC(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("C")) {
+				Initon initonIncrementI= new Initon();
+				initonIncrementI.setI(); //新增一个数据V
+				Initon initonIncrementD= new Initon();
+				initonIncrementD.setD(); //新增一个数据S
+
+				initonIncrementI.next= initonIncrementD;  //V初始
+				initonIncrementI.prev= initonLink.prev;
+				if(null!= initonIncrementI.prev) {
+					initonIncrementI.prev.next= initonIncrementI;
+				}
+
+				initonIncrementD.prev= initonIncrementI;  //S初始
+				initonIncrementD.next= initonLink.next;
+				if(null!= initonIncrementD.next) {
+					initonIncrementD.next.prev= initonIncrementD;
+				}
+				initonLink= initonIncrementD;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
 		return initonLink;
 	}
+	
+	//S = I + Q
 	public Initon PDE_DecrementS(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("S")) {
+				Initon initonIncrementI= new Initon();
+				initonIncrementI.setI(); //新增一个数据V
+				Initon initonIncrementQ= new Initon();
+				initonIncrementQ.setQ(); //新增一个数据S
+
+				initonIncrementI.next= initonIncrementQ;  //V初始
+				initonIncrementI.prev= initonLink.prev;
+				if(null!= initonIncrementI.prev) {
+					initonIncrementI.prev.next= initonIncrementI;
+				}
+
+				initonIncrementQ.prev= initonIncrementI;  //S初始
+				initonIncrementQ.next= initonLink.next;
+				if(null!= initonIncrementQ.next) {
+					initonIncrementQ.next.prev= initonIncrementQ;
+				}
+				initonLink= initonIncrementQ;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
 		return initonLink;
 	}
-	public Initon PDE_DecrementI(InitonLinkDNA initonLinkDNA) {
+	
+	//E = D + U
+	//肽展公式的概率问题, 先这样命名,之后讨论 是IU还是DU
+	public Initon PDE_DecrementE_DU(InitonLinkDNA initonLinkDNA) {
 		Initon initonLink= initonLinkDNA.getInitonLink();
-		return initonLink;
-	}
-	public Initon PDE_DecrementD(InitonLinkDNA initonLinkDNA) {
-		Initon initonLink= initonLinkDNA.getInitonLink();
-		return initonLink;
-	}
-	public Initon PDE_DecrementU(InitonLinkDNA initonLinkDNA) {
-		Initon initonLink= initonLinkDNA.getInitonLink();
-		return initonLink;
-	}
-	public Initon PDE_DecrementQ(InitonLinkDNA initonLinkDNA) {
-		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("E")) {
+				Initon initonIncrementD= new Initon();
+				initonIncrementD.setD(); //新增一个数据V
+				Initon initonIncrementU= new Initon();
+				initonIncrementU.setU(); //新增一个数据S
+
+				initonIncrementD.next= initonIncrementU;  //V初始
+				initonIncrementD.prev= initonLink.prev;
+				if(null!= initonIncrementD.prev) {
+					initonIncrementD.prev.next= initonIncrementD;
+				}
+
+				initonIncrementU.prev= initonIncrementD;  //S初始
+				initonIncrementU.next= initonLink.next;
+				if(null!= initonIncrementU.next) {
+					initonIncrementU.next.prev= initonIncrementU;
+				}
+				initonLink= initonIncrementU;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
 		return initonLink;
 	}
 
+	//S = I
+	//肽展公式的概率问题, 先这样命名,之后讨论 是I, Q还是I + Q
+	public Initon PDE_DecrementS_I(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("S")) {
+				Initon initonIncrementI= new Initon();
+				initonIncrementI.setI(); //新增一个数据V
+				
+				initonIncrementI.prev= initonLink.prev;
+				if(null!= initonIncrementI.prev) {
+					initonIncrementI.prev.next= initonIncrementI;
+				}
 
+				initonIncrementI.next= initonLink.next;
+				if(null!= initonIncrementI.next) {
+					initonIncrementI.next.prev= initonIncrementI;
+				}
+				initonLink= initonIncrementI;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
+		return initonLink;
+	}
+
+	//S = Q
+	//肽展公式的概率问题, 先这样命名,之后讨论 是I, Q还是I + Q
+	public Initon PDE_DecrementS_Q(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("S")) {
+				Initon initonIncrementQ= new Initon();
+				initonIncrementQ.setQ(); //新增一个数据V
+				
+				initonIncrementQ.prev= initonLink.prev;
+				if(null!= initonIncrementQ.prev) {
+					initonIncrementQ.prev.next= initonIncrementQ;
+				}
+
+				initonIncrementQ.next= initonLink.next;
+				if(null!= initonIncrementQ.next) {
+					initonIncrementQ.next.prev= initonIncrementQ;
+				}
+				initonLink= initonIncrementQ;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
+		return initonLink;
+	}
 
 	public static void main(String[] argv) {	
 		//		//初始
@@ -146,11 +376,11 @@ public class PDE_Decrement_Formular {
 
 		//初始
 		Initon initonV= new Initon();
-		initonV.setV();
+		initonV.setP();
 		Initon initonA= new Initon();
-		initonA.setO();   //改成  O 测试下
+		initonA.setM();   //改成  O 测试下
 		Initon initonS= new Initon();
-		initonS.setA();
+		initonS.setE();
 
 		initonA.next= initonV;
 		initonV.prev= initonA;
@@ -167,7 +397,7 @@ public class PDE_Decrement_Formular {
 		InitonLinkDNA initonLinkDNA= new InitonLinkDNA();
 		initonLinkDNA.setInitonLink(initonA);
 		//肽展计算
-		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementO(initonLinkDNA);
+		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementP(initonLinkDNA);
 		//整理
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
@@ -179,7 +409,13 @@ public class PDE_Decrement_Formular {
 			System.out.print(InitonPDE.getStore());
 		}
 
-		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementA(initonLinkDNA);
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		initonLinkDNA.setInitonLink(InitonPDE);
+		//InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS(initonLinkDNA);
+		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementE_DU(initonLinkDNA);
+		//InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS_Q(initonLinkDNA);
 		//整理
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
