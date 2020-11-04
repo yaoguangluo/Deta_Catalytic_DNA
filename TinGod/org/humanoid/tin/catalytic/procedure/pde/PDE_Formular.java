@@ -6,7 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 //注意: 该 文件对应的是罗瑶光先生 DNA 编码 与 计算的两本  国家软著作 思想的编码 实现. 
 //公安部 与 知识产权委员会 已经备案 , 可阅读 相关 著作权 原文  进行逻辑辨别.  
 public class PDE_Formular {
-	//A = V + S LINK 数据结构对象 (未测试)
+	//A = V + S LINK 数据结构对象 (简单测试)
 	//这个函数我没有按sonar模式 修改,因为我担心 sonar会潜意识 改变我的写作模式, 
 	//于是 按照我很多年的ANSI C代码风格进行编写, 因为这种方式是我的基础. 我个人觉
 	//得 一个人的研发能力来自于他的母语水平.所以我是C基础, 我应该继续跟进这个天赋.正如下面这函数.
@@ -38,6 +38,39 @@ public class PDE_Formular {
 		}
 		return initonLink;
 	}
+
+	//A = V + S LINK 数据结构对象 (简单测试)
+	//作用发现有A 的initon进行VPCS级展开. 按我在 印度 ANSI C代码风格进行编写方式.
+	public Initon PDE_DecrementA(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("A")) {
+				Initon initonIncrementV= new Initon();
+				initonIncrementV.setV(); //新增一个数据V
+				Initon initonIncrementS= new Initon();
+				initonIncrementS.setS(); //新增一个数据S
+				
+				initonIncrementV.next= initonIncrementS;  //V初始
+				initonIncrementV.prev= initonLink.prev;
+				if(null!= initonIncrementV.prev) {
+					initonIncrementV.prev.next= initonIncrementV;
+				}
+				
+				initonIncrementS.prev= initonIncrementV;  //S初始
+				initonIncrementS.next= initonLink.next;
+				if(null!= initonIncrementV.next) {
+					initonIncrementS.next.prev= initonIncrementS;
+				}
+				initonLink= initonIncrementS;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
+		return initonLink;
+	}
+	
 	
 	//A = V + S LIST jdk util对象, 下面函数是直接用JDK的虚拟机函数 编写的,逻辑比较清晰, 各有各的用处.
 	public List<Initon> PDE_IncrementA(List<Initon> Initons) {
@@ -97,40 +130,74 @@ public class PDE_Formular {
 	}
 	
 	public static void main(String[] argv) {	
-		//初始
-		Initon initonV= new Initon();
-		initonV.setV();
-		Initon initonE= new Initon();
-		initonE.setE();
-		Initon initonS= new Initon();
-		initonS.setS();
-
-		initonE.next= initonV;
-		initonV.prev= initonE;
-		initonV.next= initonS;
-		initonS.prev= initonV;
-		Initon InitonPDE= initonE;
-		System.out.print("input:" + InitonPDE.getStore());
-		while(InitonPDE.hasNext()) {
-			InitonPDE= InitonPDE.forwardNext();
-			System.out.print(InitonPDE.getStore());
-		}
-		System.out.println();
-        //赋值
-		InitonLinkDNA initonLinkDNA= new InitonLinkDNA();
-		initonLinkDNA.setInitonLink(initonE);
-		//肽展计算
-		InitonPDE= new PDE_Formular().PDE_IncrementA(initonLinkDNA);
-		//整理
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		//打印
-		System.out.print("output:" + InitonPDE.getStore());
-		while(InitonPDE.hasNext()) {
-			InitonPDE= InitonPDE.forwardNext();
-			System.out.print(InitonPDE.getStore());
-		}
+//		//初始
+//		Initon initonV= new Initon();
+//		initonV.setV();
+//		Initon initonE= new Initon();
+//		initonE.setE();
+//		Initon initonS= new Initon();
+//		initonS.setS();
+//
+//		initonE.next= initonV;
+//		initonV.prev= initonE;
+//		initonV.next= initonS;
+//		initonS.prev= initonV;
+//		Initon InitonPDE= initonE;
+//		System.out.print("input:" + InitonPDE.getStore());
+//		while(InitonPDE.hasNext()) {
+//			InitonPDE= InitonPDE.forwardNext();
+//			System.out.print(InitonPDE.getStore());
+//		}
+//		System.out.println();
+//        //赋值
+//		InitonLinkDNA initonLinkDNA= new InitonLinkDNA();
+//		initonLinkDNA.setInitonLink(initonE);
+//		//肽展计算
+//		InitonPDE= new PDE_Formular().PDE_IncrementA(initonLinkDNA);
+//		//整理
+//		while(InitonPDE.hasPrev()) {
+//			InitonPDE= InitonPDE.forwardPrev();
+//		}
+//		//打印
+//		System.out.print("output:" + InitonPDE.getStore());
+//		while(InitonPDE.hasNext()) {
+//			InitonPDE= InitonPDE.forwardNext();
+//			System.out.print(InitonPDE.getStore());
+//		}
 		
+		//初始
+				Initon initonV= new Initon();
+				initonV.setV();
+				Initon initonA= new Initon();
+				initonA.setA();
+				Initon initonS= new Initon();
+				initonS.setS();
+
+				initonA.next= initonV;
+				initonV.prev= initonA;
+				initonV.next= initonS;
+				initonS.prev= initonV;
+				Initon InitonPDE= initonA;
+				System.out.print("input:" + InitonPDE.getStore());
+				while(InitonPDE.hasNext()) {
+					InitonPDE= InitonPDE.forwardNext();
+					System.out.print(InitonPDE.getStore());
+				}
+				System.out.println();
+		        //赋值
+				InitonLinkDNA initonLinkDNA= new InitonLinkDNA();
+				initonLinkDNA.setInitonLink(initonA);
+				//肽展计算
+				InitonPDE= new PDE_Formular().PDE_DecrementA(initonLinkDNA);
+				//整理
+				while(InitonPDE.hasPrev()) {
+					InitonPDE= InitonPDE.forwardPrev();
+				}
+				//打印
+				System.out.print("output:" + InitonPDE.getStore());
+				while(InitonPDE.hasNext()) {
+					InitonPDE= InitonPDE.forwardNext();
+					System.out.print(InitonPDE.getStore());
+				}
 	}
 }
