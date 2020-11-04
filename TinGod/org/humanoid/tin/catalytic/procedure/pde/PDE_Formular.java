@@ -294,11 +294,34 @@ public class PDE_Formular {
 				initonA.setO();   //改成  O 测试下
 				Initon initonS= new Initon();
 				initonS.setA();
+				Initon initonS1= new Initon();
+				initonS1.setE();
+				Initon initonS2= new Initon();
+				initonS2.setS();
+				Initon initonS3= new Initon();
+				initonS3.setV();
+				Initon initonS4= new Initon();
+				initonS4.setS();
 
 				initonA.next= initonV;
 				initonV.prev= initonA;
 				initonV.next= initonS;
 				initonS.prev= initonV;
+				initonS.next= initonS1;
+				initonS1.prev= initonS;
+				
+				initonS.next= initonS1;
+				initonS1.prev= initonS;
+				
+				initonS1.next= initonS2;
+				initonS2.prev= initonS1;
+				
+				initonS2.next= initonS3;
+				initonS3.prev= initonS2;
+				
+				initonS3.next= initonS4;
+				initonS4.prev= initonS3;
+				
 				Initon InitonPDE= initonA;
 				System.out.print("input:" + InitonPDE.getStore());
 				while(InitonPDE.hasNext()) {
@@ -316,19 +339,60 @@ public class PDE_Formular {
 					InitonPDE= InitonPDE.forwardPrev();
 				}
 				//打印
-				System.out.print("output:" + InitonPDE.getStore());
+				System.out.print("output O=ES:" + InitonPDE.getStore());
 				while(InitonPDE.hasNext()) {
 					InitonPDE= InitonPDE.forwardNext();
 					System.out.print(InitonPDE.getStore());
 				}
+				while(InitonPDE.hasPrev()) {
+					InitonPDE= InitonPDE.forwardPrev();
+				}
 				
+				initonLinkDNA.setInitonLink(InitonPDE);
 				InitonPDE= new PDE_Formular().PDE_DecrementA(initonLinkDNA);
 				//整理
 				while(InitonPDE.hasPrev()) {
 					InitonPDE= InitonPDE.forwardPrev();
 				}
 				//打印
-				System.out.print("output:" + InitonPDE.getStore());
+				System.out.println();
+				System.out.print("output A=VS:" + InitonPDE.getStore());
+				while(InitonPDE.hasNext()) {
+					InitonPDE= InitonPDE.forwardNext();
+					System.out.print(InitonPDE.getStore());
+				}
+				while(InitonPDE.hasPrev()) {
+					InitonPDE= InitonPDE.forwardPrev();
+				}
+				
+				
+				initonLinkDNA.setInitonLink(InitonPDE);
+				InitonPDE= new PDE_Formular().PDE_IncrementA(initonLinkDNA);
+				//整理
+				while(InitonPDE.hasPrev()) {
+					InitonPDE= InitonPDE.forwardPrev();
+				}
+				//打印
+				System.out.println();
+				System.out.print("output VS=A:" + InitonPDE.getStore());
+				while(InitonPDE.hasNext()) {
+					InitonPDE= InitonPDE.forwardNext();
+					System.out.print(InitonPDE.getStore());
+				}
+				while(InitonPDE.hasPrev()) {
+					InitonPDE= InitonPDE.forwardPrev();
+				}
+				
+					
+				initonLinkDNA.setInitonLink(InitonPDE);
+				InitonPDE= new PDE_Formular().PDE_IncrementO(initonLinkDNA);
+				//整理
+				while(InitonPDE.hasPrev()) {
+					InitonPDE= InitonPDE.forwardPrev();
+				}
+				//打印
+				System.out.println();
+				System.out.print("output ES=O:" + InitonPDE.getStore());
 				while(InitonPDE.hasNext()) {
 					InitonPDE= InitonPDE.forwardNext();
 					System.out.print(InitonPDE.getStore());
