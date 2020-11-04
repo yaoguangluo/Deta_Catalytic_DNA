@@ -112,7 +112,7 @@ public class PDE_Increment_Formular {
 					Initon initonNext= initonLink.forwardNext();
 					if(initonNext.getStore().equalsIgnoreCase("C")) {					
 						Initon initonIncrementP= new Initon();
-						initonIncrementP.setP(); //新增一个数据A
+						initonIncrementP.setP(); //新增一个数据P
 						if(initonNext.hasNext()) {
 							initonIncrementP.next= initonNext.next; //P后序替换
 							initonIncrementP.next.prev= initonIncrementP;//P后序前序恒等
@@ -203,7 +203,7 @@ public class PDE_Increment_Formular {
 						Initon initonNext= initonLink.forwardNext();
 						if(initonNext.getStore().equalsIgnoreCase("U")) {					
 							Initon initonIncrementE= new Initon();
-							initonIncrementE.setM(); //新增一个数据A
+							initonIncrementE.setM(); //新增一个数据E
 							if(initonNext.hasNext()) {
 								initonIncrementE.next= initonNext.next; //E后序替换
 								initonIncrementE.next.prev= initonIncrementE;//E后序前序恒等
@@ -212,7 +212,7 @@ public class PDE_Increment_Formular {
 								initonIncrementE.prev= initonNext.prev.prev;//E前序替换
 								initonIncrementE.prev.next= initonIncrementE;//E前序后序恒等
 							}		
-							initonLink= initonIncrementE;//最后M代替
+							initonLink= initonIncrementE;//最后E代替
 						}
 					}
 				}
@@ -233,7 +233,7 @@ public class PDE_Increment_Formular {
 						Initon initonNext= initonLink.forwardNext();
 						if(initonNext.getStore().equalsIgnoreCase("D")) {					
 							Initon initonIncrementC= new Initon();
-							initonIncrementC.setC(); //新增一个数据A
+							initonIncrementC.setC(); //新增一个数据C
 							if(initonNext.hasNext()) {
 								initonIncrementC.next= initonNext.next; //C后序替换
 								initonIncrementC.next.prev= initonIncrementC;//C后序前序恒等
@@ -242,7 +242,7 @@ public class PDE_Increment_Formular {
 								initonIncrementC.prev= initonNext.prev.prev;//M前序替换
 								initonIncrementC.prev.next= initonIncrementC;//M前序后序恒等
 							}		
-							initonLink= initonIncrementC;//最后M代替
+							initonLink= initonIncrementC;//最后C代替
 						}
 					}
 				}
@@ -263,7 +263,7 @@ public class PDE_Increment_Formular {
 						Initon initonNext= initonLink.forwardNext();
 						if(initonNext.getStore().equalsIgnoreCase("Q")) {					
 							Initon initonIncrementS= new Initon();
-							initonIncrementS.setS(); //新增一个数据A
+							initonIncrementS.setS(); //新增一个数据S
 							if(initonNext.hasNext()) {
 								initonIncrementS.next= initonNext.next; //S后序替换
 								initonIncrementS.next.prev= initonIncrementS;//S后序前序恒等
@@ -294,7 +294,7 @@ public class PDE_Increment_Formular {
 						Initon initonNext= initonLink.forwardNext();
 						if(initonNext.getStore().equalsIgnoreCase("U")) {					
 							Initon initonIncrementE= new Initon();
-							initonIncrementE.setE(); //新增一个数据A
+							initonIncrementE.setE(); //新增一个数据E
 							if(initonNext.hasNext()) {
 								initonIncrementE.next= initonNext.next; //E后序替换
 								initonIncrementE.next.prev= initonIncrementE;//E后序前序恒等
@@ -322,7 +322,7 @@ public class PDE_Increment_Formular {
 			while(null!= initonLink) {
 				if(initonLink.getStore().equalsIgnoreCase("I")) {
 					Initon initonIncrementS= new Initon();
-					initonIncrementS.setS(); //新增一个数据A
+					initonIncrementS.setS(); //新增一个数据S
 					if(initonLink.hasNext()) {
 						initonIncrementS.next= initonLink.next; //S后序替换
 						initonIncrementS.next.prev= initonIncrementS;//S后序前序恒等
@@ -349,7 +349,7 @@ public class PDE_Increment_Formular {
 			while(null!= initonLink) {
 				if(initonLink.getStore().equalsIgnoreCase("Q")) {
 					Initon initonIncrementS= new Initon();
-					initonIncrementS.setM(); //新增一个数据A
+					initonIncrementS.setM(); //新增一个数据S
 					if(initonLink.hasNext()) {
 						initonIncrementS.next= initonLink.next; //S后序替换
 						initonIncrementS.next.prev= initonIncrementS;//S后序前序恒等
