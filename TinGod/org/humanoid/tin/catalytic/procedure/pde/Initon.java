@@ -7,7 +7,7 @@ public class Initon {
 	public String getStore() {
 		return store;
 	}
-	
+
 	public Initon addNextInitons(Initon initon) {
 		Initon thisIniton= this;
 		while(null!= thisIniton.next) {
@@ -16,7 +16,7 @@ public class Initon {
 		thisIniton.next= initon;
 		return thisIniton;
 	}
-	
+
 	public Initon addPrevInitons(Initon initon) {
 		Initon thisIniton= this;
 		while(null!= thisIniton.prev) {
@@ -25,7 +25,7 @@ public class Initon {
 		thisIniton.prev= initon;
 		return thisIniton;
 	}
-	
+
 	public void setA() {
 		this.store= "A";
 	}
