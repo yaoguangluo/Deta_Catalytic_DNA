@@ -84,4 +84,28 @@ public class Initon {
 	public Initon forwardPrev() {
 		return this.prev;
 	}
+
+	public Initon copyRNA(Initon initonPDE) {
+		while(initonPDE.hasPrev()) {
+			initonPDE.forwardPrev();
+		}
+		Initon InitonRNA= new Initon();
+		InitonRNA.store= initonPDE.store;
+		while(initonPDE.next!= null) {
+			initonPDE=initonPDE.next;
+			Initon initon= new Initon();
+			initon.store= initonPDE.store;
+			InitonRNA.next= initon;
+			initon.prev= InitonRNA;
+			InitonRNA= initon;
+		}
+		//Íê³Écopy
+		while(initonPDE.prev!= null) {
+			initonPDE=initonPDE.prev;
+		}
+		while(InitonRNA.prev!= null) {
+			InitonRNA=InitonRNA.prev;
+		}
+		return InitonRNA;
+	}
 }
