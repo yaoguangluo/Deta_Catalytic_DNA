@@ -167,26 +167,89 @@ public class PDE_Formular {
 		return initonLink;
 	}
 		
-	public void PDE_IncrementP(List<Initon> Initons) {
+	public Initon PDE_IncrementP(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementM(List<Initon> Initons) {
+	public Initon PDE_IncrementM(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementV(List<Initon> Initons) {
+	public Initon PDE_IncrementV(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementE(List<Initon> Initons) {
+	public Initon PDE_IncrementE(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementC(List<Initon> Initons) {
+	public Initon PDE_IncrementC(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementS(List<Initon> Initons) {
+	public Initon PDE_IncrementS(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementI(List<Initon> Initons) {
+	public Initon PDE_IncrementI(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementD(List<Initon> Initons) {
+	public Initon PDE_IncrementD(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementU(List<Initon> Initons) {
+	public Initon PDE_IncrementU(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
-	public void PDE_IncrementQ(List<Initon> Initons) {
+	public Initon PDE_IncrementQ(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
 	}
+	
+	public Initon PDE_DecrementP(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementM(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementV(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementE(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementC(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementS(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementI(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementD(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementU(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	public Initon PDE_DecrementQ(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		return initonLink;
+	}
+	
+	
 	
 	public static void main(String[] argv) {	
 //		//初始
@@ -230,7 +293,7 @@ public class PDE_Formular {
 				Initon initonA= new Initon();
 				initonA.setO();   //改成  O 测试下
 				Initon initonS= new Initon();
-				initonS.setO();
+				initonS.setA();
 
 				initonA.next= initonV;
 				initonV.prev= initonA;
@@ -248,6 +311,18 @@ public class PDE_Formular {
 				initonLinkDNA.setInitonLink(initonA);
 				//肽展计算
 				InitonPDE= new PDE_Formular().PDE_DecrementO(initonLinkDNA);
+				//整理
+				while(InitonPDE.hasPrev()) {
+					InitonPDE= InitonPDE.forwardPrev();
+				}
+				//打印
+				System.out.print("output:" + InitonPDE.getStore());
+				while(InitonPDE.hasNext()) {
+					InitonPDE= InitonPDE.forwardNext();
+					System.out.print(InitonPDE.getStore());
+				}
+				
+				InitonPDE= new PDE_Formular().PDE_DecrementA(initonLinkDNA);
 				//整理
 				while(InitonPDE.hasPrev()) {
 					InitonPDE= InitonPDE.forwardPrev();
