@@ -58,7 +58,7 @@ public class PDE_Formular {
 				
 				initonIncrementS.prev= initonIncrementV;  //S初始
 				initonIncrementS.next= initonLink.next;
-				if(null!= initonIncrementV.next) {
+				if(null!= initonIncrementS.next) { 
 					initonIncrementS.next.prev= initonIncrementS;
 				}
 				initonLink= initonIncrementS;//最后S代替
@@ -70,7 +70,6 @@ public class PDE_Formular {
 		}
 		return initonLink;
 	}
-	
 	
 	//A = V + S LIST jdk util对象, 下面函数是直接用JDK的虚拟机函数 编写的,逻辑比较清晰, 各有各的用处.
 	public List<Initon> PDE_IncrementA(List<Initon> Initons) {
@@ -106,8 +105,68 @@ public class PDE_Formular {
 		return output;
 	}
 	//O = E + S
-	public void PDE_IncrementO(List<Initon> Initons) {
+	
+	//O = E + S LINK 数据结构对象 (简单测试)
+	public Initon PDE_IncrementO(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("E")) {
+				if(initonLink.hasNext()) {
+					Initon initonNext= initonLink.forwardNext();
+					if(initonNext.getStore().equalsIgnoreCase("S")) {					
+						Initon initonIncrementO= new Initon();
+						initonIncrementO.setO(); //新增一个数据A
+						if(initonNext.hasNext()) {
+							initonIncrementO.next= initonNext.next; //A后序替换
+							initonIncrementO.next.prev= initonIncrementO;//A后序前序恒等
+						}
+						if(null!= initonNext.prev.prev) {
+							initonIncrementO.prev= initonNext.prev.prev;//A前序替换
+							initonIncrementO.prev.next= initonIncrementO;//A前序后序恒等
+						}		
+						initonLink= initonIncrementO;//最后A代替
+					}
+				}
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
+		return initonLink;
 	}
+
+	//O = E + S LINK 数据结构对象 (简单测试)
+	public Initon PDE_DecrementO(InitonLinkDNA initonLinkDNA) {
+		Initon initonLink= initonLinkDNA.getInitonLink();
+		while(null!= initonLink) {
+			if(initonLink.getStore().equalsIgnoreCase("O")) {
+				Initon initonIncrementE= new Initon();
+				initonIncrementE.setE(); //新增一个数据V
+				Initon initonIncrementS= new Initon();
+				initonIncrementS.setS(); //新增一个数据S
+
+				initonIncrementE.next= initonIncrementS;  //V初始
+				initonIncrementE.prev= initonLink.prev;
+				if(null!= initonIncrementE.prev) {
+					initonIncrementE.prev.next= initonIncrementE;
+				}
+
+				initonIncrementS.prev= initonIncrementE;  //S初始
+				initonIncrementS.next= initonLink.next;
+				if(null!= initonIncrementS.next) {
+					initonIncrementS.next.prev= initonIncrementS;
+				}
+				initonLink= initonIncrementS;//最后S代替
+			}
+			if(!initonLink.hasNext()) {
+				return initonLink;
+			}
+			initonLink= initonLink.forwardNext();//while loop 替增.
+		}
+		return initonLink;
+	}
+		
 	public void PDE_IncrementP(List<Initon> Initons) {
 	}
 	public void PDE_IncrementM(List<Initon> Initons) {
@@ -132,9 +191,9 @@ public class PDE_Formular {
 	public static void main(String[] argv) {	
 //		//初始
 //		Initon initonV= new Initon();
-//		initonV.setV();
+//		initonV.setE(); // 模拟 将EVS 改成 VES 邻居 做O 合成.
 //		Initon initonE= new Initon();
-//		initonE.setE();
+//		initonE.setV(); //
 //		Initon initonS= new Initon();
 //		initonS.setS();
 //
@@ -153,7 +212,7 @@ public class PDE_Formular {
 //		InitonLinkDNA initonLinkDNA= new InitonLinkDNA();
 //		initonLinkDNA.setInitonLink(initonE);
 //		//肽展计算
-//		InitonPDE= new PDE_Formular().PDE_IncrementA(initonLinkDNA);
+//		InitonPDE= new PDE_Formular().PDE_IncrementO(initonLinkDNA);
 //		//整理
 //		while(InitonPDE.hasPrev()) {
 //			InitonPDE= InitonPDE.forwardPrev();
@@ -169,9 +228,9 @@ public class PDE_Formular {
 				Initon initonV= new Initon();
 				initonV.setV();
 				Initon initonA= new Initon();
-				initonA.setA();
+				initonA.setO();   //改成  O 测试下
 				Initon initonS= new Initon();
-				initonS.setS();
+				initonS.setO();
 
 				initonA.next= initonV;
 				initonV.prev= initonA;
@@ -188,7 +247,7 @@ public class PDE_Formular {
 				InitonLinkDNA initonLinkDNA= new InitonLinkDNA();
 				initonLinkDNA.setInitonLink(initonA);
 				//肽展计算
-				InitonPDE= new PDE_Formular().PDE_DecrementA(initonLinkDNA);
+				InitonPDE= new PDE_Formular().PDE_DecrementO(initonLinkDNA);
 				//整理
 				while(InitonPDE.hasPrev()) {
 					InitonPDE= InitonPDE.forwardPrev();
