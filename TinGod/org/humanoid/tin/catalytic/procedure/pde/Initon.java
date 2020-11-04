@@ -84,7 +84,7 @@ public class Initon {
 	public Initon forwardPrev() {
 		return this.prev;
 	}
-
+    // 用于计算复制
 	public Initon copyRNA(Initon initonPDE) {
 		while(initonPDE.hasPrev()) {
 			initonPDE.forwardPrev();
@@ -108,4 +108,59 @@ public class Initon {
 		}
 		return InitonRNA;
 	}
+	//用于遗传复制
+	public Initon swapRNA(Initon initonPDE) {
+		while(initonPDE.hasPrev()) {
+			initonPDE.forwardPrev();
+		}
+		Initon InitonRNA= new Initon();
+		InitonRNA.store= initonPDE.store;
+		while(initonPDE.next!= null) {
+			initonPDE=initonPDE.next;
+			Initon initon= new Initon();
+			if(initonPDE.store.equalsIgnoreCase("IQ")) {
+				initon.store= "S";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("S")) {
+				initon.store= "IQ";		
+		    }
+//			if(initonPDE.store.equalsIgnoreCase("I")) {
+//				initon.store= "U";	
+//			}//这里我会做补码 规范化. 罗瑶光.20201105 7:56
+//			if(initonPDE.store.equalsIgnoreCase("D")) {
+//				initon.store= "DD";	
+//			}
+			if(initonPDE.store.equalsIgnoreCase("E")) {
+				initon.store= "DU";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("DU")) {
+				initon.store= "E";		
+		    }
+			if(initonPDE.store.equalsIgnoreCase("C")) {
+				initon.store= "ID";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("ID")) {
+				initon.store= "C";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("UQ")) {
+				initon.store= "V";		
+		    }
+			if(initonPDE.store.equalsIgnoreCase("V")) {
+				initon.store= "UQ";		
+		    }
+			initon.store= initonPDE.store;
+			InitonRNA.next= initon;
+			initon.prev= InitonRNA;
+			InitonRNA= initon;
+		}
+		//完成copy
+		while(initonPDE.prev!= null) {
+			initonPDE=initonPDE.prev;
+		}
+		while(InitonRNA.prev!= null) {
+			InitonRNA=InitonRNA.prev;
+		}
+		return InitonRNA;
+	}
+	
 }
