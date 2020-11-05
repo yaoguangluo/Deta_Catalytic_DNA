@@ -195,7 +195,7 @@ public class PDE_Decrement_Formular {
 				Initon initonIncrementI= new Initon();
 				initonIncrementI.setI(); //新增一个数据I
 				Initon initonIncrementD= new Initon();
-				initonIncrementD.setD(); //新增一个数据S
+				initonIncrementD.setD(); //新增一个数据D
 
 				initonIncrementI.next= initonIncrementD;  //I初始
 				initonIncrementI.prev= initonLink.prev;
