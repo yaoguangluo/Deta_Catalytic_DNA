@@ -203,7 +203,7 @@ public class PDE_Increment_Formular {
 					Initon initonNext= initonLink.forwardNext();
 					if(initonNext.getStore().equalsIgnoreCase("U")) {					
 						Initon initonIncrementE= new Initon();
-						initonIncrementE.setM(); //新增一个数据E
+						initonIncrementE.setE(); //新增一个数据E
 						if(initonNext.hasNext()) {
 							initonIncrementE.next= initonNext.next; //E后序替换
 							initonIncrementE.next.prev= initonIncrementE;//E后序前序恒等
