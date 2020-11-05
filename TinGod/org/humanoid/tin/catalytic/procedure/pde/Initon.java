@@ -239,4 +239,75 @@ public class Initon {
 		return InitonRNA;
 	}
 	
+	//举例V的 SWAP initon.store= "UQ"; -> initon.store= "U"; 和 NEXT initon.store= "Q";
+	//用于RNA 肽展遗传和增元计算.
+	public Initon storeRNAExtension(Initon initonPDE) {
+		while(initonPDE.hasPrev()) {
+			initonPDE.forwardPrev();
+		}
+		Initon InitonRNA= new Initon();
+		InitonRNA.store= initonPDE.store;
+		while(initonPDE!= null) {
+			if(initonPDE.store.length()== 1) {
+				Initon initon= new Initon();
+				initon.store= initonPDE.store;
+				initon.prev= initonPDE.prev;
+				initon.next= initonPDE.next;
+				InitonRNA= initon;
+			}
+			if(initonPDE.store.length()== 2) {
+				//初始
+				Initon initonFirst= new Initon();
+				Initon initonSecond= new Initon();
+				//赋值
+				initonFirst.store= ""+ initonPDE.store.charAt(0);
+				initonSecond.store= ""+ initonPDE.store.charAt(1);
+				//连接
+				initonFirst.next= initonSecond;
+				initonSecond.prev= initonFirst;
+				//已计算的前序融入
+				if(initonPDE.prev!= null) {
+					initonFirst.prev= initonPDE.prev;
+					initonFirst.prev.next= initonFirst;
+				}
+				//未计算的后序关联
+				if(initonPDE.next!= null) {
+					initonSecond.next= initonPDE.next;
+					initonSecond.next.prev= initonSecond;
+				}
+				//替进
+				InitonRNA= initonSecond;
+			}
+			if(null== initonPDE.next) {
+				while(initonPDE.prev!= null) {
+					initonPDE= initonPDE.prev;
+				}
+				while(InitonRNA.prev!= null) {
+					InitonRNA= InitonRNA.prev;
+				}
+				return InitonRNA;
+			}
+			initonPDE= initonPDE.next;
+		}
+		//完成copy
+		while(initonPDE.prev!= null) {
+			initonPDE=initonPDE.prev;
+		}
+		while(InitonRNA.prev!= null) {
+			InitonRNA=InitonRNA.prev;
+		}
+		return InitonRNA;
+	}
+	
+	public static void main(String[] argv) {	
+		Initon initonV= new Initon();
+		initonV.store= "UQ";
+		initonV= initonV.storeRNAExtension(initonV);
+		while(initonV.hasNext()) {
+			System.out.println(initonV.getStore());
+			initonV= initonV.forwardNext();
+		}
+		System.out.println(initonV.getStore());
+	}
+	
 }
