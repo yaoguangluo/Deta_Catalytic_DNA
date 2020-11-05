@@ -163,4 +163,80 @@ public class Initon {
 		return InitonRNA;
 	}
 	
+	//用于反码复制
+	public Initon maskRNA(Initon initonPDE) {
+		while(initonPDE.hasPrev()) {
+			initonPDE.forwardPrev();
+		}
+		Initon InitonRNA= new Initon();
+		InitonRNA.store= initonPDE.store;
+		while(initonPDE.next!= null) {
+			initonPDE=initonPDE.next;
+			Initon initon= new Initon();
+
+			if(initonPDE.store.equalsIgnoreCase("I")) {
+				initon.store= "D";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("D")) {
+				initon.store= "I";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("U")) {
+				initon.store= "Q";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("Q")) {
+				initon.store= "U";	
+			}
+			initon.store= initonPDE.store;
+			InitonRNA.next= initon;
+			initon.prev= InitonRNA;
+			InitonRNA= initon;
+		}
+		//完成copy
+		while(initonPDE.prev!= null) {
+			initonPDE=initonPDE.prev;
+		}
+		while(InitonRNA.prev!= null) {
+			InitonRNA=InitonRNA.prev;
+		}
+		return InitonRNA;
+	}
+	
+	//用于补码复制
+	public Initon compsRNA(Initon initonPDE) {
+		while(initonPDE.hasPrev()) {
+			initonPDE.forwardPrev();
+		}
+		Initon InitonRNA= new Initon();
+		InitonRNA.store= initonPDE.store;
+		while(initonPDE.next!= null) {
+			initonPDE=initonPDE.next;
+			Initon initon= new Initon();
+
+			if(initonPDE.store.equalsIgnoreCase("I")) {
+				initon.store= "U";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("D")) {
+				initon.store= "I";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("U")) {
+				initon.store= "Q";	
+			}
+			if(initonPDE.store.equalsIgnoreCase("Q")) {
+				initon.store= "DD";	
+			}
+			initon.store= initonPDE.store;
+			InitonRNA.next= initon;
+			initon.prev= InitonRNA;
+			InitonRNA= initon;
+		}
+		//完成copy
+		while(initonPDE.prev!= null) {
+			initonPDE=initonPDE.prev;
+		}
+		while(InitonRNA.prev!= null) {
+			InitonRNA=InitonRNA.prev;
+		}
+		return InitonRNA;
+	}
+	
 }
