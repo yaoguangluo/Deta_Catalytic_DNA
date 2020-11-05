@@ -392,7 +392,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS_Q(initonLinkDNA);
+		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS(initonLinkDNA);
 		//InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS_I(initonLinkDNA);
 		//InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS_Q(initonLinkDNA);
 		while(InitonPDE.hasPrev()) {
@@ -463,7 +463,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementS_I(initonLinkDNA);
+		InitonPDE= new PDE_Increment_Formular().PDE_IncrementS(initonLinkDNA);
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
