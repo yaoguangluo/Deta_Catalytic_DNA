@@ -302,6 +302,19 @@ public class Initon {
 	public static void main(String[] argv) {	
 		Initon initonV= new Initon();
 		initonV.store= "UQ";
+		Initon initonV1= new Initon();
+		initonV1.store= "Q";
+		Initon initonV2= new Initon();
+		initonV2.store= "IQ";
+		
+		
+		
+		initonV.next=initonV1;
+		initonV1.prev= initonV;
+		
+		initonV1.next=initonV2;
+		initonV2.prev= initonV1;
+		
 		initonV= initonV.storeRNAExtension(initonV);
 		while(initonV.hasNext()) {
 			System.out.println(initonV.getStore());
