@@ -172,13 +172,38 @@ public class PDE_Formular {
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
+		initonLinkDNA.setInitonLink(InitonPDE);    
+		
 		initonLinkDNA.setInitonLink(InitonPDE);
+		Initon InitonPDE_COPYSI= InitonPDE.copyRNA(InitonPDE);
+		Initon InitonPDE_COPYSQ= InitonPDE.copyRNA(InitonPDE);
+		
+		System.out.println();
+		String s= "1111概率S_";
+		String si= "1111概率S_I_";
+		String sq= "1111概率S_Q_";
+		System.out.println("1111概率S");
+	    doS(s, InitonPDE, initonLinkDNA); 
+	    
+	    initonLinkDNA.setInitonLink(InitonPDE_COPYSI);
+	    System.out.println();
+		System.out.println("1112概率S_I");
+	    doS_I(si, InitonPDE_COPYSI, initonLinkDNA); 
+	    
+	    initonLinkDNA.setInitonLink(InitonPDE_COPYSQ);
+	    System.out.println();
+		System.out.println("1113概率S_Q");
+	    doS_Q(sq, InitonPDE_COPYSQ, initonLinkDNA); 
+	}
+
+	private static void doS_Q(String sq, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
 		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS_Q(initonLinkDNA);
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("11降元S = Q");
+		
+		System.out.println(sq+ "降元S = Q");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -191,7 +216,7 @@ public class PDE_Formular {
 		
 		//全部 收
 		System.out.println();
-		System.out.println("11肽展 增元");
+		System.out.println(sq+ "肽展 增元");
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
@@ -202,7 +227,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("11V = U + Q");
+		System.out.println(sq+ "V = U + Q");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -214,241 +239,23 @@ public class PDE_Formular {
 		initonLinkDNA.setInitonLink(InitonPDE);
 		Initon InitonPDE_COPY= InitonPDE.copyRNA(InitonPDE);
 		System.out.println();
-		System.out.println("111概率Increment IU");
-	    doIncrementE_IU(InitonPDE, initonLinkDNA); 
+		System.out.println(sq+ "概率Increment IU");
+	    doIncrementE_IU(sq, InitonPDE, initonLinkDNA); 
 	    
 	    initonLinkDNA.setInitonLink(InitonPDE_COPY);
 		System.out.println();
-	    System.out.println("112概率Increment DU");
-	    doIncrementE_DU(InitonPDE_COPY, initonLinkDNA); 
+	    System.out.println(sq+ "概率Increment DU");
+	    doIncrementE_DU(sq, InitonPDE_COPY, initonLinkDNA); 
 	}
 
-	private static void doS_Q(Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
-				initonLinkDNA.setInitonLink(InitonPDE);
-				InitonPDE= new PDE_Increment_Formular().PDE_IncrementS_Q(initonLinkDNA);
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				System.out.println();
-				System.out.println("S = Q");
-				while(InitonPDE.hasNext()) {
-					System.out.print(InitonPDE.getStore());
-					InitonPDE= InitonPDE.forwardNext();
-				}
-				System.out.print(InitonPDE.getStore());
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				initonLinkDNA.setInitonLink(InitonPDE);
-				InitonPDE= new PDE_Increment_Formular().PDE_IncrementA(initonLinkDNA);
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				System.out.println();
-				System.out.println("A = V + S");
-				while(InitonPDE.hasNext()) {
-					System.out.print(InitonPDE.getStore());
-					InitonPDE= InitonPDE.forwardNext();
-				}
-				System.out.print(InitonPDE.getStore());
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				initonLinkDNA.setInitonLink(InitonPDE);
-				InitonPDE= new PDE_Increment_Formular().PDE_IncrementO(initonLinkDNA);
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				System.out.println();
-				System.out.println("O = E + S");
-				while(InitonPDE.hasNext()) {
-					System.out.print(InitonPDE.getStore());
-					InitonPDE= InitonPDE.forwardNext();
-				}
-				System.out.print(InitonPDE.getStore());
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				initonLinkDNA.setInitonLink(InitonPDE);
-				InitonPDE= new PDE_Increment_Formular().PDE_IncrementP(initonLinkDNA);
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				System.out.println();
-				System.out.println("P = E + C");
-				while(InitonPDE.hasNext()) {
-					System.out.print(InitonPDE.getStore());
-					InitonPDE= InitonPDE.forwardNext();
-				}
-				System.out.print(InitonPDE.getStore());
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				initonLinkDNA.setInitonLink(InitonPDE);
-				InitonPDE= new PDE_Increment_Formular().PDE_IncrementM(initonLinkDNA);
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				System.out.println();
-				System.out.println("M = C + S");
-				while(InitonPDE.hasNext()) {
-					System.out.print(InitonPDE.getStore());
-					InitonPDE= InitonPDE.forwardNext();
-				}
-				System.out.print(InitonPDE.getStore());
-				while(InitonPDE.hasPrev()) {
-					InitonPDE= InitonPDE.forwardPrev();
-				}
-				initonLinkDNA.setInitonLink(InitonPDE);
-	}
-
-	private static void doS_I(Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementS_I(initonLinkDNA);
+	private static void doS_I(String si, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
+		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS_I(initonLinkDNA);
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("S = I");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementA(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("A = V + S");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementO(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("O = E + S");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementP(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("P = E + C");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementM(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("M = C + S");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-	}
-
-	private static void doS(Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementS(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("S = I + Q");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementA(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("A = V + S");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementO(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("O = E + S");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementP(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("P = E + C");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementM(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("M = C + S");
+		
+		System.out.println(si+ "11降元S = I");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -459,6 +266,90 @@ public class PDE_Formular {
 		}
 		initonLinkDNA.setInitonLink(InitonPDE);
 		
+		//全部 收
+		System.out.println();
+		System.out.println(si+ "11肽展 增元");
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+	    initonLinkDNA= new InitonLinkDNA();
+		initonLinkDNA.setInitonLink(InitonPDE);
+		InitonPDE= new PDE_Increment_Formular().PDE_IncrementV(initonLinkDNA);
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		System.out.println();
+		System.out.println(si+ "11V = U + Q");
+		while(InitonPDE.hasNext()) {
+			System.out.print(InitonPDE.getStore());
+			InitonPDE= InitonPDE.forwardNext();
+		}
+		System.out.print(InitonPDE.getStore());
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		initonLinkDNA.setInitonLink(InitonPDE);
+		Initon InitonPDE_COPY= InitonPDE.copyRNA(InitonPDE);
+		System.out.println();
+		System.out.println(si+ "111概率Increment IU");
+	    doIncrementE_IU(si, InitonPDE, initonLinkDNA); 
+	    
+	  //initonLinkDNA.setInitonLink(InitonPDE_COPY);
+		System.out.println();
+	    System.out.println(si+ "112概率Increment DU");
+	    doIncrementE_DU(si, InitonPDE_COPY, initonLinkDNA); 
+	}
+
+	private static void doS(String s, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
+		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS(initonLinkDNA);
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		System.out.println();
+		
+		System.out.println(s+ "11降元S = I + Q");
+		while(InitonPDE.hasNext()) {
+			System.out.print(InitonPDE.getStore());
+			InitonPDE= InitonPDE.forwardNext();
+		}
+		System.out.print(InitonPDE.getStore());
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		initonLinkDNA.setInitonLink(InitonPDE);
+		
+		//全部 收
+		System.out.println();
+		System.out.println(s+ "11肽展 增元");
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+	    initonLinkDNA= new InitonLinkDNA();
+		initonLinkDNA.setInitonLink(InitonPDE);
+		InitonPDE= new PDE_Increment_Formular().PDE_IncrementV(initonLinkDNA);
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		System.out.println();
+		System.out.println(s+ "11V = U + Q");
+		while(InitonPDE.hasNext()) {
+			System.out.print(InitonPDE.getStore());
+			InitonPDE= InitonPDE.forwardNext();
+		}
+		System.out.print(InitonPDE.getStore());
+		while(InitonPDE.hasPrev()) {
+			InitonPDE= InitonPDE.forwardPrev();
+		}
+		initonLinkDNA.setInitonLink(InitonPDE);
+		Initon InitonPDE_COPY= InitonPDE.copyRNA(InitonPDE);
+		System.out.println();
+		System.out.println(s+ "111概率Increment IU");
+	    doIncrementE_IU(s, InitonPDE, initonLinkDNA); 
+	    
+	    initonLinkDNA.setInitonLink(InitonPDE_COPY);
+		System.out.println();
+	    System.out.println(s+ "112概率Increment DU");
+	    doIncrementE_DU(s, InitonPDE_COPY, initonLinkDNA); 
 	}
 
 	private static void doE_DU(Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
@@ -491,69 +382,40 @@ public class PDE_Formular {
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementS(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("21降元S = I + Q");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		initonLinkDNA.setInitonLink(InitonPDE);
 		
-		//全部 收
-		System.out.println();
-		System.out.println("21肽展 增元");
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-	    initonLinkDNA= new InitonLinkDNA();
-		initonLinkDNA.setInitonLink(InitonPDE);
-		InitonPDE= new PDE_Increment_Formular().PDE_IncrementV(initonLinkDNA);
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
-		System.out.println();
-		System.out.println("21V = U + Q");
-		while(InitonPDE.hasNext()) {
-			System.out.print(InitonPDE.getStore());
-			InitonPDE= InitonPDE.forwardNext();
-		}
-		System.out.print(InitonPDE.getStore());
-		while(InitonPDE.hasPrev()) {
-			InitonPDE= InitonPDE.forwardPrev();
-		}
 		
 		
 		initonLinkDNA.setInitonLink(InitonPDE);
-		Initon InitonPDE_COPY= InitonPDE.copyRNA(InitonPDE);
+		Initon InitonPDE_COPYSI= InitonPDE.copyRNA(InitonPDE);
+		Initon InitonPDE_COPYSQ= InitonPDE.copyRNA(InitonPDE);
+		String s= "2222概率S_";
+		String si= "2222概率S_I_";
+		String sq= "2222概率S_Q_";
 		System.out.println();
-		System.out.println("211概率Increment IU");
-	    doIncrementE_IU(InitonPDE, initonLinkDNA); 
+		System.out.println("2111概率S");
+	    doS(s, InitonPDE, initonLinkDNA); 
 	    
-	    initonLinkDNA.setInitonLink(InitonPDE_COPY);
-		System.out.println();
-	    System.out.println("212概率Increment DU");
-	    doIncrementE_DU(InitonPDE_COPY, initonLinkDNA); 
+	    initonLinkDNA.setInitonLink(InitonPDE_COPYSI);
+	    System.out.println();
+		System.out.println("2112概率S_I");
+	    doS_I(si, InitonPDE_COPYSI, initonLinkDNA); 
+	    
+	    initonLinkDNA.setInitonLink(InitonPDE_COPYSQ);
+	    System.out.println();
+		System.out.println("2113概率S_Q");
+	    doS_Q(sq, InitonPDE_COPYSQ, initonLinkDNA); 
 	}
 	
 	
 	
-	private static void doIncrementE_DU(Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
+	private static void doIncrementE_DU(String sq, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
 		initonLinkDNA.setInitonLink(InitonPDE);
 		InitonPDE= new PDE_Increment_Formular().PDE_IncrementE_DU(initonLinkDNA);
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("E = D + U");
+		System.out.println(sq+ "E = D + U");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -568,7 +430,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("C = I + D");
+		System.out.println(sq+ "C = I + D");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -583,7 +445,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("S = I + Q");
+		System.out.println(sq+ "S = I + Q");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -598,7 +460,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("A = V + S");
+		System.out.println(sq+ "A = V + S");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -613,7 +475,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("O = E + S");
+		System.out.println(sq+ "O = E + S");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -628,7 +490,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("P = E + C");
+		System.out.println(sq+ "P = E + C");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -643,7 +505,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("M = C + S");
+		System.out.println(sq+ "M = C + S");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -655,14 +517,14 @@ public class PDE_Formular {
 		initonLinkDNA.setInitonLink(InitonPDE);
 	}
 
-	private static void doIncrementE_IU(Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
+	private static void doIncrementE_IU(String s, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
 		initonLinkDNA.setInitonLink(InitonPDE);
 		InitonPDE= new PDE_Increment_Formular().PDE_IncrementE_IU(initonLinkDNA);
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("E = I + U");
+		System.out.println(s+ "E = I + U");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -677,7 +539,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("C = I + D");
+		System.out.println(s+ "C = I + D");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -692,7 +554,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("S = I + Q");
+		System.out.println(s+ "S = I + Q");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -707,7 +569,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("A = V + S");
+		System.out.println(s+ "A = V + S");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -722,7 +584,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("O = E + S");
+		System.out.println(s+ "O = E + S");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -737,7 +599,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("P = E + C");
+		System.out.println(s+ "P = E + C");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
@@ -752,7 +614,7 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		System.out.println("M = C + S");
+		System.out.println(s+ "M = C + S");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
 			InitonPDE= InitonPDE.forwardNext();
