@@ -158,7 +158,6 @@ public class PDE_Formular {
 		}
 		initonLinkDNA.setInitonLink(InitonPDE);
 		InitonPDE= new PDE_Decrement_Formular().PDE_DecrementV(initonLinkDNA);
-		//InitonPDE= new PDE_Decrement_Formular().PDE_DecrementE_IU(initonLinkDNA);
 		while(InitonPDE.hasPrev()) {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
@@ -426,8 +425,6 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 
-
-
 		initonLinkDNA.setInitonLink(InitonPDE);
 		Initon InitonPDE_COPYSI= InitonPDE.copyRNA(InitonPDE);
 		Initon InitonPDE_COPYSQ= InitonPDE.copyRNA(InitonPDE);
@@ -448,8 +445,6 @@ public class PDE_Formular {
 		System.out.println("2113¸ÅÂÊS_Q");
 		doS_Q(sq, InitonPDE_COPYSQ, initonLinkDNA); 
 	}
-
-
 
 	private static void doIncrementE_DU(String sq, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
 		initonLinkDNA.setInitonLink(InitonPDE);
@@ -659,9 +654,5 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		initonLinkDNA.setInitonLink(InitonPDE);
-	}
-
-	public static void doE_IU(String[] argv) {	
-
 	}
 }
