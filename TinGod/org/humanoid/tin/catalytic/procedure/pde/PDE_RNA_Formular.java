@@ -489,9 +489,9 @@ public class PDE_RNA_Formular {
 		Initon InitonPDE_COPYSI= InitonPDE.copyRNA(InitonPDE);
 		Initon InitonPDE_COPYSQ= InitonPDE.copyRNA(InitonPDE);
 		
-		doIncrementS(sq + "IQ_", InitonPDE, initonLinkDNA);
-		doIncrementS_I(sq + "I_", InitonPDE_COPYSI, initonLinkDNA);
-		doIncrementS_Q(sq + "Q_", InitonPDE_COPYSQ, initonLinkDNA);
+		doIncrementS(sq + "EDU_IQ_", InitonPDE, initonLinkDNA);
+		doIncrementS_I(sq + "EDU_I_", InitonPDE_COPYSI, initonLinkDNA);
+		doIncrementS_Q(sq + "EDU_Q_", InitonPDE_COPYSQ, initonLinkDNA);
 	}
 
 	private static void doIncrementE_IU(String s, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
@@ -534,9 +534,9 @@ public class PDE_RNA_Formular {
 		Initon InitonPDE_COPYSI= InitonPDE.copyRNA(InitonPDE);
 		Initon InitonPDE_COPYSQ= InitonPDE.copyRNA(InitonPDE);
 		
-		doIncrementS(s + "IQ_", InitonPDE, initonLinkDNA);
-		doIncrementS_I(s + "I_", InitonPDE_COPYSI, initonLinkDNA);
-		doIncrementS_Q(s + "Q_", InitonPDE_COPYSQ, initonLinkDNA);
+		doIncrementS(s + "EIU_IQ_", InitonPDE, initonLinkDNA);
+		doIncrementS_I(s + "EIU_I_", InitonPDE_COPYSI, initonLinkDNA);
+		doIncrementS_Q(s + "EIU_Q_", InitonPDE_COPYSQ, initonLinkDNA);
 	}
 	private static void doIncrementS_Q(String s, Initon InitonPDE, InitonLinkDNA initonLinkDNA) {
 		initonLinkDNA.setInitonLink(InitonPDE);
