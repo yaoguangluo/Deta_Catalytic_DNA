@@ -4,20 +4,36 @@ package org.humanoid.tin.catalytic.procedure.pde;
 public class PDE_Formular {
 	public static void main(String[] argv) {	
 		//初始
-				Initon initonV= new Initon();
-				initonV.setM();
 				Initon initonA= new Initon();
-				initonA.setO();   //改成  O 测试下
+				initonA.setM();   //改成  O 测试下
+				Initon initonV= new Initon();
+				initonV.setS();
 				Initon initonS= new Initon();
-				initonS.setA();
+				initonS.setI();
 				Initon initonS1= new Initon();
-				initonS1.setE();
+				initonS1.setO();
 				Initon initonS2= new Initon();
-				initonS2.setP();
+				initonS2.setC();
 				Initon initonS3= new Initon();
-				initonS3.setV();
+				initonS3.setU();
 				Initon initonS4= new Initon();
-				initonS4.setS();
+				initonS4.setO();
+				Initon initonS5= new Initon();
+				initonS5.setC();
+				Initon initonS6= new Initon();
+				initonS6.setI();
+				Initon initonS7= new Initon();
+				initonS7.setP();
+				Initon initonS8= new Initon();
+				initonS8.setC();
+				Initon initonS9= new Initon();
+				initonS9.setU();
+				Initon initonS10= new Initon();
+				initonS10.setP();
+				Initon initonS11= new Initon();
+				initonS11.setC();
+				Initon initonS12= new Initon();
+				initonS12.setI();
 
 				initonA.next= initonV;
 				initonV.prev= initonA;
@@ -37,6 +53,32 @@ public class PDE_Formular {
 				
 				initonS3.next= initonS4;
 				initonS4.prev= initonS3;
+				
+				initonS4.next= initonS5;
+				initonS5.prev= initonS4;
+				
+				initonS5.next= initonS6;
+				initonS6.prev= initonS5;
+				
+				initonS6.next= initonS7;
+				initonS7.prev= initonS6;
+				
+				initonS7.next= initonS8;
+				initonS8.prev= initonS7;
+				
+				initonS8.next= initonS9;
+				initonS9.prev= initonS8;
+				
+				initonS9.next= initonS10;
+				initonS10.prev= initonS9;
+				
+				initonS10.next= initonS11;
+				initonS11.prev= initonS10;
+				
+				initonS11.next= initonS12;
+				initonS12.prev= initonS11;
+				
+				
 				
 				Initon InitonPDE= initonA;
 				System.out.print("input:" + InitonPDE.getStore());
@@ -254,7 +296,6 @@ public class PDE_Formular {
 			InitonPDE= InitonPDE.forwardPrev();
 		}
 		System.out.println();
-		
 		System.out.println(si+ "11降元S = I");
 		while(InitonPDE.hasNext()) {
 			System.out.print(InitonPDE.getStore());
